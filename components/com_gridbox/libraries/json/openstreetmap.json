@@ -1,0 +1,41 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "height" : "400",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "map" : {
+        "center" : [42.345573, -71.098326],
+        "theme": "https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",
+        "controls":false,
+        "scrollwheel":false,
+        "draggable":true,
+        "zoom": 14
+    },
+    "marker" : {
+        "0" : {
+            "place": "",
+            "infobox": false,
+            "description" : ""
+        }
+    },
+    "controls" : "1",
+    "scrollwheel" : "0",
+    "draggable" : "1",
+    "type" : "openstreetmap",
+    "access" : 1,
+    "suffix" : ""
+}

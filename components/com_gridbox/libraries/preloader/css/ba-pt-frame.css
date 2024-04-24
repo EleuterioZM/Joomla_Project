@@ -1,0 +1,37 @@
+/* Frame */
+
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:after,
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:before {
+    animation: pt-frame-out .5s .3s linear both;
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:before,
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:after {
+    background: transparent !important;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+@keyframes pt-frame-out {
+    from {border-right-width: 50vw; border-bottom-width: 50vh;}
+    to {border-right-width: 0; border-bottom-width: 0;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:before {
+    animation: pt-frame-out .5s .3s linear both;
+    border-width: 0;
+    border-right-width: 50vw;
+    border-bottom-width: 50vh;
+}
+
+@keyframes pt-frame-left-out {
+    from {border-top-width: 50vh;border-left-width: 50vw;}
+    to {border-top-width: 0;border-left-width: 0;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-frame:after {
+    animation: pt-frame-left-out .5s .3s linear both; 
+    border-width: 0;   
+    border-top-width: 50vh;
+    border-left-width: 50vw;
+}

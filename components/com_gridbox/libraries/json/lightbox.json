@@ -1,0 +1,110 @@
+{
+    "desktop" : {
+        "animation" : {
+            "duration" : "0.9",
+            "delay" : "0",
+            "effect" : ""
+        },
+        "border" : {
+            "bottom" : "0",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 9,
+            "top" : "0",
+            "width" : "0"
+        },
+        "margin" : {
+            
+        },
+        "padding" : {
+            "bottom" : "50",
+            "left" : "20",
+            "right" : "20",
+            "top" : "50"
+        },
+        "shape": {
+            "top" : {
+                "effect" : "",
+                "color" : "@primary",
+                "height" : 500,
+                "width": 300
+            },
+            "bottom" : {
+                "effect" : "",
+                "color" : "@primary",
+                "height" : 500,
+                "width": 300
+            }
+        },
+        "background" : {
+            "type" : "color",
+            "color" : "@bg-primary",
+            "image" : {
+                "attachment" : "scroll",
+                "image" : "",
+                "position" : "center center",
+                "repeat" : "no-repeat",
+                "size" : "cover"
+            },
+            "video" : {
+                "type" : "youtube",
+                "id" : "",
+                "mute" : "1",
+                "start" : "0",
+                "quality" : "hd720",
+                "image" : ""
+            }
+        },
+        "image":{
+            "image":""
+        },
+        "full":{
+            "fullscreen": false,
+            "fullwidth": false
+        },
+        "overlay" : {
+            "color" : "rgba(0, 0, 0, 0)"
+        },
+        "disable" : "0",
+        "view": {
+            "width" : 800
+        },
+        "shadow" : {
+            "value" : 3,
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "lightbox":{
+        "layout" : "lightbox-center",
+        "background" : "@overlay"
+    },
+    "close" : {
+        "color" : "@icon",
+        "text-align" : "right"
+    },
+    "trigger" : {
+        "type" : "time-delay",
+        "time" : 2000,
+        "scroll" : 50
+    },
+    "session" : {
+        "enable" : false,
+        "duration" : 1
+    },
+    "parallax" : {
+        "enable" : false,
+        "invert" : false,
+        "offset" : 0.5
+    },
+    "type" : "lightbox",
+    "access" : 1,
+    "suffix" : ""
+}

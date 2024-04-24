@@ -1,0 +1,25 @@
+{
+    "title": "",
+    "description": "",
+    "cart": true,
+    "decimals": 2,
+    "position": "",
+    "separator": ".",
+    "symbol": "$",
+    "code": "USD",
+    "thousand": ",",
+    "promo":{
+        "enable": false,
+        "code": "",
+        "discount": "",
+        "unit": "%",
+        "expires": ""
+    },
+    "tax": {
+        "enable": false,
+        "title": "Tax",
+        "value": ""
+    },
+    "items": {},
+    "suffix": ""
+}

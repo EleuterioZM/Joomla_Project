@@ -1,0 +1,2 @@
+ALTER TABLE `#__gridbox_website` ADD COLUMN `author_notifications` tinyint(1) NOT NULL DEFAULT 0;
+ALTER TABLE `#__gridbox_website` ADD COLUMN `reviews_author_notifications` tinyint(1) NOT NULL DEFAULT 0;

@@ -1,0 +1,41 @@
+/*
+/* Plugin Progress Pie
+*/
+
+.ba-item-progress-pie canvas {
+    left: 50%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.ba-item-progress-pie .ba-progress-pie {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.ba-progress-pie:before,
+.ba-progress-pie:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+.ba-progress-pie:after {
+    clear: both;
+}
+
+.ba-item-progress-pie .progress-pie-number {
+    z-index: 1;
+}
+
+.ba-item-progress-pie .ba-progress-pie:before {
+    content: "";
+    padding-top: 100%;
+    float: left;
+}

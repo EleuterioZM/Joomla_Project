@@ -1,0 +1,54 @@
+/*
+/* Shape Divider
+*/
+
+.ba-shape-divider.ba-shape-divider-top {
+    transform: scaleY(-1);
+}
+
+.ba-shape-divider {
+    border-radius: inherit;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.ba-shape-divider svg {
+    bottom: 0;
+    fill: currentColor;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+}
+
+.ba-row .ba-shape-divider {
+    z-index: -1;
+}
+
+.ba-shape-divider {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.ba-shape-divider > * {
+    width: inherit;
+}
+
+/* MS Edge Browser */
+@supports (-ms-ime-align:auto) {
+    .ba-shape-divider:empty {
+        display: none !important;
+    }
+}
+
+
+/* IE10 and IE11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .ba-shape-divider:empty {
+        display: none !important;
+    }
+}

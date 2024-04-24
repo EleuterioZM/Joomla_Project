@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <form>
+     <fieldset>
+         <field name="id"
+                type="hidden"/>
+         <field name="title"
+                type="text"/>
+         <field name="message"
+                type="hidden"/>
+         <field name="date_time"
+                type="hidden"/>
+     </fieldset>
+ </form> 

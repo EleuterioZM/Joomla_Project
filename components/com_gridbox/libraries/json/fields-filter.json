@@ -1,0 +1,71 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "style" : "solid",
+            "radius" : 0,
+            "width" : 0
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "0",
+            "right" : "0",
+            "top" : "0"
+        },
+        "title":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-align":"left",
+                "text-decoration":"none",
+                "text-transform":"none"
+            }
+        },
+        "value":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "background" : {
+            "color" : "rgba(255, 255, 255, 0)"
+        },
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        },
+        "fields": {},
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "fields": [],
+    "layout": "",
+    "type" : "fields-filter",
+    "auto": false,
+    "collapsible": false,
+    "app": 0,
+    "access" : 1,
+    "suffix" : ""
+}

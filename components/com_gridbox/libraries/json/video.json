@@ -1,0 +1,49 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "video" : {
+        "type": "youtube",
+        "id" : "",
+        "youtube" : {
+            "start": 0,
+            "showinfo" : true,
+            "controls": true,
+            "autoplay": false
+        },
+        "vimeo": {
+            "autoplay" : false,
+            "loop" : false
+        },
+        "source" : {
+            "file" : "",
+            "controls": true,
+            "autoplay" : false,
+            "loop" : false
+        }
+    },
+    "lazyLoad": false,
+    "type" : "video",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,1 @@
+DELETE FROM `#__gridbox_app` WHERE `type` = 'tags';

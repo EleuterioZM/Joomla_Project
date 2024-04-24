@@ -1,0 +1,98 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_languages",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_languages.overrider",
+      "type": "preset",
+      "dependencies": [
+        "com_languages.overrider#style",
+        "com_languages.overrider#script"
+      ]
+    },
+    {
+      "name": "com_languages.admin-language-edit-change-flag.es5",
+      "type": "script",
+      "uri": "com_languages/admin-language-edit-change-flag-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "c34dab0b90251907118d49b239f4640cbe87c78a"
+    },
+    {
+      "name": "com_languages.admin-language-edit-change-flag",
+      "type": "script",
+      "uri": "com_languages/admin-language-edit-change-flag.min.js",
+      "dependencies": [
+        "com_languages.admin-language-edit-change-flag.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "f56defffd530b649285e57fa31e0dd600f9ae2c9"
+    },
+    {
+      "name": "com_languages.admin-override-edit-refresh-searchstring.es5",
+      "type": "script",
+      "uri": "com_languages/admin-override-edit-refresh-searchstring-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "68b0a31acc446863c2c05ba5d99c11cc7699bd42"
+    },
+    {
+      "name": "com_languages.admin-override-edit-refresh-searchstring",
+      "type": "script",
+      "uri": "com_languages/admin-override-edit-refresh-searchstring.min.js",
+      "dependencies": [
+        "com_languages.admin-override-edit-refresh-searchstring.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "c0ecf5fb3a0df8a0ea36a4b7505e5835cfa42285"
+    },
+    {
+      "name": "com_languages.overrider",
+      "type": "style",
+      "uri": "com_languages/overrider.min.css",
+      "version": "c9b72a92bf8358c3bed1200130ce37079b171722"
+    },
+    {
+      "name": "com_languages.overrider.es5",
+      "type": "script",
+      "uri": "com_languages/overrider-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "a6ffb2b277ab2cbb0d1d13b39b912079069295d2"
+    },
+    {
+      "name": "com_languages.overrider",
+      "type": "script",
+      "uri": "com_languages/overrider.min.js",
+      "dependencies": [
+        "com_languages.overrider.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "72c4d238d2a1de5fbd2fc97760bf6cc8ea24a38b"
+    }
+  ]
+}

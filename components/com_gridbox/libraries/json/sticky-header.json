@@ -1,0 +1,112 @@
+{
+    "desktop" : {
+        "offset": 50,
+        "animation" : {
+            "duration" : "0.3",
+            "delay" : "0",
+            "effect" : "fadeInBottom"
+        },
+        "border" : {
+            "bottom" : "0",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 0,
+            "top" : "0",
+            "width" : "1"
+        },
+        "margin" : {
+            "bottom" : "0",
+            "top" : "0"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "0",
+            "right" : "0",
+            "top" : "0"
+        },
+        "shape": {
+            "top" : {
+                "effect" : "",
+                "color" : "@primary",
+                "height" : 500,
+                "width": 300
+            },
+            "bottom" : {
+                "effect" : "",
+                "color" : "@primary",
+                "height" : 500,
+                "width": 300
+            }
+        },
+        "background" : {
+            "type" : "color",
+            "color" : "@bg-primary",
+            "image" : {
+                "attachment" : "scroll",
+                "image" : "",
+                "position" : "center center",
+                "repeat" : "no-repeat",
+                "size" : "cover"
+            },
+            "video" : {
+                "type" : "youtube",
+                "id" : "",
+                "mute" : "1",
+                "start" : "0",
+                "quality" : "hd720",
+                "image" : ""
+            }
+        },
+        "image":{
+            "image":""
+        },
+        "full":{
+            "fullscreen": false,
+            "fullwidth": true
+        },
+        "overlay" : {
+            "color" : "rgba(0, 0, 0, 0)"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+    	"padding" : {
+            "bottom" : "25",
+            "left" : "25",
+            "right" : "25",
+            "top" : "25"
+        },
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "parallax" : {
+        "enable" : false,
+        "invert" : false,
+        "offset" : 0.5
+    },
+    "shape" : {
+        "type" : "color",
+        "color" : "#000000",
+        "value" : "50",
+        "effect" : "",
+        "image" : {
+            "attachment" : "fixed",
+            "image" : "",
+            "position" : "center center",
+            "repeat" : "no-repeat",
+            "size" : "cover"
+        }
+    },
+    "scrollup": false,
+    "type" : "sticky-header",
+    "access" : 1,
+    "suffix" : ""
+}

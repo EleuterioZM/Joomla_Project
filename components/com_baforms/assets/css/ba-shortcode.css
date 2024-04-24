@@ -1,0 +1,182 @@
+/* Copyright @ Balbooa, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../../../../administrator/components/com_baforms/assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../../../administrator/components/com_baforms/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../../../administrator/components/com_baforms/assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../../../administrator/components/com_baforms/assets/fonts/Roboto-Bold.ttf);
+}
+
+:root {
+    --main-color: #66dab5;
+    --input-background: #34374a;
+    --cp-main-color: #566e78;
+    --cp-button-bg: #404958;
+    --dark-modal-bg: #2f3243;
+}
+
+/* Add Forms */
+body {
+    color: #495057;
+}
+
+body,
+body.contentpane {
+    background: #fafafa;
+    height: 100%;
+}
+
+body.contentpane.component {
+    padding: 0;
+}
+
+.modal-shortcode {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    left: 50%;
+    line-height: 18px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+}
+
+.modal-shortcode > form {
+    display: block;
+}
+
+#modal-filter {
+    border: none;
+    padding: 20px 0;
+    position: relative;
+}
+
+.modal-shortcode #filter_search {
+    border: none;
+    background: #fff;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #3f3f3f;
+    font-size: 16px;
+    height: 50px;
+    margin: 0;
+    line-height: 18px;
+    padding: 0 25px;
+    padding-left: 80px;
+    width: 100%;
+}
+
+#filter_search + i {
+    color: #fff;
+    cursor: text;
+    font-size: 24px;
+    left: 20px;
+    opacity: .5;
+    position: absolute;
+    top: 14px;
+}
+
+.modal-shortcode #filter_search + i {
+    color: #3f3f3f;
+    font-size: 24px;
+    left: 30px;
+    opacity: .5;
+    position: absolute;
+    top: 35px;
+}
+
+.modal-shortcode button {
+    display: none;
+}
+
+.modal-shortcode .page-table {
+    background: #fff;
+    height: 435px;
+    min-height: 400px;
+    overflow-y: auto;
+}
+
+.modal-shortcode .page-list {
+    width: 100%;
+}
+
+.modal-shortcode .page-list tbody tr {
+    cursor: pointer;
+}
+
+.modal-shortcode .page-list tbody tr:hover {
+    background: var(--main-color);
+}
+
+.modal-shortcode .page-list tbody tr:hover *{
+    color: #fff;
+}
+
+.modal-shortcode .page-list tbody tr th,
+.modal-shortcode .page-list thead tr th:first-child {
+    border-left: none;
+    box-sizing: border-box;
+    color: #333;
+    float: left;
+    padding-left: 30px;
+    text-align: left;
+    width: 90%;
+}
+
+.modal-shortcode .page-list tbody tr td,
+.modal-shortcode .page-list thead tr th {
+    border-bottom: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 25px;
+    text-align: left;
+    width: 10%;
+}
+
+.modal-shortcode .page-list tbody tr th,
+.modal-shortcode .page-list tbody tr td {
+    align-items: center;
+    border: none;
+    display: flex;
+    height: 70px;
+}
+
+.modal-shortcode .page-table tr > td,
+.modal-shortcode .page-table tr > th > a {
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 28px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}

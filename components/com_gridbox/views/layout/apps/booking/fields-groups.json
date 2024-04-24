@@ -1,0 +1,20 @@
+{
+    "ba-group-product-booking": {
+        "title":"Booking Settings",
+        "fields":[]
+    },
+    "ba-group-product-pricing":{
+        "title":"Pricing and Inventory",
+        "fields":[
+            "price",
+            "sale_price",
+            "sku",
+            "stock",
+            "badges"
+        ]
+    },
+    "ba-group-product-variations":{
+        "title":"Options",
+        "fields":["1"]
+    }
+}

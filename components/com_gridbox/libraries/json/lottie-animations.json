@@ -1,0 +1,38 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "style": {
+            "width" : 250,
+            "align" : "center"
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "source": "file",
+    "file": "components/com_gridbox/assets/images/lottie-default.json",
+    "link": "",
+    "trigger": "autoplay",
+    "speed": 1,
+    "loop": true,
+    "type" : "lottie-animations",
+    "access" : 1,
+    "suffix" : ""
+}

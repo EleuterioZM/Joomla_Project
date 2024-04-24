@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "plg_system_guidedtours",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "plg_system_guidedtours.guidedtours",
+      "type": "preset",
+      "dependencies": [
+        "plg_system_guidedtours.guidedtours#style",
+        "plg_system_guidedtours.guidedtours#script"
+      ]
+    },
+    {
+      "name": "plg_system_guidedtours.guidedtours",
+      "type": "script",
+      "uri": "plg_system_guidedtours/guidedtours.min.js",
+      "dependencies": [
+        "core",
+        "plg_system_guidedtours.guidedtours.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "b76ed0061abd06c5746d1fd9585e688561257ec1"
+    },
+    {
+      "name": "plg_system_guidedtours.guidedtours",
+      "type": "style",
+      "uri": "plg_system_guidedtours/guidedtours.min.css",
+      "version": "29f699d5484dc034083dc07ed4d417e317a21c97"
+    },
+    {
+      "name": "plg_system_guidedtours.guidedtours.es5",
+      "type": "script",
+      "uri": "plg_system_guidedtours/guidedtours-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "faea8c107b746a576c1b506cb221dd004274283a"
+    }
+  ]
+}

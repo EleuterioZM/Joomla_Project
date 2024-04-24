@@ -1,0 +1,9 @@
+.ba-overlay-slideshow-button {
+    background: transparent !important;
+    bottom: 0;
+    color: transparent !important;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

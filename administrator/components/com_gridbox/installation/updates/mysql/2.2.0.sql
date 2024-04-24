@@ -1,0 +1,1 @@
+INSERT INTO `#__gridbox_api` (`service`, `key`) VALUES ('user_colors', '{"0":"#eb523c","1":"#f65954","2":"#ec821a","3":"#f5c500","4":"#00cc6c","5":"#20364c","6":"#32495f","7":"#0075a9","8":"#1996dd","9":"#6cc6fa"}');

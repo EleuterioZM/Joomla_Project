@@ -1,0 +1,85 @@
+
+/*
+/* Plugin Lightbox
+*/
+
+.ba-lightbox-backdrop {
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    z-index: 1070;
+}
+
+.ba-lightbox {
+    visibility: hidden;
+}
+
+.visible-lightbox.ba-lightbox  {
+    visibility: visible;
+}
+
+
+.ba-lightbox {
+    width: 100%;
+}
+
+.ba-lightbox.ba-container {
+    width: auto !important;
+}
+
+.ba-lightbox .ba-section {
+    max-width: 100%!important;
+}
+
+.visible-lightbox .ba-lightbox {
+    display: block;
+    visibility: visible;
+}
+
+.ba-lightbox-backdrop.lightbox-center .ba-section {
+    margin: 0 auto
+}
+
+/* Lightbox Position  */
+.lightbox-bottom-left > .ba-lightbox-close,
+.lightbox-bottom-right > .ba-lightbox-close,
+.lightbox-top-left > .ba-lightbox-close,
+.lightbox-top-right > .ba-lightbox-close {
+    display: none !important;
+}
+
+.lightbox-top-left .ba-lightbox,
+.lightbox-top-right .ba-lightbox,
+.lightbox-bottom-left .ba-lightbox,
+.lightbox-bottom-right .ba-lightbox {
+    position: fixed;
+    z-index: 1070;
+}
+
+.lightbox-top-left .ba-lightbox,
+.lightbox-top-right .ba-lightbox {
+    margin: 0;
+    top: 50px;
+}
+
+.lightbox-bottom-left .ba-lightbox,
+.lightbox-bottom-right .ba-lightbox {
+    bottom: 50px;
+    margin: auto 0 0 0;
+}
+
+.lightbox-top-left .ba-lightbox,
+.lightbox-bottom-left .ba-lightbox {
+    left: 50px;
+}
+
+.lightbox-bottom-right .ba-lightbox,
+.lightbox-top-right .ba-lightbox {
+    right: 50px;
+}
+
+.lightbox-bottom-right .ba-lightbox .ba-section,
+.lightbox-top-right .ba-lightbox .ba-section {
+    float: right;
+}

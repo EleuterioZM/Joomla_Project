@@ -1,0 +1,367 @@
+/*
+/* Main menu
+*/
+
+.main-menu > .add-new-item,
+.close-menu,
+.open-menu {
+    display: none;
+}
+
+.mod-menu__sub,
+.nav-child {
+    transition: all .5s ease;
+}
+
+.nav {
+    margin: 0;
+}
+
+.main-menu .nav {
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.main-menu .nav > li {
+    display: inline-block;
+    float: none;
+    overflow: visible;
+    text-decoration: none;
+}
+
+.vertical-menu .main-menu .nav > li {
+    overflow: visible;
+}
+
+.main-menu .nav > li > a,
+.main-menu .nav > li > span {
+    background: transparent;
+    display: block;
+}
+
+.main-menu .nav > li > a:hover,
+.main-menu .nav > li > a:focus {
+    background: transparent;
+}
+
+.mod-menu__sub,
+.nav-child {
+    padding: 0;
+    width: 250px;
+}
+
+li.deeper > span i.ba-icon-caret-right,
+li.deeper > a i.ba-icon-caret-right {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0 5px;
+}
+
+.vertical-menu li.deeper > span i.ba-icon-caret-right,
+.vertical-menu li.deeper > a i.ba-icon-caret-right,
+.nav > li li.deeper > span i.ba-icon-caret-right,
+.nav > li li.deeper > a i.ba-icon-caret-right {
+    float: right;
+}
+
+@-moz-document url-prefix() {
+    .nav li.deeper > span i.ba-icon-caret-right,
+    .nav li.deeper > a i.ba-icon-caret-right {
+        float: right;
+    }
+
+    li.deeper > span i.ba-icon-caret-right,
+    li.deeper > a i.ba-icon-caret-right {
+        display: block;
+        float: none;
+        position: static;
+        text-align: right;
+    }
+}
+
+.deeper.parent > .mod-menu__sub,
+.deeper.parent > .nav-child {
+    display: none;
+}
+
+.nav > .deeper.parent > .mod-menu__sub,
+.nav > .deeper.parent > .nav-child {
+    padding: 0;
+    position: absolute;
+    z-index: 20;
+}
+
+.mod-menu__sub li > span,
+.mod-menu__sub li > a,
+.nav-child li > span,
+.nav-child li > a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.mod-menu__sub > .deeper,
+.nav-child > .deeper {
+    position: relative;
+}
+
+.mod-menu__sub li,
+.nav-child li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.mod-menu__sub > .deeper:hover > .mod-menu__sub,
+.nav-child > .deeper:hover > .nav-child {
+    left: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.nav li.deeper:hover > .mod-menu__sub,
+.megamenu-editing.megamenu-item > .tabs-content-wrapper .ba-section,
+.nav li:hover > .tabs-content-wrapper .ba-section,
+.nav li.deeper:hover > .nav-child {
+    animation-fill-mode: none;
+    animation-delay: 0s;
+    box-sizing: border-box;
+    display: block;
+}
+
+.megamenu-editing.megamenu-item > .tabs-content-wrapper .ba-section {
+    box-sizing: border-box !important;
+}
+
+li.deeper >span,
+li.deeper > a {
+    position: relative;
+}
+
+.ba-menu-backdrop {
+    background-color: rgba(0,0,0, .1);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.dropdown-left-direction {
+    right: 0;
+}
+
+.child-dropdown-left-direction,
+.dropdown-left-direction ul {
+    right: 100%;
+    left: auto !important;
+}
+
+.dropdown-top-direction {
+    transform: translateY(calc( 0px - var(--dropdown-top-diff) - 25px));
+    top: auto !important;
+}
+
+/* Menu With Icon */
+.ba-item-main-menu .nav li span i.ba-menu-item-icon,
+.ba-item-main-menu .nav li a i.ba-menu-item-icon,
+.menu li span i.ba-menu-item-icon,
+.menu li a i.ba-menu-item-icon {
+    color: inherit;
+    line-height: 0;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 1em;
+}
+
+/* Megamenu */
+.megamenu-item .ba-section {
+    max-width: 100%;
+}
+
+.megamenu-item > .mod-menu__sub,
+.ba-menu-wrapper > .tabs-content-wrapper,
+.megamenu-item > .tabs-content-wrapper,
+.megamenu-item > .nav-child {
+    display: none !important;
+    z-index: 999;
+}
+
+.row-with-megamenu .megamenu-editing.megamenu-item > .tabs-content-wrapper,
+.megamenu-item:hover >.tabs-content-wrapper {
+    display: block !important;
+}
+
+.megamenu-item >.tabs-content-wrapper {
+    position: absolute;
+    top: 100%;
+}
+
+.vertical-menu .megamenu-item >.tabs-content-wrapper.ba-container {
+    top: 0;
+}
+
+.megamenu-item >.tabs-content-wrapper:not(.ba-container) {
+    max-width: none !important;
+}
+
+.megamenu-item >.tabs-content-wrapper:not(.ba-container) .ba-section {
+    width: 100% !important;
+}
+
+.megamenu-item >.tabs-content-wrapper.ba-container:not(.megamenu-center) {
+    margin: 0 !important;
+}
+
+.megamenu-item >.tabs-content-wrapper.ba-container {
+    width: auto !important;
+    max-width: none;
+}
+
+.mod-menu__sub > .megamenu-item .ba-icon-caret-right,
+.mod-menu__sub > .megamenu-item >.tabs-content-wrapper,
+.nav-child > .megamenu-item .ba-icon-caret-right,
+.nav-child > .megamenu-item >.tabs-content-wrapper {
+    display: none !important;
+}
+
+.megamenu-item .ba-section {
+    min-height: 50px;
+}
+
+
+/* Vertical layout menu */
+.vertical-menu .main-menu .nav > li {
+    display: block;
+    position: relative;
+}
+
+.vertical-menu .main-menu .nav > li.deeper.parent > .mod-menu__sub,
+.vertical-menu .megamenu-item > .tabs-content-wrapper.ba-container,
+.vertical-menu .main-menu .nav > li.deeper.parent > .nav-child {
+    margin-left: 100% !important;
+}
+
+.vertical-menu .megamenu-item >.tabs-content-wrapper.ba-container.megamenu-center {
+    padding: 0 !important;
+    top: auto;
+}
+
+.vertical-menu .main-menu .nav > li.megamenu-item {
+    align-items: center;
+    display: flex;
+}
+
+.vertical-menu .main-menu .nav > li> span,
+.vertical-menu .main-menu .nav > li> a {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vertical-menu .main-menu .nav > li .mod-menu__sub,
+.vertical-menu .main-menu .nav > li .nav-child {
+    top: 0;
+}
+
+.megamenu-item > .tabs-content-wrapper {
+    margin-left: calc(var(--menu-item-left-offset) * -1) !important;
+}
+
+.megamenu-item > .tabs-content-wrapper.ba-container {
+    margin-left: 0 !important;
+}
+
+.megamenu-item > .tabs-content-wrapper.ba-container.megamenu-center {
+    margin-left: calc(var(--menu-item-width) / 2 - var(--megamenu-width) / 2 - 50px) !important;
+}
+
+.ba-hamburger-menu >.main-menu .ba-overlay {
+    z-index: -1;
+}
+
+.ba-menu-wrapper:not(.vertical-menu) .nav > li.deeper > span i.ba-icon-caret-right:before,
+.ba-menu-wrapper:not(.vertical-menu) .nav > li.deeper > a i.ba-icon-caret-right:before,
+.ba-menu-wrapper:not(.vertical-menu) .menu > li.deeper > span i.ba-icon-caret-right:before,
+.ba-menu-wrapper:not(.vertical-menu) .menu > li.deeper > a i.ba-icon-caret-right:before {
+    display: block;
+    transform: rotate(90deg);
+}
+
+.vertical-menu .nav > .megamenu-item > span:after,
+.vertical-menu .nav > .megamenu-item > a:after,
+.vertical-menu .nav > .deeper.parent > span:after,
+.vertical-menu .nav > .deeper.parent > a:after,
+.vertical-menu .menu > .megamenu-item > span:after,
+.vertical-menu .menu > .megamenu-item > a:after,
+.vertical-menu .menu > .deeper.parent > span:after,
+.vertical-menu .menu > .deeper.parent > a:after  {
+    transform: rotate(-90deg);
+}
+
+/* Collapsible Vertical Menu*/
+.collapsible-vertical-submenu.vertical-menu .main-menu .nav > li.deeper.parent > .mod-menu__sub,
+.collapsible-vertical-submenu.vertical-menu .main-menu .nav > .deeper.parent .mod-menu__sub,
+.collapsible-vertical-submenu.vertical-menu .main-menu .nav > .deeper.parent .nav-child, 
+.collapsible-vertical-submenu.vertical-menu .main-menu .menu > .deeper.parent .mod-menu__sub, 
+.collapsible-vertical-submenu.vertical-menu .main-menu .menu > .deeper.parent .nav-child {
+    box-sizing: border-box;
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 0;
+    position: static;
+    transform: none !important;
+    width: 100% !important;
+}
+
+@keyframes visible-nav-child {
+    0% {max-height: 0; overflow: hidden;opacity: 0;}
+    99%{max-height: 400vh; overflow: visible; opacity: 1;}
+    100%{max-height: 400vh; overflow: visible; opacity: 1;}
+}
+
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.visible-nav-child > ul.mod-menu__sub, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.visible-nav-child > .tabs-content-wrapper, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.visible-nav-child > ul.nav-child {
+    animation: visible-nav-child .5s linear both!important;
+    overflow: visible;
+}
+
+@keyframes hidden-nav-child {
+    to{max-height: 0!important; overflow: hidden; opacity: 0;}
+}
+
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.hidden-nav-child > ul.mod-menu__sub, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.hidden-nav-child > .tabs-content-wrapper, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.hidden-nav-child > ul.nav-child {
+    animation: hidden-nav-child .3s linear both !important;
+    box-sizing: border-box;
+}
+
+.collapsible-vertical-submenu.vertical-menu .deeper.parent:not(.visible-nav-child) > ul.mod-menu__sub, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent:not(.visible-nav-child) > .tabs-content-wrapper, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent:not(.visible-nav-child) > ul.nav-child {
+    max-height: 0 !important;
+    overflow: hidden;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.visible-nav-child > span i:not(.ba-menu-item-icon):before, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent.visible-nav-child > a i:not(.ba-menu-item-icon):before {
+    transform: rotate(90deg);
+}
+
+.collapsible-vertical-submenu.vertical-menu .deeper.parent > span i:before, 
+.collapsible-vertical-submenu.vertical-menu .deeper.parent > a i:before {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    transition: all .15s linear;
+    width: 1em;
+}

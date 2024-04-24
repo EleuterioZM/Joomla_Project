@@ -1,0 +1,255 @@
+.intro-post-reviews a.ba-blog-post-rating-count,
+.ba-blog-post-reviews a.ba-blog-post-rating-count {
+    margin-left: 10px;
+    transition: color .3s;
+}
+
+.intro-post-wrapper .intro-post-info > span,
+.ba-blog-post-info-wrapper > span {
+    align-items: center;
+    position: relative;
+}
+
+.ba-blog-post-info-wrapper > .ba-blog-post-author ~ .ba-blog-post-author,
+.ba-item-post-intro .intro-post-info .intro-post-author ~ .intro-post-author {
+    margin-left: 20px;
+}
+
+.intro-post-reviews a.ba-blog-post-rating-count,
+.ba-blog-post-reviews a.ba-blog-post-rating-count,
+.ba-blog-post-info-wrapper > span a:hover,
+.intro-post-wrapper .intro-post-info > span a:hover,
+.ba-blog-post-info-wrapper > span a,
+.intro-post-wrapper .intro-post-info > span a {
+    color: inherit;
+}
+
+.ba-blog-post-info-wrapper .ba-author-avatar,
+.intro-post-wrapper .ba-author-avatar {
+    margin: 5px 10px 5px 0;
+}
+
+.ba-blog-post-info-wrapper,
+.ba-blog-post-info-wrapper  > span,
+.ba-blog-post-info-wrapper .ba-icons,
+.intro-post-wrapper .intro-post-info  > span {
+    cursor: default !important;
+}
+
+.ba-item-post-navigation .ba-blog-post-fields,
+.ba-item-post-intro .intro-post-info,
+.ba-blog-post-info-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ba-item-category-intro .intro-post-title-wrapper .ba-author-avatar,
+.ba-blog-post-info-wrapper .ba-author-avatar,
+.intro-post-info .ba-author-avatar {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro-post-info .ba-author-avatar,
+.ba-blog-post-info-wrapper .ba-author-avatar {
+    height: 30px;
+    width: 30px;
+}
+
+/* Author Social Link */
+.intro-category-author-social-wrapper a,
+.ba-post-author-social-wrapper a {
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.ba-blog-posts-pagination span.disabled a *,
+.ba-blog-posts-pagination span.disabled a,
+.intro-category-author-social-wrapper a:hover,
+.ba-post-author-social-wrapper a:hover {
+    opacity: .5;
+}
+
+.intro-post-reviews,
+.ba-blog-post-reviews {
+    align-items: center;
+}
+
+/* Multiple Nights */
+.add-to-cart-booking-calendar input {
+    cursor: pointer !important;
+    background: var(--bg-primary);
+    border-color: var(--border);
+    transition: border-color .3s;
+}
+
+.ba-add-to-cart-guests input:focus,
+.add-to-cart-booking-calendar input:focus {
+    border-color: #f3f3f3 !important;
+}
+
+.add-to-cart-booking-calendar + .add-to-cart-booking-calendar {
+    margin-left: 5px;
+}
+
+/* Single Day Private No Slot*/
+.ba-add-to-cart-guests,
+.ba-add-to-cart-guests input,
+.add-to-cart-booking-guests-wrapper .ba-add-to-cart-row-label,
+.add-to-cart-booking-hours-wrapper .ba-add-to-cart-row-label,
+.add-to-cart-booking-calendar-wrapper .ba-add-to-cart-row-label,
+.add-to-cart-booking-calendar input[data-type="single-date"] {
+    width: 100%;
+}
+
+.add-to-cart-booking-calendar {
+    position: relative;
+}
+
+.add-to-cart-booking-calendar .icons-cell ~ input {
+    cursor: pointer;
+    color: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0 0 0 2.7em;
+    width: 100%;
+}
+
+.add-to-cart-booking-calendar .open-calendar-wrapper {
+    position: relative;
+}
+
+.add-to-cart-booking-calendar .icons-cell {
+    font-size: 1.5em;
+    left: .5em;
+    line-height: 1em;
+    position: absolute;
+    bottom: 50%;
+    pointer-events: none;
+    transform: translateY(0.5em);
+}
+
+.add-to-cart-booking-calendar-wrapper {
+    min-width: 100%;
+}
+
+.add-to-cart-booking-calendar {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-booking-calendar input.open-calendar-dialog {
+    color: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    text-decoration: inherit;
+    text-transform: inherit;
+    width: 100%;
+}
+
+.add-to-cart-booking-guests-wrapper .ba-add-to-cart-row-label,
+.add-to-cart-booking-hours-wrapper .ba-add-to-cart-row-label,
+.add-to-cart-booking-calendar-wrapper .ba-add-to-cart-row-label {
+    margin-bottom: 10px;
+}
+
+/*Single Day, Private, Slot*/
+.add-to-cart-booking-guests-wrapper,
+.add-to-cart-booking-hours-wrapper {
+    flex-wrap: wrap;
+}
+
+.add-to-cart-booking-available-hours-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+.add-to-cart-booking-available-hours {
+    align-items: center;
+    border: 2px solid var(--border);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 24px !important;
+    margin: 10px;
+    padding: 10px 15px;
+    position: relative;
+    transition: .3s;
+    width: 7em;
+}
+
+.add-to-cart-booking-available-hours.active {
+    border-color: var(--primary);
+}
+
+.add-to-cart-booking-calendar input:hover,
+.add-to-cart-booking-available-hours:hover {
+    border-color: var(--hover);
+}
+
+/*Single Day, Group, Slot*/
+.ba-add-to-cart-guests input {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    text-align: center;
+    width: 30px;
+}
+
+.ba-add-to-cart-guests {
+    align-items: center;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+}
+
+.ba-add-to-cart-guests i {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s;
+    width: 24px;
+}
+
+.ba-add-to-cart-guests i:hover {
+    opacity: .5;
+}
+
+.ba-add-to-cart-guests i.disabled  {
+    opacity: .3;
+    cursor: not-allowed;
+}
+
+.ba-item-add-to-cart .ba-add-to-cart-extra-option .ba-add-to-cart-row-value[data-type="dropdown"] input {
+    width: calc(100% + 5px);
+}
+
+.ba-item-add-to-cart .ba-add-to-cart-extra-options {
+    margin-top: 30px;
+}

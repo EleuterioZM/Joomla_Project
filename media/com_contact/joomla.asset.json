@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_contact",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_contact.admin-contacts-modal.es5",
+      "type": "script",
+      "uri": "com_contact/admin-contacts-modal-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "c25193083704119315e03c2e618f99cd6fd9a1d9"
+    },
+    {
+      "name": "com_contact.admin-contacts-modal",
+      "type": "script",
+      "uri": "com_contact/admin-contacts-modal.min.js",
+      "dependencies": [
+        "com_contact.admin-contacts-modal.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "e556e46f227cfda5dd8d4505ce9619d94fe10295"
+    },
+    {
+      "name": "com_contact.contacts-list.es5",
+      "type": "script",
+      "uri": "com_contact/contacts-list-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "2ebf76917946ccdbf3856ada9c05fad30a2c6b16"
+    },
+    {
+      "name": "com_contact.contacts-list",
+      "type": "script",
+      "uri": "com_contact/contacts-list.min.js",
+      "dependencies": [
+        "com_contact.contacts-list.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "ebd8c93bfa5ffe33a25b58bb6783b4ad727d90ae"
+    }
+  ]
+}

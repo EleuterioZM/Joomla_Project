@@ -1,0 +1,146 @@
+{
+    "desktop" : {
+        "view":{
+            "arrows" : false,
+            "dots" : true
+        },
+        "gutter" : true,
+        "slideset" : {
+            "delay" : 3000,
+            "mode" : "set",
+            "count" : 2,
+            "pause": false,
+            "autoplay" : false
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "background": {
+            "color": "@bg-secondary"
+        },
+        "border" : {
+            "color" : "@border",
+            "style" : "solid",
+            "radius" : 6,
+            "width" : 0
+        },
+        "padding" : {
+            "bottom" : "50",
+            "left" : "50",
+            "right" : "50",
+            "top" : "50"
+        },
+        "image":{
+            "width": 50,
+            "border" : {
+                "color" : "@border",
+                "style" : "solid",
+                "radius" : 100,
+                "width" : 0
+            }
+        },
+        "name" : {
+            "typography" : {
+                "color" : "@title",
+                "font-family" : "@default",
+                "font-size" : 18,
+                "font-style" : "normal",
+                "font-weight" : "700",
+                "letter-spacing" : 0,
+                "line-height" : 30,
+                "text-decoration" : "none",
+                "text-transform" : "none"
+            }
+        },
+        "testimonial" : {
+            "typography" : {
+                "color" : "@title",
+                "font-family" : "@default",
+                "font-size" : 18,
+                "font-style" : "normal",
+                "font-weight" : "300",
+                "letter-spacing" : 0,
+                "line-height" : 30,
+                "text-decoration" : "none",
+                "text-transform" : "none"
+            }
+        },
+        "caption" : {
+            "typography" : {
+                "color" : "@subtitle",
+                "font-family" : "@default",
+                "font-size" : 14,
+                "font-style" : "normal",
+                "font-weight" : "400",
+                "letter-spacing" : 2,
+                "line-height" : 18,
+                "text-decoration" : "none",
+                "text-transform" : "uppercase"
+            }
+        },
+        "arrows" : {
+            "size" : 18,
+            "normal" : {
+                "color" : "@title-inverse",
+                "background" : "@primary"
+            },
+            "hover" : {
+                "color" : "@title-inverse",
+                "background" : "@hover"
+            },
+            "padding" : 25,
+            "border" : {
+                "color" : "@border",
+                "radius" : "50",
+                "style" : "solid",
+                "width" : "0"
+            },
+            "shadow" : {
+                "value" : "1",
+                "color" : "@shadow"
+            }
+        },
+        "dots" : {
+            "size" : 16,
+            "normal" : {
+                "color" : "@hover"
+            },
+            "hover" : {
+                "color" : "@primary"
+            }
+        },
+        "icon": {
+            "size": "48",
+            "color": "@primary"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "slideset" : {
+            "count" : 1
+        },
+        "disable" : "0"
+    },
+    "phone" : {
+        "slideset" : {
+            "count" : 1
+        },
+        "disable" : "0"
+    },
+    "slides" : {
+        "1": {
+            "image":"components/com_gridbox/assets/images/thumb-square.png",
+            "link":""
+        }
+    },
+    "layout":"style-1",
+    "tag": "h3",
+    "type" : "testimonials-slider",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,77 @@
+@keyframes notification-in {
+    from {bottom: 0; transform: translateY(100%); opacity: 0;}
+}
+
+#system-message {
+    animation: notification-in .4s cubic-bezier(.25,.98,.26,.99) both;
+    border-radius: 6px;
+    border: none;
+    bottom: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    color: #fff;
+    display: block;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 50px;
+    text-shadow: none;
+    visibility: visible;
+    z-index: 1510;
+}
+
+#system-message-container .alert {
+    background: #02adea;
+    display: inline-block;
+    padding: 40px 25px;
+    width: 250px;
+}
+
+#system-message-container .alert.alert-warning,
+#system-message-container .alert.alert-danger,
+#system-message-container .alert.alert-error {
+    background-color: #ff776f;;
+}
+
+#system-message .alert-heading {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 0 0 15px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#system-message > div .alert-message {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    opacity: .6;
+    word-break: break-word;
+}
+
+#system-message .alert:before,
+#system-message .close {
+    color: #fff;
+    opacity: 1;
+    padding: 8px;
+    position: absolute;
+    right: 5px;
+    text-shadow: none;
+    top: 0;
+    opacity: 0;
+}
+
+#system-message > .alert:before {
+    content: '\e04a';
+    display: inline-block;
+    font: normal normal normal 24px/1 'balbooa-family';
+    opacity: 1;
+    padding: 13px 10px;
+}

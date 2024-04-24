@@ -1,0 +1,10 @@
+/* Animation Shutter Out Diagonal Effect */
+.ba-shutter-out-diagonal.ba-image-wrapper:hover .ba-caption-overlay,
+.ba-shutter-out-diagonal .ba-instagram-image:hover .ba-caption-overlay {
+    transform: skewX(45deg) scaleX(2);
+}
+
+.ba-shutter-out-diagonal.ba-image-wrapper .ba-caption-overlay,
+.ba-shutter-out-diagonal .ba-instagram-image .ba-caption-overlay {
+    transform: skewX(45deg) scaleX(.0001);
+}

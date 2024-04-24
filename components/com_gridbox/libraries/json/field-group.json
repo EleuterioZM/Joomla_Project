@@ -1,0 +1,82 @@
+{
+    "desktop" : {
+        "border" : {
+            "bottom" : "1",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 0,
+            "top" : "0",
+            "width" : "1"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "15",
+            "left" : "0",
+            "right" : "0",
+            "top" : "15"
+        },
+        "icons":{
+            "size" : 24,
+            "color": "@icon"
+        },
+        "title":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-transform":"none"
+            }
+        },
+        "value":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-align":"right",
+                "text-transform":"none"
+            }
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "items": {
+        "0": {
+            "label": "Label",
+            "description": "",
+            "icon": "",
+            "required": false,
+            "options":{
+                "label": "",
+                "description": "",
+                "type": "text"
+            }
+        }
+    },
+    "layout": {
+        "position": "ba-label-position-left"
+    },
+    "tag": "p",
+    "type" : "field-group",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,12 @@
+.itemSocialSharing > div {
+    margin-top: 0;
+}
+
+.itemSocialSharing {
+    line-height: 0;
+}
+
+.largerFontSize p {
+    font-size: 150%;
+    line-height: 140%;
+}

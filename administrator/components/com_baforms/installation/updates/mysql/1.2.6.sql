@@ -1,0 +1,1 @@
+ALTER TABLE `#__baforms_forms` ADD COLUMN `modal_width` varchar(255) NOT NULL DEFAULT '500';

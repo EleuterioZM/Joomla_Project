@@ -1,0 +1,90 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "0",
+            "right" : "0",
+            "top" : "0"
+        },
+        "border" : {
+            "bottom" : "0",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 0,
+            "top" : "0",
+            "width" : "1"
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        },
+        "view":{
+            "arrows" : true,
+            "dots" : true,
+            "fullscreen" : false,
+            "height" : 650
+        },
+        "arrows" : {
+            "size" : 18,
+            "normal" : {
+                "color" : "@title-inverse",
+                "background" : "@primary"
+            },
+            "hover" : {
+                "color" : "@title-inverse",
+                "background" : "@hover"
+            },
+            "padding" : 25,
+            "border" : {
+                "color" : "@border",
+                "radius" : "50",
+                "style" : "solid",
+                "width" : "0"
+            },
+            "shadow" : {
+                "value" : "1",
+                "color" : "@shadow"
+            }
+        },
+        "dots" : {
+            "size" : 16,
+            "normal" : {
+                "color" : "@hover"
+            },
+            "hover" : {
+                "color" : "@primary"
+            }
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "slides":{
+        "0": {
+            "title": "Slide 1"
+        },
+        "1": {
+            "title": "Slide 2"
+        }
+    },
+    "animation" : "ba-fade-in",
+    "slideshow" : {
+        "delay" : 3000,
+        "autoplay" : false,
+        "pause" : false,
+        "navigation" : false
+    },
+    "type" : "content-slider",
+    "access" : 1,
+    "suffix" : ""
+}

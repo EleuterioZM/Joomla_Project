@@ -1,0 +1,7 @@
+body:not(.show-hidden-elements) .ba-hidden-md {
+    display: none !important;
+} 
+
+body:not(.show-hidden-elements) .ba-hidden-md:first-child + .ba-column-resizer + .ba-grid-column-wrapper {
+    margin-left: 0 !important;
+}

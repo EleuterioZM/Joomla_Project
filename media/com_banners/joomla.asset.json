@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_banners",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_banners.admin-banner-edit.es5",
+      "type": "script",
+      "uri": "com_banners/admin-banner-edit-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "d4ee380ec2513c3870b210e6e992b406d331dcf3"
+    },
+    {
+      "name": "com_banners.admin-banner-edit",
+      "type": "script",
+      "uri": "com_banners/admin-banner-edit.min.js",
+      "dependencies": [
+        "com_banners.admin-banner-edit.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "86e446e5128793b8e1a32a08a22fce1ce91de837"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+/**
+ * BASED ON:
+ *
+ * jQuery MiniColors: A tiny color picker built on jQuery
+ *
+ * Copyright Cory LaViska for A Beautiful Site, LLC. (http://www.abeautifulsite.net/)
+ *
+ * Dual-licensed under the MIT and GPL Version 2 licenses
+ *
+*/
+.minicolors {
+    display: inline-block;
+    position: relative;
+    z-index: 11;
+}
+
+.minicolors-focus {
+    z-index: 12;
+}
+
+.minicolors-hidden {
+    left: -9999em;
+    position: absolute;
+}
+
+.minicolors-swatch {
+    background: url(../images/jquery.minicolors.png) -80px 0;
+    border: solid 1px #CCC;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.minicolors-swatch span {
+    background: none;
+    box-shadow: inset 0 9px 0 rgba(255, 255, 255, .1);
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+/* Panel */
+.minicolors-panel {
+    background: white;
+    border: solid 1px #CCC;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    display: none;
+    height: 152px;
+    left: 0;
+    position: absolute;
+    top: 26px;
+    width: 173px;
+}
+
+.minicolors-position-top .minicolors-panel {
+    top: -156px;
+}
+
+.minicolors-position-left .minicolors-panel {
+    left: -83px;
+}
+
+.minicolors-position-left.minicolors-with-opacity .minicolors-panel {
+    left: -104px;
+}
+
+.minicolors-with-opacity .minicolors-panel {
+    width: 194px;
+}
+
+.minicolors .minicolors-grid {
+    background: url(../images/jquery.minicolors.png) -120px 0;
+    cursor: crosshair;
+    height: 150px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 150px;
+}
+
+.minicolors .minicolors-grid-inner {
+    background: none;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+
+.minicolors-slider-saturation .minicolors-grid {
+    background-position: -420px 0;
+}
+
+.minicolors-slider-saturation .minicolors-grid-inner {
+    background: url(../images/jquery.minicolors.png) -270px 0;
+}
+
+.minicolors-slider-brightness .minicolors-grid {
+    background-position: -570px 0;
+}
+
+.minicolors-slider-brightness .minicolors-grid-inner {
+    background: black;
+}
+
+.minicolors-slider-wheel .minicolors-grid {
+    background-position: -720px 0;
+}
+
+.minicolors-slider,
+.minicolors-opacity-slider {
+    background: #ffffff url(../images/jquery.minicolors.png) 0 0;
+    cursor: crosshair;
+    height: 150px;
+    left: 152px;
+    position: absolute;
+    top: 1px;
+    width: 20px;
+}
+
+.minicolors-slider-saturation .minicolors-slider {
+    background-position: -60px 0;
+}
+
+.minicolors-slider-brightness .minicolors-slider {
+    background-position: -20px 0;
+}
+
+.minicolors-slider-wheel .minicolors-slider {
+    background-position: -20px 0;
+}
+
+.minicolors-opacity-slider {
+    background-position: -40px 0;
+    display: none;
+    left: 173px;
+}
+
+.minicolors-with-opacity .minicolors-opacity-slider {
+    display: block;
+}
+
+/* Pickers */
+.minicolors-grid .minicolors-picker {
+    background: none;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: 10px;
+    left: 70px;
+    margin-left: -6px;
+    margin-top: -6px;
+    position: absolute;
+    top: 70px;
+    width: 10px;
+}
+
+.minicolors-grid .minicolors-picker span {
+    border-radius: 6px;
+    border: solid 2px white;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 6px;
+}
+
+.minicolors-picker {
+    background: white;
+    border: solid 1px black;
+    height: 2px;
+    left: 0;
+    margin-top: -2px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+
+/* Inline controls */
+.minicolors-inline .minicolors-input,
+.minicolors-inline .minicolors-swatch {
+    display: none;
+}
+
+.minicolors-inline .minicolors-panel {
+    display: inline-block;
+    left: auto;
+    position: relative;
+    top: auto;
+}
+
+/*
+ * Bootstrap Theme (theme: 'bootstrap')
+ *
+ */
+
+/* Input styles */
+.minicolors-theme-bootstrap .minicolors-input {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 14px;
+    height: 19px;
+    margin: 0px;
+    padding-left: 30px;
+    padding: 4px 6px;
+    width: 65px;
+}
+
+/* Input width depending on format */
+.minicolors-theme-bootstrap .hex {
+    width: 65px;
+}
+.minicolors-theme-bootstrap .keywords {
+    width: 100px;
+}
+.minicolors-theme-bootstrap .rgb {
+    width: 160px;
+}
+.minicolors-theme-bootstrap .rgba {
+    width: 220px;
+}
+
+/* When the input is disabled */
+.minicolors-theme-bootstrap .minicolors-input[disabled] {
+    background-color: #eee;
+}
+
+/* Swatch styles */
+.minicolors-theme-bootstrap .minicolors-swatch {
+    border-radius: 3px;
+    cursor: pointer;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    z-index: 12;
+}
+
+/* Handle swatch position (left = default / right) */
+.minicolors-theme-bootstrap.minicolors-swatch-position-right .minicolors-input {
+    padding-left: 6px;
+    padding-right: 30px;
+}
+
+.minicolors-theme-bootstrap.minicolors-swatch-position-right .minicolors-swatch {
+    left: auto;
+    right: 4px;
+}
+
+/* Panel styles */
+.minicolors-theme-bootstrap .minicolors-panel {
+    background-clip: padding-box;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    left: 100%;
+    padding: 5px;
+    top: -68px;
+    z-index: 13;
+}
+
+.minicolors-theme-bootstrap .minicolors-slider,
+.minicolors-theme-bootstrap .minicolors-opacity-slider {
+    top: 6px;
+    margin-left: 5px;
+}
+
+.minicolors-theme-bootstrap .minicolors-grid {
+    top: 6px;
+    left: 6px;
+}
+
+.minicolors-theme-bootstrap.minicolors-position-left .minicolors-panel {
+    right: 100%;
+    left: auto;
+}
+.minicolors-theme-bootstrap.minicolors-position-top .minicolors-panel {
+    top: -164px;
+    left: -6px;
+}
+.minicolors-theme-bootstrap.minicolors-position-bottom .minicolors-panel {
+    left: -6px;
+    top: 30px;
+}

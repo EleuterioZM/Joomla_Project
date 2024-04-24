@@ -1,0 +1,830 @@
+{
+    "hotspot": {
+        "desktop" : {
+            "popover":"",
+            "style":"",
+            "padding":"",
+            "colors":"",
+            "colors-bg":"",
+            "margin":"",
+            "style":"",
+            "border":"",
+            "shadow":""
+        }
+    },
+    "currency-switcher": {
+        "desktop" : {
+            "switcher":"",
+            "list":"",
+            "dropdown":"",
+            "margin":""
+        }
+    },
+    "currency-switcher": {
+        "desktop" : {
+            "switcher":"",
+            "list":"",
+            "dropdown":"",
+            "margin":""
+        }
+    },
+    "language-switcher": {
+        "desktop" : {
+            "switcher":"",
+            "list":"",
+            "dropdown":"",
+            "flag":"",
+            "margin":""
+        }
+    },
+    "reading-progress-bar": {
+        "desktop" : {
+            "view":""
+        }
+    },
+    "before-after-slider": {
+        "desktop" : {
+            "title":"",
+            "divider":"",
+            "slider":"",
+            "margin":"",
+            "border":"",
+            "shadow":""
+        }
+    },
+    "checkout-form": {
+        "desktop" : {
+            "title":"",
+            "field":"",
+            "headline":"",
+            "margin":"",
+            "title":""
+        }
+    },
+    "button": {
+        "desktop" : {
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "normal":"",
+            "colors":"",
+            "colors-bg":"",
+            "shadow":""
+        },
+        "hover": "",
+        "icon": ""
+    },
+    "fields-filter": {
+        "desktop":{
+            "background":"",
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "title":"",
+            "value":"",
+            "shadow":""
+        }
+    },
+    "comments-box": {
+        "desktop":{
+            "typography":"",
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "background":"",
+            "shadow":""
+        }
+    },
+    "recent-comments":{
+        "desktop":{
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":""
+        }
+    },
+    "reviews": {
+        "desktop":{
+            "typography":"",
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "background":"",
+            "shadow":""
+        }
+    },
+    "recent-reviews":{
+        "desktop":{
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":""
+        }
+    },
+    "field": {
+        "desktop" : {
+            "border":"",
+            "title":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "value":""
+        }
+    },
+    "field-button": {
+        "desktop" : {
+            "colors":"",
+            "colors-bg":"",
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "shadow":""
+        }
+    },
+    "field-group": {
+        "desktop" : {
+            "border":"",
+            "title":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "value":""
+        }
+    },
+    "overlay-button": {
+        "desktop" : {
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "normal":"",
+            "colors":"",
+            "colors-bg":"",
+            "shadow":""
+        },
+        "hover": "",
+        "icon": ""
+    },
+    "icon": {
+        "desktop" : {
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "icon":"",
+            "colors":"",
+            "colors-bg":"",
+            "normal":"",
+            "shadow":""
+        },
+        "hover":""
+    },
+    "social-icons": {
+        "desktop" : {
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "icon":"",
+            "normal":""
+        },
+        "hover":""
+    },
+    "scroll-to": {
+        "desktop" : {
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "normal":"",
+            "colors":"",
+            "colors-bg":"",
+            "shadow":""
+        },
+        "hover":""
+    },
+    "scroll-to-top": {
+        "desktop" : {
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "icons":"",
+            "normal":"",
+            "shadow":""
+        },
+        "hover":"",
+        "text":""
+    },
+    "tags": {
+        "desktop" : {
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "normal":"",
+            "shadow":""
+        },
+        "hover": ""
+    },
+    "post-tags": {
+        "desktop" : {
+            "colors":"",
+            "colors-bg":"",
+            "border":"",
+            "typography":"",
+            "margin":"",
+            "padding":"",
+            "normal":"",
+            "shadow":""
+        },
+        "hover": ""
+    },
+    "countdown": {
+        "desktop": {
+            "border": "",
+            "background": "",
+            "margin": "",
+            "counter": "",
+            "label": ""
+        }
+    },
+    "counter": {
+        "desktop": {
+            "border": "",
+            "background": "",
+            "margin": "",
+            "counter": "",
+            "shadow": ""
+        }
+    },
+    "categories": {
+        "desktop": {
+            "overlay": "",
+            "overlay-states": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "margin":"",
+            "padding": ""
+        }
+    },
+    "carousel": {
+        "desktop":{
+            "overlay": "",
+            "margin": "",
+            "title": "",
+            "description": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": ""
+        }
+    },
+    "recent-posts-slider": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "margin": "",
+            "title": "",
+            "info": "",
+            "intro": "",
+            "padding": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "related-posts-slider": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "margin": "",
+            "title": "",
+            "info": "",
+            "intro": "",
+            "padding": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "recently-viewed-products": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "margin": "",
+            "title": "",
+            "info": "",
+            "intro": "",
+            "padding": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "slideset": {
+        "desktop":{
+            "overlay": "",
+            "margin": "",
+            "title": "",
+            "description": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": ""
+        }
+    },
+    "testimonials-slider": {
+        "desktop":{
+            "margin": "",
+            "padding": "",
+            "border": "",
+            "image": "",
+            "name": "",
+            "testimonial": "",
+            "caption": "",
+            "background": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": ""
+        }
+    },
+    "content-slider": {
+        "desktop":{
+            "margin": "",
+            "padding": "",
+            "border": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": ""
+        }
+    },
+    "feature-box": {
+        "desktop":{
+            "margin": "",
+            "padding": "",
+            "border": "",
+            "shadow":"",
+            "background":"",
+            "image": "",
+            "icon": "",
+            "title": "",
+            "description": "",
+            "button": ""
+        },
+        "hover":"",
+        "icon":""
+    },
+    "icon-list": {
+        "desktop":{
+            "margin": "",
+            "body": "",
+            "icons": ""
+        }
+    },
+    "slideshow": {
+        "desktop":{
+            "margin":"",
+            "overlay": "",
+            "overlay-states": "",
+            "title": "",
+            "description": "",
+            "button": "",
+            "arrows": "",
+            "dots": "",
+            "shadow": ""
+        }
+    },
+    "video": {
+        "desktop":{
+            "margin":"",
+            "border": "",
+            "shadow": ""
+        }
+    },
+    "accordion": {
+        "desktop": {
+            "margin":"",
+            "padding":"",
+            "typography":"",
+            "header":"",
+            "border":"",
+            "icon":"",
+            "background":""
+        }
+    },
+    "tabs":{
+        "desktop":{
+            "margin" : "",
+            "padding" : "",
+            "typography" : "",
+            "hover" : "",
+            "header" : "",
+            "icon":"",
+            "background" :""
+        }
+    },
+    "image":{
+        "desktop" : {
+            "border": "",
+            "margin": "",
+            "shadow": "",
+            "title": "",
+            "description": ""
+        },
+        "lightbox":""
+    },
+    "simple-gallery":{
+        "desktop" : {
+            "margin" : ""
+        },
+        "lightbox":""
+    },
+    "star-ratings":{
+        "desktop":{
+            "icon":"",
+            "info":"",
+            "margin":""
+        }
+    },
+    "menu": {
+        "desktop" : {
+            "margin" : "",
+            "nav-typography" : "",
+            "nav": "",
+            "sub": "",
+            "sub-typography" :"",
+            "dropdown" : "",
+            "background": "",
+            "shadow" : ""
+        },
+        "hamburger" : ""
+    },
+    "one-page":{
+        "desktop" : {
+            "margin" : "",
+            "nav-typography" : "",
+            "nav": ""
+        },
+        "hamburger" : ""
+    },
+    "recent-posts": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":"",
+            "padding": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "post-navigation": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":"",
+            "padding": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "search-result": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":""
+        }
+    },
+    "related-posts": {
+        "desktop":{
+            "overlay": "",
+            "overlay-states": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":"",
+            "padding": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+
+    "login": {
+        "desktop":{
+            "button": "",
+            "title": "",
+            "description" : "",
+            "field":"",
+            "headline" : "",
+            "background":"",
+            "border":"",
+            "margin":"",
+            "padding":"",
+            "shadow":""
+        }
+    },
+
+    "blog-posts": {
+        "desktop":{
+            "view": "",
+            "overlay": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":"",
+            "padding": "",
+            "reviews": "",
+            "postFields": ""
+        }
+    },
+    "section":{
+        "desktop":{
+            "background":"",
+            "border":"",
+            "margin":"",
+            "overlay":"",
+            "overlay-states":"",
+            "padding":"",
+            "shadow":"",
+            "shape":""
+        },
+        "parallax":""
+    },
+    "row":{
+        "desktop":{
+            "view":"",
+            "background":"",
+            "border":"",
+            "margin":"",
+            "overlay":"",
+            "overlay-states":"",
+            "padding":"",
+            "shadow":"",
+            "shape":""
+        },
+        "parallax":""
+    },
+    "column":{
+        "desktop":{
+            "background":"",
+            "border":"",
+            "span":"",
+            "margin":"",
+            "overlay":"",
+            "overlay-states":"",
+            "padding":"",
+            "shadow":""
+        },
+        "parallax":""
+    },
+    "weather":{
+        "desktop":{
+            "city":"",
+            "condition":"",
+            "forecasts":"",
+            "info":"",
+            "margin":""
+        }
+    },
+    "progress-pie": {
+        "desktop": {
+            "view": "",
+            "margin": "",
+            "padding": "",
+            "typography": ""
+        }
+    },
+    "progress-bar": {
+        "desktop": {
+            "border": "",
+            "view": "",
+            "margin": "",
+            "padding": "",
+            "typography": "",
+            "shadow": ""
+        }
+    },
+    "flipbox": {
+        "desktop":{
+            "background":"",
+            "border":"",
+            "span":"",
+            "margin":"",
+            "overlay":"",
+            "overlay-states":"",
+            "padding":"",
+            "shadow":""
+        },
+        "parallax":"",
+        "sides":""
+    },
+    "headline": {
+        "desktop":{
+            "margin":"",
+            "h1":"",
+            "h2":"",
+            "h3":"",
+            "h4":"",
+            "h5":"",
+            "h6":""
+        }
+    },
+    "text": {
+        "desktop":{
+            "margin":"",
+            "links":"",
+            "p":"",
+            "h1":"",
+            "h2":"",
+            "h3":"",
+            "h4":"",
+            "h5":"",
+            "h6":""
+        }
+    },
+    "logo":{
+        "desktop":{
+            "margin":"",
+            "width": "",
+            "text-align": ""
+        }
+    },
+    "custom-html":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "disqus":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "facebook-comments":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "forms":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "gallery":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "hypercomments":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "map":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "modules":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "social":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "vk-comments":{
+        "desktop":{
+            "margin":""
+        }
+    },
+    "error-message":{
+        "desktop":{
+            "code":"",
+            "message":"",
+            "margin":""
+        }
+    },
+    "post-intro":{
+        "desktop":{
+            "image":"",
+            "info":"",
+            "padding":"",
+            "title":"",
+            "margin":""
+        }
+    },
+    "category-intro":{
+        "desktop":{
+            "image":"",
+            "info":"",
+            "padding":"",
+            "title":"",
+            "margin":""
+        }
+    },
+    "search":{
+        "desktop":{
+            "shadow": "",
+            "background" : "",
+            "border":"",
+            "icons":"",
+            "padding":"",
+            "typography":"",
+            "margin":""
+        }
+    },
+    "store-search":{
+        "desktop":{
+            "shadow": "",
+            "background" : "",
+            "border":"",
+            "icons":"",
+            "padding":"",
+            "typography":"",
+            "margin":""
+        }
+    },
+    "author":{
+        "desktop":{
+            "overlay": "",
+            "background" : "",
+            "shadow":"",
+            "border" : "",
+            "image":"",
+            "title":"",
+            "info":"",
+            "intro":"",
+            "button":"",
+            "margin":""
+        }
+    },
+    "breadcrumbs":{
+        "desktop":{
+            "style": "",
+            "margin":""
+        }
+    }
+}

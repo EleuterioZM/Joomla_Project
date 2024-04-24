@@ -1,0 +1,34 @@
+{
+    "title": "",
+    "description": "",
+    "placeholder": "",
+    "required": false,
+    "icon": "",
+    "type": "text",
+    "default":"",
+    "readonly": false,
+    "hidden": false,
+    "validation": "",
+    "characters": {
+        "length": "",
+        "key": "min"
+    },
+    "mask": "",
+    "confirm" : {
+        "enable": false,
+        "title": "",
+        "description": "",
+        "placeholder": "",
+        "icon": "",
+        "default":""
+    },
+    "confirm-password" : {
+        "enable": false,
+        "title": "",
+        "description": "",
+        "placeholder": "",
+        "icon": "",
+        "default":""
+    },
+    "suffix": ""
+}

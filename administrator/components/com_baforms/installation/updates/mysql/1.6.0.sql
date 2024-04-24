@@ -1,0 +1,13 @@
+ALTER TABLE `#__baforms_forms` ADD COLUMN `currency_position` varchar(255) NOT NULL DEFAULT 'before';
+ALTER TABLE `#__baforms_forms` ADD COLUMN `multiple_payment` tinyint(1) NOT NULL DEFAULT 0;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `custom_payment` varchar(255) NOT NULL DEFAULT 'Custom Payment';
+ALTER TABLE `#__baforms_forms` ADD COLUMN `mailchimp_api_key` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `mailchimp_list_id` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `mailchimp_fields_map` text NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `stripe_api_key` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `stripe_image` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `stripe_name` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `stripe_description` varchar(255) NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `theme_color` varchar(255) NOT NULL DEFAULT '#009ddc';
+ALTER TABLE `#__baforms_forms` ADD COLUMN `email_options` text NOT NULL;
+ALTER TABLE `#__baforms_forms` ADD COLUMN `mollie_api_key` varchar(255) NOT NULL;

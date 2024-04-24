@@ -1,0 +1,9 @@
+/* Slide Right Out*/
+@keyframes pt-slide-right-out {
+    from {transform: translateX(0);}
+    to {transform: translateX(100vw);}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-slide-right {
+    animation: pt-slide-right-out .5s .3s linear both;
+}

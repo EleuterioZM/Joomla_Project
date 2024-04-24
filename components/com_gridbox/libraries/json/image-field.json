@@ -1,0 +1,44 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "border":{
+            "color" : "@border",
+            "style" : "solid",
+            "radius" : 0,
+            "width" : "0"
+        },
+        "style": {
+            "width" : "",
+            "align" : "center"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "popup": false,
+    "lightbox" : {
+        "color" : "@overlay"
+    },
+    "label": "Label",
+    "required": false,
+    "options":{
+        "description": "",
+        "source": "",
+        "size": 1024,
+        "type": "image-field"
+    },
+    "type" : "image-field",
+    "access" : 1,
+    "suffix" : ""
+}

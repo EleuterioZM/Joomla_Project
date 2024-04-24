@@ -1,0 +1,121 @@
+/*
+/* Plugin Field
+*/
+
+.ba-item-field-group  .ba-field-wrapper,
+.ba-item-field .ba-field-wrapper {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.ba-item-field-group .ba-field-wrapper:not(.ba-label-position-left ):not(.ba-label-position-right ) > *,
+.ba-item-field .ba-field-wrapper:not(.ba-label-position-left ):not(.ba-label-position-right ) > * {
+    width: 100%
+}
+
+.ba-item:not(.ba-item-slideshow):not(.ba-item-feature-box) .empty-content:not(.slideshow-button):not(.ba-feature-button) {
+    display: none;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-left,
+.ba-item-field .ba-field-wrapper.ba-label-position-left {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-right .ba-field-label,
+.ba-item-field .ba-field-wrapper.ba-label-position-right .ba-field-label,
+.ba-item-field-group .ba-field-wrapper.ba-label-position-left .ba-field-label,
+.ba-item-field .ba-field-wrapper.ba-label-position-left .ba-field-label {
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-left .ba-field-label,
+.ba-item-field .ba-field-wrapper.ba-label-position-left .ba-field-label {
+    text-align: left !important;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-right .ba-field-label,
+.ba-item-field .ba-field-wrapper.ba-label-position-right .ba-field-label {
+    text-align: right !important;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-right,
+.ba-item-field .ba-field-wrapper.ba-label-position-right {
+    flex-direction: row-reverse;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-content > span,
+.ba-item-field .ba-field-wrapper .ba-field-content > span {
+    display: block;
+}
+
+.ba-item-field .fields-post-tags {
+    margin: 0 10px 10px 0;
+    display: inline-flex;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-content ,
+.ba-item-field .ba-field-wrapper .ba-field-content {
+    backface-visibility: visible !important;
+    flex-grow: 1;
+    width: 100%;
+    word-break: break-word;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-content,
+.ba-item-field .ba-field-wrapper .ba-field-content {
+    width: auto;
+}
+
+.ba-item-field-group .ba-field-wrapper .field-description-wrapper,
+.ba-item-field .ba-field-wrapper .field-description-wrapper {
+    margin-left: 5px;
+    position: relative;
+}
+
+.ba-item-field-group .ba-field-wrapper .field-description-wrapper > i,
+.ba-item-field .ba-field-wrapper .field-description-wrapper > i {
+    color: inherit !important;
+    font-size: inherit !important;
+    transition: opacity .3s linear;
+}
+
+.ba-item-field-group .ba-field-wrapper .field-description-wrapper > i:hover,
+.ba-item-field .ba-field-wrapper .field-description-wrapper > i:hover {
+    opacity: .5
+}
+
+.ba-item-field-group .ba-field-content a,
+.ba-item-field .ba-field-content a {
+    transition: color .3s linear
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-right .ba-field-label,
+.ba-item-field .ba-field-wrapper.ba-label-position-right .ba-field-label {
+    margin-left: 10px;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-label > *,
+.ba-item-field .ba-field-wrapper .ba-field-label > * {
+    display: inline-block;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-label > i,
+.ba-item-field .ba-field-wrapper .ba-field-label > i {
+    line-height: initial;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.ba-item-field-group .ba-field-wrapper .ba-field-content > span.field-price-wrapper.right-currency-position,
+.ba-item-field .ba-field-wrapper .ba-field-content > span.field-price-wrapper.right-currency-position {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.ba-item-field-group .ba-field-wrapper.ba-label-position-left .ba-field-label .ba-tooltip {
+    white-space: normal;
+}

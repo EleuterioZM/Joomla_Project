@@ -1,0 +1,73 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "months" : {
+            "typography": {
+                "color" : "@title",
+                "font-family" : "@default",
+                "font-size" : 20,
+                "font-style" : "normal",
+                "font-weight" : "900",
+                "letter-spacing" : 0,
+                "line-height" : 30,
+                "text-decoration" : "none",
+                "text-transform" : "none"
+            }
+        },
+        "weeks" : {
+            "typography": {
+                "color" : "@subtitle",
+                "font-family" : "@default",
+                "font-size" : 14,
+                "font-style" : "normal",
+                "font-weight" : "500",
+                "letter-spacing" : 2,
+                "line-height" : 18,
+                "text-decoration" : "none",
+                "text-transform" : "uppercase"
+            }
+        },
+        "days" : {
+            "typography": {
+                "color" : "@text",
+                "font-family" : "@default",
+                "font-size" : 21,
+                "font-style" : "normal",
+                "font-weight" : "@default",
+                "letter-spacing" : 0,
+                "line-height" : 50,
+                "text-decoration" : "none",
+                "text-transform" : "none"
+            }
+        },
+        "view":{
+            "author": false,
+            "button": false,
+            "category": true,
+            "comments": false,
+            "date": true,
+            "image": true,
+            "reviews": false,
+            "title": true
+        },
+        "fields":{},
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "layout": "list",
+    "fields":[],
+    "info": ["author", "date", "category", "comments"],
+    "start": 1,
+    "app": 0,
+    "type" : "event-calendar",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,47 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "p" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h1" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h2" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h3" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h4" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h5" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "h6" : {
+            "font-family" : "@default",
+            "font-weight" : "@default"
+        },
+        "links":{},
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "text",
+    "access" : 1,
+    "suffix" : ""
+}

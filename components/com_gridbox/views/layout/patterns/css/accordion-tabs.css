@@ -1,0 +1,8 @@
+.accordion-heading > a i,
+.ba-tabs-wrapper .nav-tabs li a i {
+    color: inherit;
+    line-height: 1em;
+    margin: 0 10px;
+    text-align: inherit;
+    vertical-align: middle;
+}

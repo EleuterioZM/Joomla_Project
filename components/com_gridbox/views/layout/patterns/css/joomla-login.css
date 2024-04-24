@@ -1,0 +1,78 @@
+/* ========================================================================
+    Joomla Login
+ ========================================================================== */
+.mod-login[id*="login-form-"] .form-group .input-group .input-group-text,
+.mod-login[id*="login-form-"] .form-group .input-group > label,
+#login-form .input-prepend .add-on:first-child,
+#login-form .input-prepend .btn:first-child,
+#login-form .input-append input,
+#login-form .input-append select,
+#login-form .input-append .uneditable-input {
+    display: none;
+}
+
+#login-form #form-login-submit {
+    margin: 0;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled,
+#login-form .unstyled {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 14px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled li:nth-last-child(3),
+#login-form .unstyled li:nth-last-child(3) {
+    cursor: pointer;
+    margin-top: 35px;
+    order: 3;
+    text-align: center;
+    width: 100%;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled li:nth-last-child(3) a,
+#login-form .unstyled li:nth-last-child(3) a {
+    font-size: initial;
+    opacity: 1;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled li:nth-last-child(3) a > *, 
+#login-form .unstyled li:nth-last-child(3) a > * {
+    display: none;
+}
+
+#login-form .control-group .control-label {
+    width: auto !important;
+    font-size: 12px;
+    opacity: .5;
+}
+
+#login-form #form-login-username {
+    margin-bottom: 20px;
+}
+
+.mod-login[id*="login-form-"] .form-group .input-group .input-group-text,
+#login-form #form-login-password input,
+#login-form #form-login-username input {
+    height: 56px;
+}
+
+#login-form #modlgn-remember {
+    flex-grow: 0;
+    height: 18px;
+    margin: 0 10px 0 0;
+    width: 18px;
+}
+
+#user-registration .btn-primary.validate,
+#login-form .logout-button .btn-primary {
+    padding: 15px 30px;
+}
+
+#login-form .logout-button .btn-primary {
+    margin-top: 15px;
+}

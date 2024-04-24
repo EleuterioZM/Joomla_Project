@@ -1,0 +1,59 @@
+/*
+/* Edit Page Button
+*/
+
+.edit-page-btn {
+    align-items: center;
+    background: #f64231;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.23);
+    color: #fff;
+    border-radius: 60px;
+    bottom: 45px;
+    letter-spacing: 0;
+    display: flex;
+    height: 60px;
+    left: calc(100vw - 120px);
+    position: fixed;
+    justify-content: center;
+    width: 60px;
+    z-index: 1500;
+}
+
+.lightbox-open .edit-page-btn {
+    right: 60px;
+}
+
+.edit-page-btn i {
+    font-size: 24px;
+}
+
+.edit-page-btn:hover i {
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+.edit-page-btn i {
+    transition: all .3s linear;
+}
+
+.com_gridbox.lightbox-open .edit-page-btn .edit-page {
+    right: 25px;
+}
+
+.com_gridbox .edit-page:before {
+    border: 5px solid transparent;
+    border-top: 5px solid rgba(34,34,34,0.95);
+    bottom: -10px;
+    content: "";
+    height: 0;
+    left: 50%  !important;
+    margin-left: -5px;
+    position: absolute;
+}
+
+.com_gridbox .edit-page-btn:hover .edit-page {
+    bottom: 115px;
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s linear;
+}

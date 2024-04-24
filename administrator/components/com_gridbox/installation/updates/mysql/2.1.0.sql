@@ -1,0 +1,13 @@
+ALTER TABLE `#__gridbox_tags` ADD `alias` text NOT NULL;
+ALTER TABLE `#__gridbox_categories` DROP `alt`;
+ALTER TABLE `#__gridbox_app` ADD `published` tinyint(1) NOT NULL DEFAULT 1;
+ALTER TABLE `#__gridbox_app` ADD `access` tinyint(1) NOT NULL DEFAULT 1;
+ALTER TABLE `#__gridbox_app` ADD `language` varchar(255) NOT NULL DEFAULT '*';
+ALTER TABLE `#__gridbox_app` ADD `image` varchar(255) NOT NULL;
+ALTER TABLE `#__gridbox_app` ADD `meta_title` varchar(255) NOT NULL;
+ALTER TABLE `#__gridbox_app` ADD `meta_description` text NOT NULL;
+ALTER TABLE `#__gridbox_app` ADD `meta_keywords` text NOT NULL;
+ALTER TABLE `#__gridbox_categories` ADD `order_list` int(11) NOT NULL DEFAULT 1;
+ALTER TABLE `#__gridbox_app` ADD `order_list` int(11) NOT NULL DEFAULT 1;
+ALTER TABLE `#__gridbox_library` ADD `image` varchar(255) NOT NULL;
+ALTER TABLE `#__gridbox_website` ADD `breakpoints` text NOT NULL;

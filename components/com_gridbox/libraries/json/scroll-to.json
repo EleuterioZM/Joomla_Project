@@ -1,0 +1,81 @@
+{
+    "desktop" : {
+        "colors": {
+            "default": {
+                "color": "@title-inverse",
+                "background-color": "@accent"
+            },
+            "hover": {
+                "color" : "@title-inverse",
+                "background-color" : "@hover"
+            },
+            "state":true,
+            "transition": {
+                "duration":0.3,
+                "x1":0.42,
+                "y1":0,
+                "x2":0.58,
+                "y2":1
+            }
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "50",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "typography" : {
+            "font-family" : "@default",
+            "font-size" : 10,
+            "font-style" : "normal",
+            "font-weight" : "700",
+            "letter-spacing" : 4,
+            "line-height" : 26,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "padding" : {
+            "bottom" : "25",
+            "left" : "25",
+            "right" : "25",
+            "top" : "25"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "disable" : "0",
+        "normal":{
+            "color" : "@title-inverse",
+            "background-color" : "@accent"
+        },
+        "icons":{
+            "size" : "18",
+            "position":"after"
+        },
+        "shadow" : {
+            "value" : "1",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "init" : {
+        "speed" : 500,
+        "target" : "",
+        "animation" : "easeInSine"
+    },
+    "hover" : {
+        "color" : "@title-inverse",
+        "background-color" : "@hover"
+    },
+    "icon" : "zmdi zmdi-chevron-down",
+    "type" : "scroll-to",
+    "access" : 1,
+    "suffix" : ""
+}

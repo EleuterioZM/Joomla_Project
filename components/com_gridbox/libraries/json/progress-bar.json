@@ -1,0 +1,57 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "radius" : "50",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "view":{
+            "bar" : "@primary",
+            "background": "@bg-secondary",
+            "height": "30"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left": "0",
+            "right": "0",
+            "top" : "0"
+        },
+        "display": {
+            "label": true,
+            "target": true
+        },
+        "typography" : {
+            "color" : "@title-inverse",
+            "font-family" : "@default",
+            "font-size" : 14,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 0,
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "label" : "",
+    "target" : "65",
+    "duration" : "2000",
+    "easing": "easeOutQuad",
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "progress-bar",
+    "access" : 1,
+    "suffix" : ""
+}

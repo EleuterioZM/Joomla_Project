@@ -1,0 +1,78 @@
+{
+    "desktop" : {
+        "view": {
+            "layout" : "forecast-block",
+            "forecast" : 3,
+            "wind" : false,
+            "humidity" : false,
+            "pressure" : false,
+            "sunrise-wrapper" : false
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "city" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 40,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 50,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "condition" : {
+            "color" : "@primary",
+            "font-family" : "@default",
+            "font-size" : 65,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 65,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "info" : {
+            "color" : "@subtitle",
+            "font-family" : "@default",
+            "font-size" : 14,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 40,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "forecasts" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 20,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 40,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "weather" : {
+        "location" : "San Francisco",
+        "unit" : "c"
+    },
+    "type" : "weather",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,78 @@
+.userItemTitle,
+.userBlock > *,
+.tagItemTitle,
+.itemTitle,
+.itemCommentsForm > *,
+.itemRelated > *,
+.itemAuthorLatest > *,
+.itemAuthorName,
+.catItemTitle ,
+#kunena .table td h3,
+#kunena.layout h1,
+#kunena.layout h2,
+#kunena.layout h3,
+#kunena .btn-link {
+    text-align: left;
+}
+
+.com_kunena input:not(.btn),
+#kunena.layout .filter,
+.filter-sel {
+    font: inherit;
+}
+
+#kunena .dropdown-menu > .center > a + p {
+    margin: 0;
+}
+
+#kunena .dropdown-menu > .center > a + p a:hover {
+    opacity: 1;
+}
+
+#kunena #kpost-subscribe .controls,
+#kunena #kpost-subscribe .controls input[type='checkbox']{
+    margin-top: .5em;
+}
+
+#kunena .btn-group .btn:not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#kunena .btn-group .btn.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -0.3em;
+}
+
+#kunena .btn-group.open .btn:not(.btn-primary),
+#kunena .btn-group:hover .btn:not(.btn-primary) {
+    background-color: #e6e6e6;
+    color: #363637;
+    opacity: .85;
+}
+
+#kunena .btn-group.open .btn.btn-primary,
+#kunena .btn-group:hover .btn.btn-primary {
+    opacity: .85;
+}
+
+#kunena.layout .img-circle {
+    background-color: #fff;
+}
+
+#kunena.layout .profilebox li {
+    margin: 10px 0;
+}
+
+#kunena.layout .mykmsg-header {
+    background: #fafafa;
+    border-top: none;
+    border: 1px solid #f3f3f3;
+    text-transform: uppercase;
+}
+
+#kunena.layout [class*="badger-left"] {
+    border: 1px solid #f3f3f3;
+    box-shadow: none;
+}

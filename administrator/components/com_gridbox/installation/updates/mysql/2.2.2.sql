@@ -1,0 +1,1 @@
+ALTER TABLE `#__gridbox_website` ADD `date_format` varchar(255) NOT NULL DEFAULT "j F Y";

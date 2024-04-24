@@ -1,0 +1,53 @@
+{
+    "desktop": {
+        "margin": {
+            "bottom": "25",
+            "top": "25"
+        },
+        "style": {
+            "typography": {
+                "font-family": "@default",
+                "font-size": 12,
+                "font-style": "normal",
+                "font-weight": "500",
+                "letter-spacing": 2,
+                "line-height": 12,
+                "text-decoration": "none",
+                "text-align": "left",
+                "text-transform": "uppercase"
+            },
+            "padding": {
+                "bottom": "15",
+                "left": "15",
+                "right": "15",
+                "top": "15"
+            },
+            "icon": {
+                "size" : 24
+            },
+            "normal": {
+                "color" : "@title",
+                "background" : "rgba(255,255,255,0)"
+            },
+            "hover": {
+                "color" : "@primary",
+                "background" : "rgba(255,255,255,0)"
+            }
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "home": "title",
+    "home-icon": "zmdi zmdi-home",
+    "separator-icon": "zmdi zmdi-caret-right",
+    "layout" : "ba-classic-breadcrumbs",
+    "current": false,
+    "type" : "breadcrumbs",
+    "access" : 1,
+    "suffix" : ""
+}

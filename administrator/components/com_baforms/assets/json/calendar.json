@@ -1,0 +1,17 @@
+{
+    "title": "",
+    "description": "",
+    "placeholder": "",
+    "default":"",
+    "required": false,
+    "readonly": false,
+    "hidden": false,
+    "start": 1,
+    "disable": {
+        "previous": false,
+        "days": {},
+        "dates": {},
+        "range-dates": {}
+    },
+    "suffix": ""
+}

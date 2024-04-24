@@ -1,0 +1,27 @@
+.preloader-wrapper.ba-spinner-9 .preloader-point-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+@keyframes spinner9 {
+    0%, 80%, 100% {transform: scale(0) }
+    40% {transform: scale(1.0) }
+}
+
+.preloader-wrapper.ba-spinner-9 .preloader-point-wrapper > div {
+    animation: spinner9 1.4s infinite ease-in-out both;
+    border-radius: 100%;
+    display: inline-block;
+    height: 25%;
+    width: 25%;
+}
+
+.preloader-wrapper.ba-spinner-9 .preloader-point-wrapper > .preloader-point-1 {
+    animation-delay: -0.32s;
+}
+
+.preloader-wrapper.ba-spinner-9 .preloader-point-wrapper > .preloader-point-2 {
+    animation-delay: -0.16s;
+}

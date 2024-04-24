@@ -1,0 +1,190 @@
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-active .ba-currency-switcher-item > i,
+.ba-item-currency-switcher .ba-lightbox-layout:not(.visible-currency-switcher-list) .ba-currency-switcher-backdrop, 
+.ba-item-currency-switcher .ba-lightbox-layout:not(.visible-currency-switcher-list) .ba-currency-switcher-list,
+.ba-item-currency-switcher .ba-currency-switcher-wrapper:not(.ba-lightbox-layout) .ba-currency-switcher-list > i, 
+.ba-item-currency-switcher .ba-currency-switcher-wrapper:not(.ba-lightbox-layout) .ba-currency-switcher-backdrop, 
+.ba-item-currency-switcher .ba-dropdown-layout:not(.visible-currency-switcher-list) .ba-currency-switcher-list {
+    display: none;
+}
+
+/* Dropdown Layout */
+@keyframes currency-switcher {
+    from {transform: scale(.8); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
+}
+
+.ba-item-currency-switcher .ba-dropdown-layout.visible-currency-switcher-list .ba-currency-switcher-list {
+    animation: currency-switcher .3s cubic-bezier(0.4,0,0.2,1) both;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+@keyframes hidden-dropdown-currency-switcher {
+    from {transform: scale(1); opacity: 1;}
+    to {transform: scale(.8); opacity: 0;}
+}
+
+.ba-item-currency-switcher .ba-dropdown-layout.visible-currency-switcher-list.currency-switcher-out .ba-currency-switcher-list {
+    animation: hidden-dropdown-currency-switcher .3s cubic-bezier(0.4,0,0.2,1) both;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+.ba-item-currency-switcher .ba-dropdown-layout .ba-currency-switcher-list {
+    box-sizing: border-box;
+    left: var(--switcher-left);
+    margin-left: -138px;
+    margin-top: 10px;
+    position: absolute;
+    width: 275px;
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-list,
+.ba-item-currency-switcher .ba-dropdown-layout .ba-currency-switcher-list {
+    border-bottom: calc(var(--border-width) * var(--border-bottom)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-width) * var(--border-left)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right: calc(var(--border-width) * var(--border-right)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-width) * var(--border-top)) var(--border-style) var(--border-color);
+    box-shadow: var(--shadow-horizontal) var(--shadow-vertical) var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+}
+
+.ba-item-currency-switcher .ba-dropdown-layout .ba-currency-switcher-list:before {
+    border: 5px solid transparent;
+    border-bottom: 5px solid var(--background-color);
+    content: "";
+    height: 0;
+    left: 50% !important;
+    margin-left: -5px;
+    position: absolute;
+    top: -9px;
+}
+
+.ba-item-currency-switcher .ba-currency-switcher-item, 
+.ba-item-currency-switcher .ba-currency-switcher-item * {
+    cursor: pointer !important;
+}
+
+.ba-item-currency-switcher .ba-currency-switcher-item {
+    display: inline-block;
+    transition: .3s;
+}
+
+ .ba-item-currency-switcher .ba-currency-switcher-list .ba-currency-switcher-item {
+	display: flex;
+	transition: .3s;
+}
+
+.ba-item-currency-switcher .ba-currency-switcher-item:hover,
+.ba-item-currency-switcher .ba-currency-switcher-list .ba-currency-switcher-item:hover {
+	opacity: .75;
+}
+
+.ba-item-currency-switcher .ba-currency-switcher-list .ba-currency-switcher-item .ba-currency-switcher-title {
+	flex-grow: 1;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ba-item-currency-switcher .ba-currency-switcher-item span + span {
+	margin-left: 10px;
+}
+
+.ba-item-currency-switcher .ba-dropdown-layout .ba-currency-switcher-active .ba-currency-switcher-item > i {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+/* Lightbox Layout */
+.ba-lightbox-layout .ba-currency-switcher-list {
+    box-sizing: border-box;
+    height: 420px;
+    left: calc(50vw - 200px);
+    overflow: auto;
+    position: fixed;
+    top: calc(50vh - 210px);
+    width: 400px;
+    z-index: 9999;
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-list .ba-currency-switcher-list {
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-list .ba-currency-switcher-list span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-list > i + .ba-currency-switcher-item {
+	margin-top: 10px;
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout .ba-currency-switcher-backdrop {
+    background: var(--overlay);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 998;
+}
+
+.ba-lightbox-layout .ba-currency-switcher-list > i {
+    cursor: pointer !important;
+    font-size: 36px;
+    line-height: 21px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transition: opacity .3s;
+}
+
+.ba-lightbox-layout .ba-currency-switcher-list > i:hover {
+    opacity: .5;
+}
+
+.ba-wrapper.currency-switcher-visible {
+    z-index: 15;
+}
+
+.ba-wrapper.currency-switcher-visible .ba-edit-item {
+    display: none !important;
+}
+
+@keyframes visible-currency-switcher {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout.visible-currency-switcher-list .ba-currency-switcher-backdrop,
+.ba-item-currency-switcher .ba-lightbox-layout.visible-currency-switcher-list .ba-currency-switcher-list {
+    animation: visible-currency-switcher .3s ease-in-out both;
+    will-change: opacity;
+
+}
+
+@keyframes hidden-currency-switcher {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.ba-item-currency-switcher .ba-lightbox-layout.visible-currency-switcher-list.currency-switcher-out .ba-currency-switcher-backdrop,
+.ba-item-currency-switcher .ba-lightbox-layout.visible-currency-switcher-list.currency-switcher-out .ba-currency-switcher-list {
+    animation: hidden-currency-switcher .3s ease-in-out both;
+}
+
+.ba-grid-column-wrapper.currency-switcher-hovered,
+.ba-row.currency-switcher-hovered,
+.visible-currency-switcher-lightbox {
+    z-index: 15;
+}
+
+.ba-item-currency-switcher {
+    z-index: 10;
+}

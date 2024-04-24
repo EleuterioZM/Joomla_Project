@@ -1,0 +1,18 @@
+div.icon-wrapper div.icon a span.hkIcon {
+    height: 48px!important;
+    width: auto!important;
+    padding: 10px 0;
+}
+
+.icon-wrapper {
+    font-size: initial!important;
+    height: auto!important;
+    line-height: initial!important;
+    width: auto !important;
+}
+
+.icon-wrapper [class*=" icon-"]{
+    height: auto!important;
+    margin-right: initial!important;
+    width: auto !important;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="editors-xtd" method="upgrade">
+	<name>BaForms - Shortcode</name>
+	<creationDate>06 April 2015</creationDate>
+	<author>Balbooa</author>
+	<copyright>Balbooa 2016</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@balbooa.com</authorEmail>
+	<authorUrl>http://balbooa.com</authorUrl>
+	<version>2.0.6</version>
+	<description>Displays a button to make it possible to insert Form into an Article or Custom HTML module</description>
+	<files>
+		<filename plugin="baforms">baforms.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

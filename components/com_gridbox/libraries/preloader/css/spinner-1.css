@@ -1,0 +1,54 @@
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper {
+    position: relative;
+    transform: rotateZ(45deg);
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper > div {
+    background: transparent !important; 
+    float: left;
+    height: 50%;
+    position: relative;
+    transform: scale(1.1); 
+    width: 50%;
+}
+
+@keyframes spinner1 {
+    0%, 10% {transform: perspective(140px) rotateX(-180deg);opacity: 0;}
+    25%, 75% {transform: perspective(140px) rotateX(0deg);opacity: 1;} 
+    90%, 100% {transform: perspective(140px) rotateY(180deg);opacity: 0;} 
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper > div:before {
+    animation: spinner1 2.4s infinite linear both;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: 100% 100%;
+    width: 100%;
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-2 {
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-4 {
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-3 {
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-2:before {
+    animation-delay: 0.3s;
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-4:before {
+    animation-delay: 0.6s;
+}
+
+.preloader-wrapper.ba-spinner-1 .preloader-point-wrapper .preloader-point-3:before {
+    animation-delay: 0.9s;
+}

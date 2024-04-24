@@ -1,0 +1,347 @@
+/* Copyright @ Balbooa, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+.ba-gridbox-calendar * {
+    transition: all .2s ease-in-out;
+}
+
+.gridbox-calendar-wrapper.visible-gridbox-calendar {
+    z-index: 99999999;
+}
+
+.gridbox-calendar-wrapper:not(.visible-gridbox-calendar) {
+    display: none;
+}
+
+.gridbox-calendar-wrapper.visible-gridbox-calendar .ba-close-calendar,
+.gridbox-calendar-wrapper.visible-gridbox-calendar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@keyframes calendar-open {
+    0% { top: -500px; opacity: 0; }
+    100% { top: 50%; opacity: 1; }
+}
+
+.visible-gridbox-calendar .ba-gridbox-calendar  {
+    animation: calendar-open .6s cubic-bezier(.25,.98,.26,.99) both;
+    display: block;
+}
+
+.com_gridbox.admin .visible-gridbox-calendar .ba-gridbox-calendar,
+.com_gridbox.editor .visible-gridbox-calendar .ba-gridbox-calendar  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+
+.ba-gridbox-calendar {
+    background: #2f3243;
+    border-radius: 6px;
+    border: none ;
+    box-shadow: 0 25px 50px rgba(0,0,0,.35);
+    box-sizing: border-box;
+    display: none;
+    left: 50% ;
+    margin-left: -225px;
+    margin-top: -200px;
+    overflow: hidden;
+    padding: 25px;
+    position: fixed ;
+    width: 450px;
+    z-index: 9999;
+}
+
+.ba-gridbox-calendar-row,
+.ba-gridbox-calendar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.com_gridbox.admin .ba-gridbox-calendar-header,
+.com_gridbox.editor .ba-gridbox-calendar-header {
+    color: #566e78;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.ba-gridbox-calendar-row > div,
+.ba-gridbox-calendar-header  > div {
+    cursor: default;
+    min-width: 44px;
+    text-align: center;
+}
+
+.ba-gridbox-calendar-row > div,
+.gridbox-calendar-wrapper:not(.disable-previous-date) .ba-gridbox-calendar-row > div:not(:empty) {
+    cursor: pointer;
+}
+
+.ba-gridbox-calendar-title-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.ba-gridbox-calendar-title-wrapper i {
+    background: #343749;
+    border-radius: 3px;
+    box-sizing: content-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s;
+    width: 24px;
+}
+
+.ba-gridbox-calendar-title-wrapper .gridbox-calendar-btn {
+    position: relative;
+}
+
+.ba-gridbox-calendar-title-wrapper i[data-action="prev-year"] {
+    margin-right: 5px;
+}
+
+.ba-gridbox-calendar-title-wrapper i[data-action="prev-year"]:after {
+    content: '\f2fa';
+}
+
+.ba-gridbox-calendar-title-wrapper i[data-action="next-year"] {
+    margin-left: 5px;
+}
+
+.ba-gridbox-calendar-title-wrapper i[data-action="next-year"]:after {
+    content: '\f2fb';
+}
+
+.ba-date-cell {
+    align-items: center;
+    background: transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 44px;
+    justify-content: center;
+    padding: 10px !important;
+    text-transform: uppercase;
+    transition: .3s;
+    width: 44px;
+}
+
+.com_gridbox.admin .ba-date-cell, 
+.com_gridbox.editor .ba-date-cell {
+    color: #cad3da;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.ba-event-calendar-row .ba-date-cell {
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+.ba-gridbox-calendar-day-name{
+    cursor: default ;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.com_gridbox.admin .ba-gridbox-today-btn:hover,
+.com_gridbox.admin .ba-gridbox-calendar-title-wrapper i:hover, 
+.com_gridbox.admin .ba-date-cell:hover, 
+.com_gridbox.editor .ba-gridbox-calendar-title-wrapper i:hover,
+.com_gridbox.editor .ba-date-cell:hover {
+    background: #404958;
+    color: #fff !important;
+}
+
+.ba-gridbox-calendar-day-name:hover,
+.ba-gridbox-calendar-day-name,
+.ba-gridbox-calendar-row .ba-date-cell.disabled-date:hover,
+.ba-gridbox-calendar-row .ba-date-cell.disabled-date,
+.disable-previous-date .ba-previous-date:hover,
+.disable-previous-date .ba-previous-date {
+    background: transparent !important;
+    color: #566e78 !important;
+}
+
+.ba-gridbox-calendar-row .ba-empty-date-cell {
+    cursor: default;
+}
+
+.ba-gridbox-calendar-row .disabled-date,
+.disable-previous-date .ba-previous-date {
+    cursor: not-allowed !important;
+}
+
+.com_gridbox.admin .ba-gridbox-calendar-title,
+.com_gridbox.editor .ba-gridbox-calendar-title {
+    color: #fff;
+    cursor: default;
+    display: flex;
+    flex-grow: 1;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+}
+
+.ba-gridbox-calendar-title-wrapper > i {
+    color: #fff;
+}
+
+.ba-gridbox-calendar-title-wrapper > i:hover {
+    background: #1da6f4 !important;
+    color: #fff;
+}
+
+.ba-gridbox-calendar-body .ba-date-cell.ba-curent-date:before {
+    display: none;
+}
+
+.ba-gridbox-calendar-body .ba-date-cell.ba-curent-date.disabled-date {
+    opacity: .3;
+}
+
+.admin.com_gridbox .ba-gridbox-multiple-date-calendar .ba-date-cell.active,
+.admin.com_gridbox .ba-gridbox-multiple-date-calendar .ba-date-cell.selected,
+.ba-gridbox-calendar-body .ba-date-cell.ba-curent-date:hover,
+.ba-gridbox-calendar-body .ba-date-cell.ba-curent-date {
+    background: #1da6f4 !important;
+    color: #fff !important;
+}
+
+/*
+/* Multiple Date Calendar
+*/
+
+.ba-gridbox-multiple-date-calendar .ba-gridbox-calendar-inner {
+    width: 350px;
+    min-width: 350px;
+}
+
+.ba-gridbox-multiple-date-calendar .ba-gridbox-calendar {
+    display: flex;
+    margin-left: -425px;
+    width: 850px;
+}
+
+.admin.com_gridbox .ba-gridbox-multiple-date-calendar .ba-gridbox-calendar {
+    margin-left: -400px;
+    width: 800px;
+}
+
+.ba-gridbox-multiple-date-calendar .ba-gridbox-calendar .ba-gridbox-calendar-inner + .ba-gridbox-calendar-inner{
+    margin-left: 50px;
+}
+
+/* Frontend calendar */
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar {
+    background: var(--bg-primary);
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-title-wrapper i:hover, 
+.com_gridbox:not(.editor):not(.admin) .ba-date-cell:hover {
+    background: var(--bg-secondary);
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-header .ba-calendar-day-name {
+    font-size: 14px;
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-day-name:hover, 
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-day-name, 
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-row .disabled-date:not(.active):hover, 
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-row .disabled-date:not(.active), 
+.com_gridbox:not(.editor):not(.admin) .disable-previous-date .ba-previous-date:hover, 
+.com_gridbox:not(.editor):not(.admin) .disable-previous-date .ba-previous-date {
+    opacity: .3;
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-multiple-date-calendar .selected.disabled-date {
+    opacity: 1 !important;
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-title {
+    color: var(--title);
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-title-wrapper i {
+    color: var(--title);
+    background: var(--bg-secondary);
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-title-wrapper i:hover {
+    color: var(--title-inverse);
+    background: var(--primary);    
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-multiple-date-calendar .ba-date-cell.active + .ba-date-cell:not(.disabled-date):hover,
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-multiple-date-calendar .ba-date-cell.active, 
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-multiple-date-calendar .ba-date-cell.selected {
+    color: var(--title-inverse) !important;
+    background: var(--primary) !important;       
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar-body .ba-date-cell.ba-curent-date {
+    background: transparent !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary)!important; 
+}
+
+.com_gridbox:not(.editor):not(.admin) .ba-gridbox-calendar {
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.com_gridbox:not(.admin):not(.editor) .ba-gridbox-calendar-row .ba-date-cell {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    margin-top: 5px;
+}
+
+.com_gridbox.admin .ba-gridbox-today-btn {
+    background: #343749;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s;
+    width: 100%;
+}

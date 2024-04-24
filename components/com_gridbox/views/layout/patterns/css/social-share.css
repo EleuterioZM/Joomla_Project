@@ -1,0 +1,1083 @@
+/*
+
+/* Plugin Social Sharing
+
+*/
+
+
+
+.ba-item-social {
+
+    text-align: center;
+
+}
+
+
+
+.ba-social-classic > div:hover {
+
+    background: #fafafa;
+
+}
+
+
+
+.ba-social > div {
+
+    align-items: center;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    display: inline-flex;
+
+    justify-content: flex-start;
+
+    margin: 5px 10px 5px 10px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+}
+
+
+
+.ba-social .social-button {
+
+    color: #fff;
+
+    display: inline-block;
+
+    font-style: initial;
+
+    font-weight: bold;
+
+    text-align: left;
+
+    text-transform: initial;
+
+}
+
+
+
+.ba-social-sidebar .social-button {
+
+    border: 1px solid transparent;
+
+    padding-left: 0;
+
+}
+
+
+
+.ba-social.ba-social-sm div {
+
+    line-height: 22px;
+
+}
+
+
+
+.ba-social.ba-social-sm .social-counter {
+
+    width: 22px;
+
+}
+
+
+
+.ba-social.ba-social-sm {
+
+    font-size: 12px;
+
+}
+
+
+
+.ba-social.ba-social-md div {
+
+    line-height: 34px;
+
+}
+
+
+
+.ba-social.ba-social-md .social-counter {
+
+    width: 34px;
+
+}
+
+
+
+.ba-social.ba-social-md {
+
+    font-size: 15px;
+
+}
+
+
+
+.ba-social.ba-social-lg div {
+
+    line-height: 44px;
+
+}
+
+
+
+.ba-social.ba-social-lg .social-counter {
+
+    width: 44px;
+
+}
+
+
+
+.ba-social.ba-social-lg {
+
+    font-size: 18px;
+
+}
+
+
+
+.ba-social.ba-social-sm .social-button {
+
+    min-width: 150px;
+
+}
+
+
+
+.ba-social.ba-social-md .social-button {
+
+    min-width: 200px;
+
+}
+
+
+
+.ba-social.ba-social-lg .social-button {
+
+    min-width: 250px;
+
+}
+
+
+
+.ba-social.ba-social-md .social-button,
+
+.ba-social.ba-social-lg .social-button {
+
+    font-size: 14px;
+
+}
+
+
+
+.ba-social-sidebar .ba-social .social-button {
+
+    border: none;
+
+}
+
+
+
+.ba-social .social-button i {
+
+    color: #fff;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    width: 1em;
+
+}
+
+
+
+.ba-social.ba-social-sm .social-button i {
+
+    font-size: 16px;
+
+    padding: 15px;
+
+}
+
+
+
+.ba-social.ba-social-md .social-button i {
+
+    font-size: 18px;
+
+    padding: 15px;
+
+}
+
+
+
+.ba-social.ba-social-lg .social-button i {
+
+    font-size: 21px;
+
+    padding: 20px;
+
+}
+
+
+
+.social-counter {
+
+    border-radius: 50%;
+
+    color: #fff;
+
+    display: inline-block;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 12px;
+
+    font-style: initial;
+
+    font-weight: bold;
+
+    margin-right: 15px;
+
+    position: relative;
+
+    text-transform: initial;
+
+}
+
+
+
+.ba-social.ba-social-sm .social-counter {
+
+    font-size: 10px;
+
+}
+
+
+
+/* Minimal */
+
+.ba-social-minimal.ba-social > div {
+
+    margin: 0;
+
+    position: relative;
+
+    overflow: visible;
+
+}
+
+
+
+.ba-social-minimal .social-button i {
+
+    color: var(--icon);
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-sm .social-button i,
+
+.ba-social-minimal.ba-social.ba-social-md .social-button i,
+
+.ba-social-minimal.ba-social.ba-social-lg .social-button i {
+
+    border-radius: 3px;
+
+    transition: .3s;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-sm .social-button,
+
+.ba-social-minimal.ba-social.ba-social-md .social-button,
+
+.ba-social-minimal.ba-social.ba-social-lg .social-button {
+
+    height: auto;
+
+    min-width: auto;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-sm .social-button {
+
+    width: 44px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-md .social-button {
+
+    width: 61px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-lg .social-button {
+
+    width: 78px;
+
+}
+
+
+
+.ba-social-minimal .social-counter {
+
+    height: 16px;
+
+    line-height: 17px;
+
+    position: absolute;
+
+    right: -3px;
+
+    margin: 0;
+
+    top: 1px;
+
+    width: 16px !important;
+
+    font-size: 10px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-sm .social-counter {
+
+    top: 1px;
+
+    right: 1px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-md .social-counter {
+
+    top: 5px;
+
+    right: 5px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-lg .social-counter {
+
+    top: 7px;
+
+    right: 7px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-sm .social-button i {
+
+    font-size: 14px;
+
+    padding: 15px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-md .social-button i {
+
+    font-size: 21px;
+
+    padding: 20px;
+
+}
+
+
+
+.ba-social-minimal.ba-social.ba-social-lg .social-button i {
+
+    font-size: 28px;
+
+    padding: 25px;
+
+}
+
+
+
+/* Flat */
+
+.ba-social-flat > div {
+
+    border: none;
+
+}
+
+
+
+.ba-social-flat.ba-social .social-counter,
+
+.ba-social-flat.ba-social .social-button i {
+
+    background: rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.ba-social-classic .social-button i,
+
+.ba-social-flat.ba-social .social-button i {
+
+    margin-right: 20px;
+
+}
+
+
+
+.ba-social-minimal.ba-social .social-button i:hover {
+
+    color: #fff;
+
+}
+
+
+
+.ba-social-minimal.ba-social .vk .social-button i:hover,
+
+.ba-social-minimal .vk .social-counter,
+
+.ba-social-classic .vk .social-button i,
+
+.ba-social-circle .vk .social-button,
+
+.ba-social-flat.ba-social .vk {
+
+    background: #5b7aa8;
+
+}
+
+
+
+.ba-social-minimal.ba-social .facebook .social-button i:hover,
+
+.ba-social-minimal .facebook .social-counter,
+
+.ba-social-classic .facebook .social-button i,
+
+.ba-social-circle .facebook .social-button,
+
+.ba-social-flat.ba-social .facebook {
+
+    background: #3b5998;
+
+}
+
+
+
+.ba-social-minimal.ba-social .twitter .social-button i:hover,
+.ba-social-minimal .twitter .social-counter,
+.ba-social-classic .twitter .social-button i,
+.ba-social-circle .twitter .social-button,
+.ba-social-flat.ba-social .twitter {
+    background: #000000;
+}
+
+
+
+.ba-social-minimal.ba-social .linkedin .social-button i:hover,
+
+.ba-social-minimal .linkedin .social-counter,
+
+.ba-social-classic .linkedin .social-button i,
+
+.ba-social-circle .linkedin .social-button,
+
+.ba-social-flat.ba-social .linkedin {
+
+    background: #0077B5;
+
+}
+
+
+
+.ba-social-minimal.ba-social .pinterest .social-button i:hover,
+
+.ba-social-minimal .pinterest .social-counter,
+
+.ba-social-classic .pinterest .social-button i,
+
+.ba-social-circle .pinterest .social-button,
+
+.ba-social-flat.ba-social .pinterest {
+
+    background: #cb2027;
+
+}
+
+
+
+.ba-item-social:not(.ba-social-sidebar) .ba-social-classic div:hover .social-button i:before,
+
+.ba-item-social:not(.ba-social-sidebar) .ba-social-flat.ba-social div:hover .social-button i:before {
+
+    animation: social-button-to-right 0.3s forwards;
+
+    display: block;
+
+}
+
+
+
+@keyframes social-button-to-right {
+
+    49% {transform: translate(100%);}
+
+    50% {opacity: 0;transform: translate(-100%);}
+
+    51% {opacity: 1;}
+
+}
+
+
+
+.ba-social-circle div:hover .social-button i:before {
+
+    animation: social-button-to-bottom 0.3s forwards;
+
+    display: block;
+
+}
+
+
+
+@keyframes social-button-to-bottom {
+
+    49% {transform: translateY(100%);}
+
+    50% {opacity: 0;transform: translateY(-100%);}
+
+    51% {opacity: 1;}
+
+}
+
+
+
+/* Classic */
+
+.ba-social-classic > div {
+
+    background: var(--bg-secondary);
+
+}
+
+
+
+.ba-social-classic .social-button {
+
+    color: #000;
+
+}
+
+
+
+.ba-social-classic .social-counter {
+
+    background: rgba(0, 0, 0, 0.05);
+
+    color: #000;
+
+}
+
+
+
+/* Social Circle */
+
+.ba-social-circle.ba-social > div {
+
+    display: inline-block;
+
+    line-height: normal;
+
+    position: relative;
+
+    vertical-align: top;
+
+}
+
+
+
+.ba-social-minimal .social-button,
+
+.ba-social-circle .social-button {
+
+    color: transparent;
+
+    display: block;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 0;
+
+}
+
+
+
+.ba-social-circle .social-button i {
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    vertical-align: middle;
+
+}
+
+
+
+.ba-social-circle .social-counter {
+
+    background-color: transparent;
+
+    color: #333;
+
+    margin: 0;
+
+}
+
+
+
+.ba-social-circle.ba-social .social-button {
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-circle.ba-social .social-button {
+
+    border-width: 0;
+
+    margin: 3px 0;
+
+    padding: 5px 10px;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-circle {
+
+    margin-top: 1px;
+
+}
+
+
+
+.ba-social-circle.ba-social .social-button i {
+
+    margin: 0;
+
+    font-size: 16px !important;
+
+}
+
+
+
+.ba-social-circle.ba-social.ba-social-sm .social-button {
+
+    min-width: 55px;
+
+    height: 55px;
+
+}
+
+
+
+.ba-social-circle.ba-social.ba-social-md .social-button {
+
+    min-width: 65px;
+
+    height: 65px;
+
+}
+
+
+
+.ba-social-circle.ba-social.ba-social-lg .social-button {
+
+    min-width: 75px;
+
+    height: 75px;
+
+}
+
+
+
+.ba-social-circle.ba-social.ba-social-sm .social-counter,
+
+.ba-social-circle.ba-social.ba-social-md .social-counter,
+
+.ba-social-circle.ba-social.ba-social-lg .social-counter {
+
+    line-height: 36px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-circle.ba-social .social-counter {
+
+    padding: 0;
+
+}
+
+
+
+.ba-social-circle .social-counter:before,
+
+.ba-social-circle .social-counter:after {
+
+    display: none;
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-circle > div {
+
+    max-width: none;
+
+    min-width: auto;
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-circle .social-counter {
+
+    bottom: 10px;
+
+    color: #fff;
+
+    font-size: 10px;
+
+    left: 50%;
+
+    line-height: normal !important;
+
+    position: absolute;
+
+    transform: translateX(-50%);
+
+}
+
+
+
+/* Social Sidebar */
+
+.ba-social-sidebar {
+
+    left: 100% !important;
+
+    position: fixed !important;
+
+    top: 50% !important;
+
+    min-height: 50px;
+
+    transition: opacity .3s linear;
+
+    z-index: 10000;
+
+}
+
+
+
+.ba-opened-menu .ba-social-sidebar {
+
+    z-index: 5;
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-lg"][data-style="ba-social-minimal"] {
+
+    transform: translateY(calc((-74px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-md"][data-style="ba-social-minimal"] {
+
+    transform: translateY(calc((-62px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-sm"][data-style="ba-social-minimal"] {
+
+    transform: translateY(calc((-59px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-lg"][data-style="ba-social-flat"] {
+
+    transform: translateY(calc((-74px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-md"][data-style="ba-social-flat"] {
+
+    transform: translateY(calc((-62px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-sm"][data-style="ba-social-flat"] {
+
+    transform: translateY(calc((-59px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-lg"][data-style="ba-social-classic"] {
+
+    transform: translateY(calc((-71px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-md"][data-style="ba-social-classic"] {
+
+    transform: translateY(calc((-58px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-sm"][data-style="ba-social-classic"] {
+
+    transform: translateY(calc((-56px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-lg"][data-style="ba-social-circle"] {
+
+    transform: translateY(calc((-92px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-md"][data-style="ba-social-circle"] {
+
+    transform: translateY(calc((-82px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.ba-social-sidebar[data-size="ba-social-sm"][data-style="ba-social-circle"] {
+
+    transform: translateY(calc((-72px/2) * var(--social-count))) translateX(-100%);
+
+}
+
+
+
+.lightbox-open .ba-social-sidebar {
+
+    left: calc(100% - 17px) !important;
+
+    transition: opacity 0s linear;
+
+    opacity: 0;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-lg > div,
+
+.ba-social-sidebar .ba-social-md > div,
+
+.ba-social-sidebar .ba-social-sm > div {
+
+    max-width: 100px;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-classic {
+
+    align-items: flex-end;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-classic > div {
+
+    border-radius: 0;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-classic .social-button {
+
+    backface-visibility: hidden;
+
+    border-width: 0;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-lg:hover > div ,
+
+.ba-social-sidebar .ba-social-md:hover > div ,
+
+.ba-social-sidebar .ba-social-sm:hover > div  {
+
+    backface-visibility: hidden;
+
+    max-width: 350px;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-minimal.ba-social-lg,
+
+.ba-social-sidebar .ba-social-minimal.ba-social-md,
+
+.ba-social-sidebar .ba-social-minimal.ba-social-sm {
+
+    overflow: visible;
+
+    text-align: center !important;
+
+}
+
+
+
+.ba-social-sidebar .ba-social-lg,
+
+.ba-social-sidebar .ba-social-md,
+
+.ba-social-sidebar .ba-social-sm {
+
+    overflow: hidden;
+
+    text-align: right !important;
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-lg:not(.ba-social-circle):not(.ba-social-minimal) > div {
+
+    transform: translateX(100%) translateX(-62px);
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-md:not(.ba-social-circle):not(.ba-social-minimal) > div {
+
+    transform: translateX(100%) translateX(-49px);
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-sm:not(.ba-social-circle):not(.ba-social-minimal) > div {
+
+    transform: translateX(100%) translateX(-47px);
+
+}
+
+
+
+.ba-social-sidebar .ba-social.ba-social-sm:not(.ba-social-circle):not(.ba-social-minimal) > div:hover,
+
+.ba-social-sidebar .ba-social.ba-social-md:not(.ba-social-circle):not(.ba-social-minimal) > div:hover,
+
+.ba-social-sidebar .ba-social.ba-social-lg:not(.ba-social-circle):not(.ba-social-minimal) > div:hover {
+
+    transform: translateX(1px);
+
+}
+
+
+
+.ba-social-sidebar .ba-social > div {
+
+    display: inline-block;
+
+    margin: 0;
+
+    text-align: center;
+
+    transition: transform .3s linear;
+
+}
+
+
+
+.ba-social-sidebar .ba-social .social-counter {
+
+    text-align: center;
+
+}

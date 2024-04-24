@@ -1,0 +1,189 @@
+/* 
+/* Checkout Authentication 
+*/
+body:not(.ba-visible-checkout-authentication) .ba-checkout-authentication-backdrop {
+    display: none;
+}
+
+.ba-checkout-authentication-backdrop .ba-icon-close.ba-leave-checkout {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transition: opacity .3s;
+    z-index: 100;
+}
+
+.ba-checkout-authentication-backdrop .ba-icon-close.ba-leave-checkout:hover {
+    opacity: .5;
+}
+
+.ba-checkout-authentication-title {
+    margin-bottom: 35px;
+}
+
+.ba-checkout-authentication-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+.body .ba-checkout-authentication-backdrop {
+    align-items: flex-start;
+    background-color: var(--bg-primary);
+    overflow-y: scroll; 
+}
+
+.ba-checkout-authentication-backdrop {
+    right: auto;
+    width: 100vw;
+}
+
+.ba-checkout-authentication-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 95%;
+    position: absolute;
+}
+
+.body .ba-checkout-authentication-wrapper > div {
+    border-radius: 0; 
+    border: 1px solid var(--border);
+    box-shadow: none;
+    margin: 50px 10px;
+}
+
+@media (min-height: 900px){
+    .body .ba-checkout-authentication-backdrop {
+        align-items: center;
+    }
+}
+
+.ba-checkout-authentication-btn-wrapper span {
+    background: var(--primary);
+    cursor: pointer;
+    display: block;
+}
+
+.ba-checkout-authentication-btn-wrapper span:hover {
+    background-color: var(--hover);
+}
+
+.ba-checkout-authentication-checkbox .ba-checkbox {
+    margin-right: 10px;
+    min-width: 20px;
+    position: relative;
+    width: 20px;
+}
+
+.ba-checkout-login-wrapper .ba-checkout-authentication-links a ,
+.ba-checkout-authentication-checkbox > .ba-checkbox-wrapper > span {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-style: var(--title-font-style);
+    font-weight: 400;
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    text-decoration: var(--title-text-decoration);
+    text-transform: var(--title-text-transform);
+    width: auto;
+}
+
+.ba-checkout-authentication-btn-wrapper,
+.ba-login-captcha-wrapper,
+.ba-checkout-authentication-checkbox > .ba-checkbox-wrapper {
+    margin-top: 20px!important;
+    margin-bottom: 0!important;
+}
+
+.ba-checkout-login-wrapper .ba-checkout-authentication-links a {
+    min-width: 50%;
+}
+
+.ba-checkout-authentication-forgot-wrapper {
+    display: flex;
+}
+
+.ba-checkout-login-wrapper .ba-checkout-authentication-links .ba-show-registration-dialog {
+    width: auto;
+}
+
+.ba-item-login .ba-login-integrations-wrapper.ba-login-integrations-hidden-element > div {
+    width: 100%;
+}
+
+.ba-checkout-authentication-checkbox .ba-checkbox span {
+    top: -10px;
+}
+
+.ba-checkout-guest-wrapper {
+    display: flex;
+}
+
+.ba-checkout-authentication-text {
+    margin-bottom: 25px;
+}
+
+.ba-checkout-authentication-input input {
+    width: 100%;
+}
+
+.ba-checkout-registration-wrapper .ba-checkout-authentication-checkbox > .ba-checkbox-wrapper {
+    align-items: flex-start;
+}
+
+.ba-checkout-registration-wrapper .ba-checkout-authentication-checkbox .ba-checkbox {
+    margin-top: 15px;
+}
+
+.ba-password-request-wrapper .ba-login-description,
+.ba-forgot-username-wrapper .ba-login-description,
+.ba-forgot-password-wrapper .ba-login-description,
+.ba-checkout-authentication-checkbox .ba-checkbox-wrapper p,
+.ba-checkout-authentication-text {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.ba-visible-checkout-authentication {
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.ba-out-checkout-authentication .ba-checkout-authentication-wrapper {
+    transform: scale(.5);
+    opacity: 0;
+}
+
+.ba-out-checkout-authentication .ba-checkout-authentication-backdrop {
+    opacity: 0;
+}
+
+@media (max-width: 1005px){
+    .ba-checkout-authentication-wrapper {
+        top: 0;
+        padding: 25px 0;
+    }
+}
+
+.ba-login-footer-wrapper {
+    margin-top: 20px;
+}
+
+.ba-login-footer-wrapper span {
+    transition: opacity .3s;
+}
+
+.ba-login-footer-wrapper span:hover {
+    opacity: .5;
+}

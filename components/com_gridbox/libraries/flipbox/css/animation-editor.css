@@ -1,0 +1,166 @@
+/* ========================================================================
+    Plugin Flipbox Editor
+ ========================================================================== */
+.horizontal-flip:not(.backside-fliped) .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item,
+.horizontal-flip:not(.backside-fliped) .ba-flipbox-backside .ba-grid-column-wrapper .ba-grid-column .ba-item,
+.vertical-flip:not(.backside-fliped) .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item,
+.vertical-flip:not(.backside-fliped) .ba-flipbox-backside .ba-grid-column-wrapper .ba-grid-column .ba-item,
+.horizontal-flip .horizontal-flip-right:not(.backside-fliped),
+.horizontal-flip .horizontal-flip-left:not(.backside-fliped),
+.vertical-flip .vertical-flip-bottom:not(.backside-fliped),
+.vertical-flip .vertical-flip-top:not(.backside-fliped),
+.horizontal-flip:not(.backside-fliped) .ba-flipbox-frontside,
+.horizontal-flip:not(.backside-fliped) .ba-flipbox-backside,
+.vertical-flip:not(.backside-fliped) .ba-flipbox-frontside,
+.vertical-flip:not(.backside-fliped) .ba-flipbox-backside {
+    transition-duration: 0s!important;
+    transition: none!important;
+}
+
+/* Vertical Flip */
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .vertical-flip-top .ba-flipbox-backside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .vertical-flip-bottom .ba-flipbox-backside,
+.gridbox .ba-item-flipbox:not(.backside-fliped) .vertical-flip-bottom .ba-flipbox-frontside,
+.gridbox .ba-item-flipbox:not(.backside-fliped) .vertical-flip-top .ba-flipbox-frontside {
+    transform: rotateX(0deg)!important;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .vertical-flip-bottom .ba-flipbox-backside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .vertical-flip-top .ba-flipbox-frontside {
+    transform: rotateX(180deg)!important;
+}
+
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .vertical-flip-bottom .ba-flipbox-frontside,
+.gridbox .ba-item-flipbox:not(.backside-fliped) .vertical-flip-top .ba-flipbox-backside {
+    transform: rotateX(-180deg)!important;
+}
+
+/* Horizontal Flip */
+.gridbox .ba-item-flipbox:not(.backside-fliped) .horizontal-flip-left .ba-flipbox-frontside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .horizontal-flip-right .ba-flipbox-backside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .horizontal-flip-left .ba-flipbox-backside,
+.gridbox .ba-item-flipbox:not(.backside-fliped) .horizontal-flip-right .ba-flipbox-frontside {
+    transform: rotateY(0deg)!important;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .horizontal-flip-left .ba-flipbox-backside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .horizontal-flip-right .ba-flipbox-frontside {
+    transform: rotateY(180deg)!important;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .horizontal-flip-right .ba-flipbox-backside,
+.gridbox .backside-fliped.ba-item-flipbox.backside-fliped .horizontal-flip-left .ba-flipbox-frontside {
+    transform: rotateY(-180deg)!important;
+}
+
+.sortable-started .ba-grid-column .ba-row-wrapper,
+.gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item.sortable-helper,
+.gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item.sortable-helper,
+.gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item.sortable-helper,
+.gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside .ba-grid-column-wrapper .ba-grid-column .ba-item.sortable-helper,
+.gridbox.com_gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .horizontal-flip-left .ba-flipbox-frontside,
+.gridbox.com_gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .horizontal-flip-right .ba-flipbox-frontside,
+.gridbox.com_gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .vertical-flip-bottom .ba-flipbox-frontside,
+.gridbox.com_gridbox .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .vertical-flip-top .ba-flipbox-frontside,
+.gridbox.com_gridbox .backside-fliped.ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .horizontal-flip-left .ba-flipbox-backside,
+.gridbox.com_gridbox .backside-fliped.ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .horizontal-flip-right .ba-flipbox-backside,
+.gridbox.com_gridbox .backside-fliped.ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .vertical-flip-bottom .ba-flipbox-backside,
+.gridbox.com_gridbox .backside-fliped.ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .vertical-flip-top .ba-flipbox-backside,
+.gridbox.com_gridbox .active-item .ba-item-flipbox:not(.flipbox-animation-started) .ba-flipbox-wrapper,
+.gridbox.com_gridbox .ba-item-flipbox.sortable-started .ba-flipbox-wrapper,
+.gridbox.com_gridbox .ba-item-flipbox.sortable-started:not(.backside-fliped) .ba-flipbox-wrapper .ba-flipbox-frontside,
+.gridbox.com_gridbox .ba-item-flipbox.sortable-started.backside-fliped .ba-flipbox-wrapper .ba-flipbox-backside {
+    transform: none !important;
+    perspective: none !important;
+    transition: none !important;
+    transform-style: flat !important;
+}
+
+/* 3D Flip*/
+.gridbox .ba-item-flipbox .flipbox-3d-effect .ba-grid-column-wrapper .ba-grid-column .ba-row-wrapper,
+.ba-flipbox-wrapper.flipbox-3d-effect > .column-wrapper > .ba-grid-column-wrapper,
+.ba-flipbox-wrapper.flipbox-3d-effect > .column-wrapper > .ba-grid-column-wrapper .ba-grid-column,
+.gridbox .ba-item-flipbox .flipbox-3d-effect .ba-grid-column-wrapper .ba-grid-column .ba-item {
+    transition-duration: inherit !important;
+    transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(0px) scale(1);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.vertical-flip-top .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0px) translateX(0%) translateZ(0px) scale(1);
+    transform-style: preserve-3d;
+}
+
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(-250%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(250%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(250%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.flipbox-3d-effect.horizontal-flip-right .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(-250%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(100vh) translateX(0%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(-100vh) translateX(0%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.gridbox .ba-item-flipbox.backside-fliped .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(-100vh) translateX(0%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.gridbox .ba-item-flipbox:not(.backside-fliped) .flipbox-3d-effect.vertical-flip-top .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(100vh) translateX(0%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox .sortable-placeholder {
+    width: calc(100% - 30px);
+}
+
+.gridbox .active-item .ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-top .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox.backside-fliped:not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.gridbox .active-item .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background), 
+.gridbox .active-item .ba-item-flipbox:not(.backside-fliped):not(.flipbox-animation-started) .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.active-item-cp .ba-flipbox-wrapper .ba-grid-column,
+.ba-item-flipbox:not(.flipbox-animation-started) .ba-flipbox-wrapper .active-item .ba-item {
+    transform: none !important;
+    transition: none !important;
+    transform-style: flat !important;
+}

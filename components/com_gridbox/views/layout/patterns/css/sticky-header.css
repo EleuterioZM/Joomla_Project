@@ -1,0 +1,40 @@
+/*
+/* Plugin Sticky Header
+*/
+
+.ba-sticky-header {
+    transform: translateY(-100vh);
+    position: fixed;
+    top: 0;
+}
+
+.ba-sticky-header.visible-sticky-header {
+    display: block;
+    left: 0;
+    max-width: 100%;
+    right: 0;
+    transform: none;
+    z-index: 45;
+}
+
+.ba-store-cart-opened .header:not(.sidebar-menu) .ba-sticky-header.visible-sticky-header,
+.ba-store-wishlist-opened .header:not(.sidebar-menu) .ba-sticky-header.visible-sticky-header {
+    max-width: calc(100vw - var(--body-scroll-width));
+}
+
+.ba-store-cart-opened .sidebar-menu .ba-sticky-header.visible-sticky-header,
+.ba-store-wishlist-opened .sidebar-menu .ba-sticky-header.visible-sticky-header {
+    max-width: calc(100vw - var(--sidebar-menu-width) - var(--body-scroll-width));
+}
+
+.sticky-header-opened .ba-sticky-header-parent {
+    z-index: 999999 !important;
+}
+
+.sticky-header-opened .header.ba-sticky-header-parent {
+    z-index: 9999999 !important;
+}
+
+.sticky-header-opened .ba-sticky-header-parent ~ .ba-comments-modal {
+    z-index: 99999999;
+}

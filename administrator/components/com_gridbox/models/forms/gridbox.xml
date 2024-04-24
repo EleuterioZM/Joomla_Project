@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field
+            name="id"
+            type="hidden"
+            />
+        <field name="comments_recaptcha"
+            type="plugins"
+            folder="captcha"
+            default="0"
+            filter="cmd"/>
+    </fieldset>
+</form>

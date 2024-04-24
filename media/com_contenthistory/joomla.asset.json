@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_contenthistory",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_contenthistory.admin-compare-compare.es5",
+      "type": "script",
+      "uri": "com_contenthistory/admin-compare-compare-es5.min.js",
+      "dependencies": [
+        "core",
+        "diff"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "1a023ac8995be80c56310f6fc2c5872dc5e13a76"
+    },
+    {
+      "name": "com_contenthistory.admin-compare-compare",
+      "type": "script",
+      "uri": "com_contenthistory/admin-compare-compare.min.js",
+      "dependencies": [
+        "com_contenthistory.admin-compare-compare.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "3a3f9134be7be982cf3705dd39b50dd47083cc06"
+    },
+    {
+      "name": "com_contenthistory.admin-history-modal.es5",
+      "type": "script",
+      "uri": "com_contenthistory/admin-history-modal-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "ada35a629abc49d2c980899d78d42c5786f49ab4"
+    },
+    {
+      "name": "com_contenthistory.admin-history-modal",
+      "type": "script",
+      "uri": "com_contenthistory/admin-history-modal.min.js",
+      "dependencies": [
+        "com_contenthistory.admin-history-modal.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "38c9a776abe63c1569786e8a4e2e6db0ec9d5ef6"
+    },
+    {
+      "name": "com_contenthistory.admin-history-versions.es5",
+      "type": "script",
+      "uri": "com_contenthistory/admin-history-versions-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "1f92d08e5eaf196fb3c0fb9cb1ce4943208f5353"
+    },
+    {
+      "name": "com_contenthistory.admin-history-versions",
+      "type": "script",
+      "uri": "com_contenthistory/admin-history-versions.min.js",
+      "dependencies": [
+        "com_contenthistory.admin-history-versions.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "973d531805b2bf1a57af65fc7c2b00d3669b73f0"
+    }
+  ]
+}

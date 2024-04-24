@@ -1,0 +1,93 @@
+.ba-item-categories .ba-blog-post .ba-app-category-counter {
+    white-space: nowrap;
+}
+
+.ba-item-categories .ba-blog-post a span.ba-app-category-counter {
+    margin-left: 10px;
+}
+
+.ba-item-categories .ba-blog-post-title-wrapper + .ba-blog-post-info-wrapper {
+    margin-left: 25px;
+}
+
+.ba-item-categories .ba-blog-post .ba-app-sub-category {
+    margin-left: calc(25px * var(--sub-category-level));
+}
+
+.ba-item-categories .ba-blog-post .ba-app-sub-category a {
+    color: inherit;
+    flex-grow: 1;
+}
+
+.ba-item-categories .ba-classic-layout .ba-blog-post-image {
+    margin-right: 40px;
+}
+
+.ba-item-categories .ba-classic-layout .ba-blog-post > .ba-blog-post-content {
+    padding: 0;
+}
+
+.ba-collapsible-categories .ba-blog-post-content .ba-blog-post-info-wrapper,
+.ba-collapsible-categories .ba-app-sub-category-wrapper .ba-app-sub-category-childs {
+    height: var(--categories-collapse-height);
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+
+.ba-collapsible-categories .ba-blog-post-title i,
+.ba-collapsible-categories .ba-app-sub-category i {
+    font-size: 18px !important;
+    letter-spacing: normal;
+    line-height: 18px !important; 
+}
+
+.ba-collapsible-categories .ba-blog-post-title i {
+    padding: 0 18px;
+}
+
+.ba-collapsible-categories .ba-blog-post-content .ba-blog-post-title-wrapper i:before,
+.ba-collapsible-categories .ba-app-sub-category-wrapper > span  i:before {
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.ba-categories-wrapper:not(.ba-collapsible-categories) .ba-blog-post-content .ba-blog-post-title-wrapper i,
+.ba-categories-wrapper:not(.ba-collapsible-categories) .ba-app-sub-category-wrapper > span  i {
+    display: none !important;
+}
+
+.ba-collapsible-categories .ba-blog-post-content:not(.ba-categories-icon-rotated) .ba-blog-post-title-wrapper i:before,
+.ba-collapsible-categories .ba-app-sub-category-wrapper:not(.ba-categories-icon-rotated) > span  i:before {
+    transform: rotate(90deg);
+}
+
+.ba-app-sub-category {
+    display: flex;
+    justify-content: inherit;
+    transition: color .3s ease-in-out;
+}
+
+.ba-item-categories .ba-blog-post-title {
+    flex-wrap: nowrap;
+}
+
+.ba-collapsible-categories .ba-app-sub-category i,
+.ba-collapsible-categories .ba-blog-post-title i {
+    align-items: center;
+    cursor: pointer !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ba-item-categories .ba-classic-layout {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ba-item-categories .ba-classic-layout .ba-blog-post,
+.ba-item-categories .ba-classic-layout {
+    align-items: flex-start;
+    display: flex;
+}

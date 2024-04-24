@@ -1,0 +1,62 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "typography" : {
+            "font-family" : "@default",
+            "font-size" : 14,
+            "font-style" : "normal",
+            "font-weight" : "400",
+            "letter-spacing" : 0,
+            "line-height" : 26,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "25",
+            "left" : "25",
+            "right" : "25",
+            "top" : "25"
+        },
+        "icons":{
+            "size" : 24
+        },
+        "normal":{
+            "color" : "@icon",
+            "background-color" : "rgba(255, 255, 255, 0)"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "icon" : {
+        "icon" : "zmdi zmdi-favorite",
+        "position" : ""
+    },
+    "hover" : {
+        "color" : "@hover",
+        "background-color" : "rgba(255, 255, 255, 0)"
+    },
+    "title": "",
+    "layout": "lightbox",
+    "type" : "wishlist",
+    "access" : 1,
+    "suffix" : ""
+}

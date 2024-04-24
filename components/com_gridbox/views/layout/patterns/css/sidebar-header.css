@@ -1,0 +1,15 @@
+.sidebar-menu > .ba-wrapper:not(.ba-sticky-header) > .ba-section {
+    min-height: 100vh !important;
+}
+
+.sidebar-menu .ba-wrapper.ba-sticky-header,
+.sidebar-menu + .body ~ .footer,
+.sidebar-menu + .body  {
+    margin-left: var(--sidebar-menu-width)!important;
+    margin-top: 0;
+    width: calc(100% - ( var(--sidebar-menu-width) ));
+}
+
+.header.sidebar-menu .column-wrapper {
+    display: block;
+}

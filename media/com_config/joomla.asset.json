@@ -1,0 +1,109 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_config",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_config.config.es5",
+      "type": "script",
+      "uri": "com_config/config-default-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "ec88d05778ea181a7e06a8ff9ff89d052bbf9de2"
+    },
+    {
+      "name": "com_config.config",
+      "type": "script",
+      "uri": "com_config/config-default.min.js",
+      "dependencies": [
+        "com_config.config.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "1fe50a55ef9b0d6990c6c0d87ffb3f206a318952"
+    },
+    {
+      "name": "com_config.modules.es5",
+      "type": "script",
+      "uri": "com_config/modules-default-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "af347e107b55dc569c7469a6706b2858dd46a730"
+    },
+    {
+      "name": "com_config.modules",
+      "type": "script",
+      "uri": "com_config/modules-default.min.js",
+      "dependencies": [
+        "com_config.modules.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "f52978c1ce633bc6e374ed886effe434a5f15d04"
+    },
+    {
+      "name": "com_config.templates.es5",
+      "type": "script",
+      "uri": "com_config/templates-default-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "25e828c6d6e022e52910363874b06f2ab744a7dd"
+    },
+    {
+      "name": "com_config.templates",
+      "type": "script",
+      "uri": "com_config/templates-default.min.js",
+      "dependencies": [
+        "com_config.templates.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "58baba0d10f0b994903efb73667dd6273b195f0d"
+    },
+    {
+      "name": "com_config.filters.es5",
+      "type": "script",
+      "uri": "com_config/config-filters-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "3c18391fd4db86e7f1489a96fdd519cce0404348"
+    },
+    {
+      "name": "com_config.filters",
+      "type": "script",
+      "uri": "com_config/config-filters.min.js",
+      "dependencies": [
+        "com_config.filters.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "2ead1777c9585f34972272bb31bc0c28f0993f50"
+    }
+  ]
+}

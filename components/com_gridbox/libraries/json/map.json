@@ -1,0 +1,51 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "height" : "400",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "map" : {
+        "center" : {
+            "lat" : 42.345573,
+            "lng" : -71.098326
+        },
+        "zoom": 14,
+        "mapTypeId" : "roadmap",
+        "scrollwheel": false,
+        "navigationControl": true,
+        "mapTypeControl": true,
+        "scaleControl": true,
+        "draggable": true,
+        "zoomControl": true,
+        "disableDefaultUI": false,
+        "disableDoubleClickZoom": false
+    },
+    "style" : [],
+    "styleType" : "standart",
+    "marker" : {
+        "0" : {
+            "description" : "",
+            "infobox" : "0",
+            "icon" : ""
+        }
+    },
+    "controls" : "1",
+    "scrollwheel" : "0",
+    "draggable" : "1",
+    "type" : "map",
+    "access" : 1,
+    "suffix" : ""
+}

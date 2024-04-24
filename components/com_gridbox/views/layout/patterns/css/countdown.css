@@ -1,0 +1,19 @@
+/*
+/* Plugin Countdown
+*/
+
+.ba-item-countdown {
+    text-align: center;
+}
+
+.ba-countdown > span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.ba-countdown .countdown-time {
+    display: block;
+    min-width: 1.3em;
+}

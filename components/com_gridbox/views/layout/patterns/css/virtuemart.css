@@ -1,0 +1,158 @@
+.com_virtuemart table.user-details input {
+    border-radius: 0;
+    font-size: inherit;
+}
+
+.com_virtuemart #searchMedia,
+.com_virtuemart .chzn-container-multi .chzn-choices {
+    min-height: 48px;
+}
+
+.com_virtuemart input {
+    font-size: initial;
+}
+
+/* Tab */
+.com_virtuemart #ui-tabs ul#tabs {
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 0;
+    overflow:visible;
+}
+
+.com_virtuemart #ui-tabs ul#tabs li {
+    background-color: transparent;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid transparent;
+    color: #555;
+    line-height: 18px;
+    padding: 10px;
+    margin-bottom: -1px;
+}
+
+.com_virtuemart #ui-tabs ul#tabs li.current{
+    border: 1px solid #f3f3f3;
+    border-bottom-color: transparent;
+    background: #fff;
+    cursor: default;
+}
+
+.com_virtuemart .modal {
+    background-color: transparent;
+    position: static;
+    z-index: 0;
+}
+
+.com_virtuemart .fg-button {
+    height: auto !important;
+}
+
+.com_virtuemart .product-container h1,
+.com_virtuemart .ask-a-question-view h1,
+.com_virtuemart .manufacturer-details-view h1,
+.com_virtuemart .manufacturer-view-default h2,
+.com_virtuemart .category-view h1,
+.com_virtuemart .vendor-details-view h3,
+.com_virtuemart .vendor-details-view h1 {
+    text-align: left;
+}
+
+/* Button */
+.com_virtuemart .orderlistcontainer div.activeOrder,
+.com_virtuemart .general-bg,
+.com_virtuemart input.custom-attribute,
+.com_virtuemart input.quantity-input,
+.com_virtuemart .manufacturer-product-link a,
+.com_virtuemart a.ask-a-question,
+.com_virtuemart input.vm-default,
+.com_virtuemart a.product-details,
+.com_virtuemart a.details,
+.com_virtuemart div.details,
+.com_virtuemart button.default,
+.com_virtuemart input.highlight-button,
+.com_virtuemart div.vm-details-button a,
+.com_virtuemart span.addtocart-button span.addtocart-button,
+.com_virtuemart span.addtocart-button input.addtocart-button,
+.com_virtuemart span.addtocart-button input.notify-button {
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    color: #363637;
+    cursor: pointer;
+    display: inline-block;
+    font: 500 14px/18px 'Roboto', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.com_virtuemart .general-bg:hover,
+.com_virtuemart input.custom-attribute:hover,
+.com_virtuemart input.quantity-input:hover,
+.com_virtuemart .manufacturer-product-link a:hover,
+.com_virtuemart a.ask-a-question:hover,
+.com_virtuemart input.vm-default:hover,
+.com_virtuemart a.product-details:hover,
+.com_virtuemart a.details:hover,
+.com_virtuemart div.details:hover,
+.com_virtuemart button.default:hover,
+.com_virtuemart a.details:hover,
+.com_virtuemart div.details:hover,
+.com_virtuemart a.product-details:hover {
+    background-color: #e6e6e6;
+    background-image: none;
+    background-position: 0;
+    border: none;
+    color: #363637;
+    opacity: .85;
+}
+
+.com_virtuemart input.highlight-button,
+.com_virtuemart input.highlight-button:hover,
+.com_virtuemart span.addtocart-button span.addtocart-button:hover,
+.com_virtuemart span.addtocart-button input.addtocart-button:hover,
+.com_virtuemart span.addtocart-button input.notify-button:hover,
+.com_virtuemart span.addtocart-button span.addtocart-button,
+.com_virtuemart span.addtocart-button input.addtocart-button,
+.com_virtuemart span.addtocart-button input.notify-button {
+    background: #51cf51;
+    color: #fff;
+}
+
+.com_virtuemart input.highlight-button:hover,
+.com_virtuemart span.addtocart-button span.addtocart-button:hover,
+.com_virtuemart span.addtocart-button input.addtocart-button:hover,
+.com_virtuemart span.addtocart-button input.notify-button:hover {
+    opacity: .85;
+}
+
+.com_virtuemart .orderlistcontainer {
+    position: relative;
+}
+
+.com_virtuemart .orderlistcontainer div.orderlist {
+    width: 100%;
+}
+
+.com_virtuemart .orderlistcontainer a {
+    color: #363637;
+}
+
+.com_virtuemart .orderlistcontainer div.activeOrder{
+    background-position: 98% 12px;
+    padding-right: 30px !important;
+}
+
+.com_virtuemart .orderlistcontainer div.orderlist {
+    border-color: #f3f3f3;
+}
+
+/* Message */
+.com_virtuemart #system-message {
+    background: #02adea;
+}

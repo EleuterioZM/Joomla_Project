@@ -1,0 +1,150 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "nav-typography" : {
+            "font-family" : "@default",
+            "font-size" : 12,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 12,
+            "text-decoration" : "none",
+            "text-align" : "right",
+            "text-transform" : "uppercase"
+        },
+        "nav": {
+            "padding" : {
+                "bottom" : "15",
+                "left" : "15",
+                "right" : "15",
+                "top" : "15"
+            },
+            "icon":{
+                "size" : 24
+            },
+            "margin" : {
+                "left" : "5",
+                "right" : "5"
+            },
+            "border" : {
+                "bottom" : "0",
+                "left" : "0",
+                "right" : "0",
+                "top" : "0",
+                "color" : "@border",
+                "style" : "solid",
+                "radius" : "0",
+                "width" : "0"
+            },
+            "normal" : {
+                "color" : "@title",
+                "background" : "rgba(255,255,255,0)"
+            },
+            "hover" : {
+                "color" : "@primary",
+                "background" : "rgba(255,255,255,0)"
+            }
+        },
+        "sub": {
+            "padding" : {
+                "bottom" : "20",
+                "left" : "20",
+                "right" : "20",
+                "top" : "20"
+            },
+            "icon":{
+                "size" : 24
+            },
+            "border" : {
+                "bottom" : "0",
+                "left" : "0",
+                "right" : "0",
+                "top" : "0",
+                "color" : "@border",
+                "style" : "solid",
+                "radius" : "0",
+                "width" : "1"
+            },
+            "normal" : {
+                "color" : "@title",
+                "background" : "rgba(0,0,0,0)"
+            },
+            "hover" : {
+                "color" : "@title-inverse",
+                "background" : "@primary"
+            }
+        },
+        "sub-typography" :{
+            "font-family" : "@default",
+            "font-size" : 12,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 12,
+            "text-decoration" : "none",
+            "text-align" : "left",
+            "text-transform" : "uppercase"
+        },
+        "dropdown" : {
+            "width": 300,
+            "animation" : {
+                "effect" : "fadeInUp",
+                "duration" : "0.4"
+            },
+            "padding" : {
+                "bottom" : "20",
+                "left" : "20",
+                "right" : "20",
+                "top" : "20"
+            },
+            "border" : {
+                "bottom" : "0",
+                "left" : "0",
+                "right" : "0",
+                "top" : "0",
+                "color" : "@border",
+                "style" : "solid",
+                "radius" : "0",
+                "width" : "0"
+            }
+        },
+        "background": {
+            "color" : "@bg-secondary"
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "tablet-portrait" : {
+        "nav-typography" : {
+            "text-align" : "left"
+        }
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "hamburger" : {
+        "enable" : true,
+        "collapse" : true,
+        "open" : "@icon",
+        "open-align" : "right",
+        "close" : "@icon",
+        "close-align" : "right",
+        "position" : "",
+        "background" : "@bg-primary"
+    },
+    "layout" : {
+        "layout": ""
+    },
+    "type" : "menu",
+    "access" : 1,
+    "suffix" : ""
+}

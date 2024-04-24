@@ -1,0 +1,26 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "width" : 75,
+        "text-align" : "left",
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "link" : {
+        "link" : "",
+        "target" : "_blank"
+    },
+    "image" : "components/com_gridbox/assets/images/gridbox.svg",
+    "alt" : "",
+    "type" : "logo",
+    "access" : 1,
+    "suffix" : ""
+}

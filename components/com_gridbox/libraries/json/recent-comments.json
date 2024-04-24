@@ -1,0 +1,116 @@
+{
+    "desktop":{
+        "view": {
+            "date":true,
+            "image":true,
+            "title":true,
+            "intro":true
+        },
+        "background" : {
+            "color" : "rgba(255, 255, 255, 0)"
+        },
+        "shadow":{
+            "value":0,
+            "color":"@shadow"
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "1"
+        },
+        "image":{
+            "width":"50",
+            "height":"50",
+            "border":{
+                "color":"@border",
+                "radius":"100",
+                "style":"solid",
+                "width":"0"
+            }
+        },
+        "title":{
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"16",
+                "font-style":"normal",
+                "font-weight":"900",
+                "letter-spacing":0,
+                "line-height":"24",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "info":{
+            "margin":{
+                "bottom":"10",
+                "top":"0"
+            },
+            "typography":{
+                "color":"@subtitle",
+                "font-family":"@default",
+                "font-size":"10",
+                "font-style":"normal",
+                "font-weight":"500",
+                "letter-spacing":"2",
+                "line-height":"18",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"uppercase"
+            }
+        },
+        "intro":{
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":14,
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":28,
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            }
+        },
+        "margin":{
+            "bottom":"25",
+            "top":"25"
+        },
+        "padding":{
+            "bottom": 25,
+            "left": 25,
+            "right": 25,
+            "top": 25
+        },
+        "disable":"0"
+    },
+    "tablet":{
+        "disable":"0"
+    },
+    "phone":{
+        "disable":"0"
+    },
+    "maximum":"75",
+    "limit":3,
+    "sorting":"recent",
+    "app": 0,
+    "layout":{
+        "layout":"ba-classic-layout"
+    },
+    "tag":"h3",
+    "categories" : {},
+    "type":"recent-comments",
+    "access":1,
+    "suffix":""
+}

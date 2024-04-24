@@ -1,0 +1,1 @@
+ALTER TABLE `#__gridbox_pages` ADD `end_publishing` datetime NOT NULL DEFAULT '0000-00-00 00:00:00';

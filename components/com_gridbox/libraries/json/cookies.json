@@ -1,0 +1,189 @@
+{
+    "item-14970425540":{
+        "desktop":{
+            "animation":{
+                "duration":"0.9",
+                "delay":"0",
+                "effect":""
+            },
+            "border":{
+                "bottom":"0",
+                "color":"@border",
+                "left":"0",
+                "right":"0",
+                "style":"solid",
+                "radius":0,
+                "top":"0",
+                "width":"0"
+            },
+            "margin":{},
+            "padding":{
+                "bottom":"25",
+                "left":"25",
+                "right":"25",
+                "top":"25"
+            },
+            "shape": {
+                "top" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "height" : 500,
+                    "width": 300
+                },
+                "bottom" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "height" : 500,
+                    "width": 300
+                }
+            },
+            "background":{
+                "type":"color",
+                "color":"@bg-secondary",
+                "image":{
+                    "attachment":"scroll",
+                    "image":"",
+                    "position":"center center",
+                    "repeat":"no-repeat",
+                    "size":"cover"
+                },
+                "video":{
+                    "type":"youtube",
+                    "id":"",
+                    "mute":"1",
+                    "start":"0",
+                    "quality":"hd720",
+                    "image":""
+                }
+            },
+            "image":{
+                "image":""
+            },
+            "full":{
+                "fullscreen": false,
+                "fullwidth": false
+            },
+            "overlay" : {
+                "type": "none",
+                "gradient": {
+                    "effect": "linear",
+                    "angle": 45,
+                    "color1": "@bg-dark",
+                    "position1": 25,
+                    "color2": "@bg-dark-accent",
+                    "position2": 75
+                },
+                "color" : "@overlay"
+            },
+            "disable":0,
+            "view": {
+                "width":500
+            },
+            "shadow":{
+                "value":0,
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":0
+        },
+        "phone":{
+            "disable":0
+        },
+        "lightbox": {
+            "layout": "notification-bar",
+            "position": "notification-bar-bottom"
+        },
+        "parallax":{
+            "enable":false,
+            "invert":false,
+            "offset":0.5
+        },
+        "type":"cookies",
+        "access":1,
+        "suffix":""
+    },
+    "item-14970440490":{
+        "desktop":{
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "disable":"0"
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "type":"text",
+        "access":1,
+        "suffix":""
+    },
+    "item-14970438250":{
+        "desktop":{
+            "border":{
+                "color":"@border",
+                "radius":"50",
+                "style":"solid",
+                "width":"0"
+            },
+            "typography":{
+                "font-family":"@default",
+                "font-size":"10",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":"4",
+                "line-height":26,
+                "text-align":"center",
+                "text-decoration":"none",
+                "text-transform":"uppercase"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"20",
+                "left":"60",
+                "right":"60",
+                "top":"20"
+            },
+            "icons":{
+                "size":24
+            },
+            "normal":{
+                "color":"@title-inverse",
+                "background-color":"@primary"
+            },
+            "disable":"0",
+            "shadow":{
+                "value":"0",
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "icon":{
+            "icon":"",
+            "position":""
+        },
+        "position":"top",
+        "link":{
+            "link":"",
+            "target":"_self"
+        },
+        "hover":{
+            "color":"@title-inverse",
+            "background-color":"@hover"
+        },
+        "type":"button",
+        "access":1,
+        "suffix":""
+    }
+}

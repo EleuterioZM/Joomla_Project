@@ -1,0 +1,85 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "switcher": {
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"14",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"28",
+                "text-decoration":"none",
+                "text-align":"center",
+                "text-transform":"none"
+            },
+            "flag": {
+                "size": 30,
+                "radius": 50
+            }
+        },
+        "list": {
+            "typography":{
+                "color":"@title-inverse",
+                "font-family":"@default",
+                "font-size":"14",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"56",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            },
+            "flag": {
+                "size": 30,
+                "radius": 50
+            }
+        },
+        "dropdown": {
+            "padding": {
+                "bottom": "20",
+                "left": "30",
+                "right": "30",
+                "top": "20"
+            },
+            "border": {
+                "bottom": "0",
+                "left": "0",
+                "right": "0",
+                "top": "0",
+                "color": "@border",
+                "style": "solid",
+                "radius": "6",
+                "width": "0"
+            },
+            "background": {
+                "color": "@bg-dark"
+            },
+            "shadow": {
+                "value": 1,
+                "color": "@shadow"
+            }
+        },
+        "flag": {
+            "size": 30,
+            "align": "left",
+            "radius": 50
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "layout": "ba-default-layout",
+    "type" : "language-switcher",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,287 @@
+{
+    "desktop":{
+        "button": {
+            "border": {
+                "default": {
+                    "bottom": 1,
+                    "color": "@border",
+                    "left": 1,
+                    "radius": "6",
+                    "right": 1,
+                    "style": "solid",
+                    "top": 1,
+                    "width": "0"
+                },
+                "state": false,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "colors":{
+                "default": {
+                    "color": "@title-inverse",
+                    "background-color": "@secondary"
+                },
+                "hover": {
+                    "color": "@title-inverse",
+                    "background-color": "@hover"
+                },
+                "state": true,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "margin":{
+                "default": {
+                    "bottom": "10",
+                    "top": 25
+                },
+                "state": false,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "padding":{
+                "default": {
+                    "bottom": 15,
+                    "left": 50,
+                    "right": 50,
+                    "top": 15
+                },
+                "state": false,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "shadow":{
+                "default": {
+                    "value": 0,
+                    "color": "@shadow"
+                },
+                "state": false,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "typography": {
+                "font-family": "@default",
+                "font-size": 14,
+                "font-style": "normal",
+                "font-weight": "@default",
+                "letter-spacing": 0,
+                "line-height": 28,
+                "text-align": "left",
+                "text-decoration": "none",
+                "text-transform": "none"
+            }
+        },
+        "title":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"14",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"28",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none",
+                "custom":""
+            },
+            "margin":{
+                "bottom":"5",
+                "top":"10"
+            }
+        },
+        "description":{
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":"14",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"28",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none",
+                "custom":""
+            },
+            "margin":{
+                "bottom":"25",
+                "top":"10"
+            }
+        },
+        "field":{
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":"14",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"34",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            },
+            "padding":{
+                "default": {
+                    "bottom": 5,
+                    "left": 5,
+                    "right": 5,
+                    "top": 5
+                },
+                "state": false,
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "border":{
+                "default": {
+                    "bottom": true,
+                    "color": "@border",
+                    "left": true,
+                    "radius": 6,
+                    "right": true,
+                    "style": "solid",
+                    "top": true,
+                    "width": "1"
+                },
+                "state": true,
+                "hover": {
+                    "bottom": true,
+                    "color": "@secondary",
+                    "left": true,
+                    "radius": 6,
+                    "right": true,
+                    "style": "solid",
+                    "top": true,
+                    "width": "1"
+                },
+                "transition": {
+                    "duration": 0.3,
+                    "x1": 0.42,
+                    "y1": 0,
+                    "x2": 0.58,
+                    "y2": 1
+                }
+            },
+            "background":{
+                "color":"rgba(255, 255, 255, 0)"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            }
+        },
+        "headline":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"36",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none",
+                "custom":""
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            }
+        },
+        "background":{
+            "color":"rgba(255, 255, 255, 0)"
+        },
+        "border":{
+            "bottom":false,
+            "color":"@border",
+            "left":false,
+            "right":false,
+            "style":"solid",
+            "radius":0,
+            "top":false,
+            "width":"0"
+        },
+        "margin":{
+            "bottom":"25",
+            "top":"25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "0",
+            "right" : "0",
+            "top" : "0"
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        },
+        "disable":"0"
+    },
+    "tablet":{
+        "disable":"0"
+    },
+    "phone":{
+        "disable":"0"
+    },
+    "type":"login",
+    "access":1,
+    "suffix":"",
+    "presets":"",
+    "laptop":{},
+    "tablet-portrait":{
+        "disable":"0"
+    },
+    "phone-portrait":{
+        "disable":"0"
+    },
+    "options": {
+        "login": true,
+        "redirect": "",
+        "registration": true,
+        "username": true,
+        "password": true,
+        "recaptcha": ""
+    },
+    "acceptance": {
+        "enable": true,
+        "html": "I have read and agree to the <a href=\"#\" target=\"_blank\">Terms and Conditions</a>"
+    },
+    "google": {
+        "enable": true
+    },
+    "facebook": {
+        "enable": true
+    },
+    "access_view":1
+}

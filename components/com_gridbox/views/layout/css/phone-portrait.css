@@ -1,0 +1,814 @@
+.body [class*="ba-col"],
+
+.footer [class*="ba-col"],
+
+[class*="ba-col"] {
+
+    margin-left: 0;
+
+    width: 100%;
+
+}
+
+
+
+.header .ba-sm-pt-12,
+
+.header [class*="ba-col"].ba-sm-pt-12,
+
+.body .ba-sm-pt-12,
+
+.footer .ba-sm-pt-12,
+
+.ba-sm-pt-12 {
+
+    width: 100%;
+
+}
+
+
+
+.header .ba-sm-pt-11,
+
+.header [class*="ba-col"].ba-sm-pt-11,
+
+.body .ba-sm-pt-11,
+
+.footer .ba-sm-pt-11,
+
+.ba-sm-pt-11 {
+
+    width: 91.66666667%;
+
+}
+
+
+
+.header .ba-sm-pt-10,
+
+.header [class*="ba-col"].ba-sm-pt-10,
+
+.body .ba-sm-pt-10,
+
+.footer .ba-sm-pt-10,
+
+.ba-sm-pt-10 {
+
+    width: 83.33333333%;
+
+}
+
+
+
+.header .ba-sm-pt-9,
+
+.header [class*="ba-col"].ba-sm-pt-9,
+
+.body .ba-sm-pt-9,
+
+.footer .ba-sm-pt-9,
+
+.ba-sm-pt-9 {
+
+    width: 75%;
+
+}
+
+
+
+.header .ba-sm-pt-8,
+
+.header [class*="ba-col"].ba-sm-pt-8,
+
+.body .ba-sm-pt-8,
+
+.footer .ba-sm-pt-8,
+
+.ba-sm-pt-8 {
+
+    width: 66.66666667%;
+
+}
+
+
+
+.header .ba-sm-pt-7,
+
+.header [class*="ba-col"].ba-sm-pt-7,
+
+.body .ba-sm-pt-7,
+
+.footer .ba-sm-pt-7,
+
+.ba-sm-pt-7 {
+
+    width: 58.33333333%;
+
+}
+
+
+
+.header .ba-sm-pt-6,
+
+.header [class*="ba-col"].ba-sm-pt-6,
+
+.body .ba-sm-pt-6,
+
+.footer .ba-sm-pt-6,
+
+.ba-sm-pt-6 {
+
+    width: 50%;
+
+}
+
+
+
+.header .ba-sm-pt-5,
+
+.header [class*="ba-col"].ba-sm-pt-5,
+
+.body .ba-sm-pt-5,
+
+.footer .ba-sm-pt-5,
+
+.ba-sm-pt-5 {
+
+    width: 41.66666667%;
+
+}
+
+
+
+.header .ba-sm-pt-4,
+
+.header [class*="ba-col"].ba-sm-pt-4,
+
+.body .ba-sm-pt-4,
+
+.footer .ba-sm-pt-4,
+
+.ba-sm-pt-4 {
+
+    width: 33.33333333%;
+
+}
+
+
+
+.header .ba-sm-pt-3,
+
+.header [class*="ba-col"].ba-sm-pt-3,
+
+.body .ba-sm-pt-3,
+
+.footer .ba-sm-pt-3,
+
+.ba-sm-pt-3 {
+
+    width: 25%;
+
+}
+
+
+
+.header .ba-sm-pt-2,
+
+.header [class*="ba-col"].ba-sm-pt-2,
+
+.body .ba-sm-pt-2,
+
+.footer .ba-sm-pt-2,
+
+.ba-sm-pt-2 {
+
+    width: 16.66666667%;
+
+}
+
+
+
+.header .ba-sm-pt-1,
+
+.header [class*="ba-col"].ba-sm-pt-1,
+
+.body .ba-sm-pt-1,
+
+.footer .ba-sm-pt-1,
+
+.ba-sm-pt-1 {
+
+    width: 8.33333333%;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-1 {
+
+    order: 1;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-2 {
+
+    order: 2;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-3 {
+
+    order: 3;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-4 {
+
+    order: 4;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-5 {
+
+    order: 5;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-6 {
+
+    order: 6;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-7 {
+
+    order: 7;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-8 {
+
+    order: 8;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-9 {
+
+    order: 9;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-10 {
+
+    order: 10;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-11 {
+
+    order: 11;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper.ba-sm-pt-order-12 {
+
+    order: 12;
+
+}
+
+
+
+.ba-video-background video,
+
+.ba-video-background iframe {
+
+    left: 0;
+
+    min-height: 100% !important;
+
+    top: 0;
+
+    transform: translateX(-50%)translateX(50vw);
+
+    width: calc(200vh/.5624);
+
+}
+
+
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span {
+
+    display: none;
+
+}
+
+
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span.active,
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span:nth-last-child(2),
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span:last-child,
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span:first-child,
+
+.ba-blog-posts-pagination-wrapper .ba-blog-posts-pagination span:nth-child(2){
+
+    display: inline;
+
+}
+
+
+
+.comment-user-name,
+
+.comment-user-date {
+
+    justify-content: center;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.comment-user-info {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0 !important;
+    min-height: 60px;
+    position: relative;
+
+}
+
+
+
+.user-comment-wrapper span.comment-user-name {
+
+    margin-right: 0;
+
+}
+
+
+
+.comment-moderator-user-settings {
+
+    position: absolute;
+
+    right: 0;
+
+    top: -62px;
+
+}
+
+
+
+.comment-user-info-wrapper {
+
+    float: none;
+
+    justify-content: center;
+
+}
+
+.ba-submit-comment,
+.comment-user-info {
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+.ba-submit-comment-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.ba-submit-cancel {
+    order: 2;
+    margin-right: 0 !important;
+}
+
+.comment-user-info .comment-user-name {
+    order: -1;
+}
+
+.comment-report-user-comment {
+    margin-top: 0 !important;
+    position: absolute !important;
+    right: 0;
+    top: -50px;
+}
+
+.comment-report-user-comment,
+
+.comment-reply-name,
+
+.user-comment-container-wrapper .ba-review-stars-wrapper,
+
+.comment-moderator-label,
+
+.ba-comments-total-count + select,
+
+.ba-comments-total-count,
+
+.ba-review-rate-wrapper,
+
+.comment-logout-action,
+
+.comment-user-date,
+
+.comment-user-name {
+
+    margin-top: 15px;
+
+}
+
+
+
+.comment-user-name,
+
+.comment-report-user-comment,
+
+.user-comment-wrapper span.comment-user-name {
+
+    margin-left: 0 !important;
+
+}
+
+
+
+.ba-comments-login-wrapper + .ba-review-rate-wrapper,
+
+.comment-likes-wrapper {
+
+    text-align: center;
+
+}
+
+
+
+.comment-logout-action {
+
+    float: none;
+
+    line-height: inherit !important;
+
+}
+
+
+
+.ba-comments-login-wrapper {
+
+    flex-direction: column;
+
+    margin-bottom: 0;
+
+    text-align: center;
+
+}
+
+
+
+.ba-item-comments-box .ba-comments-login-wrapper {
+
+    margin-bottom: 25px;
+
+}
+
+
+
+span.comment-user-name {
+
+    flex-grow: 0;
+
+}
+
+
+
+.ba-item-reviews .ba-comments-total-count-wrapper,
+
+.user-comment-wrapper.user-comment-edit-enable .ba-submit-comment-wrapper {
+
+    float: none;
+
+    flex-direction: column;
+
+}
+
+
+
+.user-comment-wrapper.user-comment-edit-enable .ba-submit-cancel {
+
+    margin-right: 0;
+
+}
+
+
+
+.ba-item-reviews .ba-comments-total-count {
+
+    padding-left: 0;
+
+}
+
+
+
+.ba-reviews-total-rating-wrapper {
+
+    flex-direction: column;
+
+    text-align: center;
+
+    white-space: normal;
+
+}
+
+
+
+.ba-reviews-total-rating-wrapper .ba-review-stars-wrapper {
+
+    margin-left: 0;
+
+}
+
+
+
+.comment-likes-wrapper > span.comment-likes-action-wrapper {
+
+    white-space: normal;
+
+}
+
+
+
+.was-review-helpful.comment-user-date {
+
+    margin-bottom: 15px;
+
+    margin-top: 0 !important;
+
+}
+
+
+
+.comment-likes-action[data-action="likes"] {
+
+    margin-left: 0;
+
+}
+
+
+
+.event-calendar-events-list {
+
+    left: 5% !important;
+
+    width: 90%;
+
+}
+
+
+
+.ba-wishlist-checkout,
+
+.ba-cart-checkout {
+
+    display: block !important;
+
+}
+
+
+
+.ba-sm-pt-sticky-column-enabled {    
+
+    display: block !important;
+
+}
+
+
+
+.ba-sm-pt-sticky-column-enabled > .ba-grid-column {
+
+    position: sticky;
+
+}
+
+
+
+.ba-sm-pt-sticky-column-disabled {
+    display: flex !important;
+}
+
+
+
+.ba-sm-pt-sticky-column-disabled > .ba-grid-column {
+    position: relative;
+    top: 0 !important;
+}
+
+
+
+.ba-sm-pt-sticky-row-enabled {
+
+    position:sticky;
+
+    top: var(--row-sticky-offset);
+
+    z-index:15;
+
+}
+
+
+
+.ba-sm-pt-sticky-row-disabled {
+
+    position: relative;  
+
+    top: 0;  
+
+}
+
+
+
+.ba-sm-pt-sticky-section-enabled.ba-wrapper {
+
+    position:sticky;
+
+    top: var(--section-sticky-offset);
+
+    z-index:15;
+
+}
+
+
+
+.ba-sm-pt-sticky-section-disabled.ba-wrapper {
+
+    position: relative; 
+
+    top: 0;   
+
+}
+
+
+
+body:not(.show-hidden-elements) .ba-hidden-sm-pt {
+
+    display: none !important;
+
+}
+
+
+
+body:not(.show-hidden-elements) .ba-hidden-sm-pt:first-child  + .ba-column-resizer + .ba-grid-column-wrapper {
+
+    margin-left: 0 !important;
+
+}
+
+
+
+.ba-lightbox-layout .ba-language-switcher-list {
+
+    left: 5%;
+
+    max-width: 90%;
+
+}
+
+
+
+/* Column Vertical Direction Phone Portrait */
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column:not(.column-horizontal-direction).column-horizontal-align-left-sm-pt {
+
+    align-items: start;
+
+    align-content: start;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column:not(.column-horizontal-direction).column-horizontal-align-center-sm-pt {
+
+    align-items: center;
+
+    align-content: center;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column:not(.column-horizontal-direction).column-horizontal-align-right-sm-pt {
+
+    align-items: end;
+
+    align-content: end;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper > .ba-grid-column:not(.column-horizontal-direction).column-content-align-top-sm-pt  {
+
+    justify-content: start !important;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column:not(.column-horizontal-direction).column-content-align-middle-sm-pt {
+
+    justify-content: center !important;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column:not(.column-horizontal-direction).column-content-align-bottom-sm-pt {
+
+    justify-content: end !important;
+
+}
+
+
+
+/* Column Horizontal Direction Phone Portrait*/
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-content-align-top-sm-pt {
+
+    align-content: start;
+
+    align-items: start;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-content-align-middle-sm-pt {
+
+    align-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-content-align-bottom-sm-pt {
+
+    align-content: end;
+
+    align-items: end;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-horizontal-align-left-sm-pt {
+
+    justify-content: start !important;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-horizontal-align-center-sm-pt {
+
+    justify-content: center !important;
+
+}
+
+
+
+.column-wrapper .ba-grid-column-wrapper .ba-grid-column.column-horizontal-direction.column-horizontal-align-right-sm-pt {
+
+    justify-content: end !important;
+
+}

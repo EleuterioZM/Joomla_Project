@@ -1,0 +1,27 @@
+/* Split Horizontal */
+
+@keyframes ba-pt-split-horizontal {
+    from {left: 50vw;}
+    to {left: 100vw;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-horizontal:after{
+    animation: ba-pt-split-horizontal .5s .3s linear both;
+}
+
+.preloader-wrapper.ba-pt-split-horizontal:after{
+    left: 50vw;
+}
+
+@keyframes ba-pt-split-horizontal-out {
+    from {left: -50vw;}
+    to {left: -100vw;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-horizontal:before {
+    animation: ba-pt-split-horizontal-out .5s .3s linear both;
+}
+
+.preloader-wrapper.ba-pt-split-horizontal:before {
+    left: -50vw;
+}

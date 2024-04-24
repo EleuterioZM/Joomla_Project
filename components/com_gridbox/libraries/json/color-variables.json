@@ -1,0 +1,102 @@
+{
+    "@primary":{
+        "color":"#34dca2",
+        "title":"Primary"
+    },
+    "@secondary":{
+        "color":"#007df7",
+        "title":"Secondary"
+    },
+    "@accent":{
+        "color":"#ff735e",
+        "title":"Accent"
+    },
+    "@title":{
+        "color":"#1b1b1d",
+        "title":"Title"
+    },
+    "@subtitle":{
+        "color":"rgba(29, 29, 31, 0.4)",
+        "title":"Subtitle"
+    },
+    "@text":{
+        "color":"#1b1b1d",
+        "title":"Text"
+    },
+    "@icon":{
+        "color":"#1b1b1d",
+        "title":"Icon"
+    },
+    "@title-inverse":{
+        "color":"#ffffff",
+        "title":"Title Inverse"
+    },
+    "@text-inverse":{
+        "color":"rgba(255, 255, 255, 0.4)",
+        "title":"Text Inverse"
+    },
+    "@bg-primary":{
+        "color":"#ffffff",
+        "title":"Primary"
+    },
+    "@bg-secondary":{
+        "color":"#f5f8f8",
+        "title":"Secondary"
+    },
+    "@bg-dark":{
+        "color":"#1e293d",
+        "title":"Dark"
+    },
+    "@bg-dark-accent":{
+        "color":"#20364c",
+        "title":"Dark Accent"
+    },
+    "@border":{
+        "color":"#eeeeee",
+        "title":"Border"
+    },
+    "@shadow":{
+        "color":"rgba(0, 0, 0, 0.15)",
+        "title":"Shadow"
+    },
+    "@overlay":{
+        "color":"rgba(0, 0, 0, 0.5)",
+        "title":"Overlay"
+    },
+    "@hover":{
+        "color":"#2f3439",
+        "title":"Hover"
+    },
+    "@color-1":{
+        "color":"#35404a",
+        "title":"Color 1"
+    },
+    "@color-2":{
+        "color":"#4f6279",
+        "title":"Color 2"
+    },
+    "@color-3":{
+        "color":"#0098d8",
+        "title":"Color 3"
+    },
+    "@color-4":{
+        "color":"#ff4f49",
+        "title":"Color 4"
+    },
+    "@color-5":{
+        "color":"#ff7a2f",
+        "title":"Color 5"
+    },
+    "@color-6":{
+        "color":"#ffc700",
+        "title":"Color 6"
+    },
+    "@color-7":{
+        "color":"#34dca2",
+        "title":"Color 7"
+    },
+    "@color-8":{
+        "color":"#00ada9",
+        "title":"Color 8"
+    }
+}

@@ -1,0 +1,37 @@
+/*
+/* Blog Plugin Post Navigation
+*/
+
+.ba-item-post-navigation .ba-blog-posts-wrapper > * {
+    display: inline-flex;
+}
+
+.ba-item-post-navigation .ba-blog-posts-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ba-item-post-navigation .ba-blog-posts-wrapper .ba-blog-post:first-child {
+    flex-direction: row;
+    margin: 0 10px 0 0;
+}
+
+.ba-item-post-navigation .ba-blog-post {
+    flex-direction: row-reverse;
+    margin: 0 0 0 10px;
+    width: calc(50% - 10px);
+}
+
+.ba-item-post-navigation .ba-blog-post + .ba-blog-post .ba-blog-post-info-wrapper > span {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.ba-item-post-navigation .ba-blog-post + .ba-blog-post .ba-blog-post-info-wrapper > span.ba-blog-post-views {
+    margin: 0;
+}
+
+.ba-item-post-navigation .ba-store-app-product + .ba-store-app-product .ba-blog-post-add-to-cart-wrapper{
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,9 @@
+/* Slide Bottom Out*/
+@keyframes pt-slide-bottom-out {
+    from {transform: translateY(0);}
+    to {transform: translateY(100vh);}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-slide-bottom {
+    animation: pt-slide-bottom-out .5s .3s linear both;
+}

@@ -1,0 +1,274 @@
+{
+    "desktop" : {
+        "animation" : {
+            "duration" : "0.9",
+            "delay" : "0",
+            "effect" : "horizontal-flip-right"
+        },
+        "view":{
+            "height": 250
+        },
+        "border" : {
+            "bottom" : "0",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 9,
+            "top" : "0",
+            "width" : "1"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "25",
+            "right" : "25",
+            "top" : "0"
+        },
+        "background" : {
+            "type" : "none",
+            "color" : "@bg-primary",
+            "image" : {
+                "attachment" : "scroll",
+                "image" : "",
+                "position" : "center center",
+                "repeat" : "no-repeat",
+                "size" : "cover"
+            },
+            "gradient": {
+                "effect": "linear",
+                "angle": 45,
+                "color1": "@bg-dark",
+                "position1": 25,
+                "color2": "@bg-dark-accent",
+                "position2": 75
+            },
+            "video" : {
+                "type" : "youtube",
+                "id" : "",
+                "mute" : "1",
+                "start" : "0",
+                "quality" : "hd720",
+                "image" : ""
+            }
+        },
+        "video" : {
+            "type" : "youtube",
+            "id" : "",
+            "mute" : "1",
+            "start" : "0",
+            "quality" : "hd720",
+            "image" : ""
+        },
+        "overlay" : {
+            "type":"color",
+            "gradient": {
+                "effect": "linear",
+                "angle": 45,
+                "color1": "@bg-dark",
+                "position1": 25,
+                "color2": "@bg-dark-accent",
+                "position2": 75
+            },
+            "color" : "rgba(0, 0, 0, 0)"
+        },
+        "overlay-states": {
+            "default":{
+                "color": "rgba(0, 0, 0, 0)",
+                "type": "color"
+            },
+            "transition": {
+                "duration": 0.3,
+                "x1": 0.42,
+                "y1": 0,
+                "x2": 0.58,
+                "y2": 1
+            },
+            "state": false
+        },
+        "image":{
+            "image":""
+        },
+        "full":{
+            "fullscreen": false
+        },
+        "disable" : "0",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        }
+    },
+    "sides":{
+        "frontside":{
+            "desktop":{
+                "video" : {
+                    "type" : "youtube",
+                    "id" : "",
+                    "mute" : "1",
+                    "start" : "0",
+                    "quality" : "hd720",
+                    "image" : ""
+                },
+                "background" : {
+                    "type" : "image",
+                    "color" : "@bg-primary",
+                    "image" : {
+                        "attachment" : "scroll",
+                        "image" : "components/com_gridbox/assets/images/thumb-landscape.png",
+                        "position" : "center center",
+                        "repeat" : "no-repeat",
+                        "size" : "cover"
+                    },
+                    "gradient": {
+                        "effect": "linear",
+                        "angle": 45,
+                        "color1": "@bg-dark",
+                        "position1": 25,
+                        "color2": "@bg-dark-accent",
+                        "position2": 75
+                    },
+                    "video" : {
+                        "type" : "youtube",
+                        "id" : "",
+                        "mute" : "1",
+                        "start" : "0",
+                        "quality" : "hd720",
+                        "image" : ""
+                    }
+                },
+                "overlay" : {
+                    "type":"color",
+                    "gradient": {
+                        "effect": "linear",
+                        "angle": 45,
+                        "color1": "@bg-dark",
+                        "position1": 25,
+                        "color2": "@bg-dark-accent",
+                        "position2": 75
+                    },
+                    "color" : "@overlay"
+                },
+                "overlay-states": {
+                    "default":{
+                        "color": "@overlay",
+                        "type": "color"
+                    },
+                    "transition": {
+                        "duration": 0.3,
+                        "x1": 0.42,
+                        "y1": 0,
+                        "x2": 0.58,
+                        "y2": 1
+                    },
+                    "state": false
+                },
+                "image":{
+                    "image":"components/com_gridbox/assets/images/thumb-landscape.png"
+                }
+            },
+            "parallax": {
+                "enable" : false,
+                "offset" : 0.1
+            },
+            "tablet":{},
+            "phone":{},
+            "tablet-portrait":{},
+            "phone-portrait":{}
+        },
+        "backside":{
+            "desktop":{
+                "video" : {
+                    "type" : "youtube",
+                    "id" : "",
+                    "mute" : "1",
+                    "start" : "0",
+                    "quality" : "hd720",
+                    "image" : ""
+                },
+                "background" : {
+                    "type" : "color",
+                    "color" : "@primary",
+                    "image" : {
+                        "attachment" : "scroll",
+                        "image" : "",
+                        "position" : "center center",
+                        "repeat" : "no-repeat",
+                        "size" : "cover"
+                    },
+                    "gradient": {
+                        "effect": "linear",
+                        "angle": 45,
+                        "color1": "@bg-dark",
+                        "position1": 25,
+                        "color2": "@bg-dark-accent",
+                        "position2": 75
+                    },
+                    "video" : {
+                        "type" : "youtube",
+                        "id" : "",
+                        "mute" : "1",
+                        "start" : "0",
+                        "quality" : "hd720",
+                        "image" : ""
+                    }
+                },
+                "overlay" : {
+                    "type":"none",
+                    "gradient": {
+                        "effect": "linear",
+                        "angle": 45,
+                        "color1": "@bg-dark",
+                        "position1": 25,
+                        "color2": "@bg-dark-accent",
+                        "position2": 75
+                    },
+                    "color" : "rgba(0, 0, 0, 0)"
+                },
+                "overlay-states": {
+                    "default":{
+                        "color": "rgba(0, 0, 0, 0)",
+                        "type": "none"
+                    },
+                    "transition": {
+                        "duration": 0.3,
+                        "x1": 0.42,
+                        "y1": 0,
+                        "x2": 0.58,
+                        "y2": 1
+                    },
+                    "state": false
+                },
+                "image":{
+                    "image":""
+                }
+            },
+            "parallax": {
+                "enable" : false,
+                "offset" : 0.1
+            },
+            "tablet":{},
+            "phone":{},
+            "tablet-portrait":{},
+            "phone-portrait":{}
+        }
+    },
+    "content_align": "column-content-align-middle",
+    "tablet": {
+        "disable" : "0"
+    },
+    "phone": {
+        "disable" : "0"
+    },
+    "parallax": {
+        "enable" : false,
+        "offset" : 0.1
+    },
+    "effect3D":false,
+    "side":"frontside",
+    "type": "flipbox",
+    "access": 1,
+    "suffix": ""
+}

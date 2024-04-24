@@ -1,0 +1,282 @@
+/*
+/* Plugin Tabs
+*/
+
+.ba-item-tabs {
+    position: relative;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid transparent;
+}
+
+.ba-tabs-wrapper .nav-tabs {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .ba-tabs-wrapper.tabs-top .nav-tabs {
+        display: block !important;
+    }
+}
+
+.ba-tabs-wrapper .nav-tabs li {
+    display: flex;
+    margin: 0;
+}
+
+.ba-tabs-wrapper.tabs-top .nav-tabs li {
+    display: inline-block;
+    flex: 1;
+}
+
+.ba-tabs-wrapper .nav-tabs li a {
+    box-sizing: border-box;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+.ba-tabs-wrapper .nav-tabs li a,
+.ba-tabs-wrapper .nav-tabs li a:focus,
+.ba-tabs-wrapper .nav-tabs li a:hover {
+    background-color: transparent;
+}
+
+.ba-tabs-wrapper.icon-position-top li a > span {
+    display: inline-flex;
+}
+
+.ba-tabs-wrapper .nav-tabs li a:before {
+    content: "";
+    position: absolute;
+}
+
+.ba-tabs-wrapper.tabs-top li a:before {
+    height: 0;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    transition: height .3s;
+}
+
+.ba-tabs-wrapper.tabs-top li.active a:before {
+    height: 4px;
+}
+
+.ba-tabs-wrapper.tabs-top li {
+    border-color: inherit;
+}
+
+.ba-tabs-wrapper.tabs-top li a:focus,
+.ba-tabs-wrapper.tabs-top li a:hover,
+.ba-tabs-wrapper.tabs-top li a {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-color: inherit;
+}
+
+.ba-tabs-wrapper.tabs-top  li a > span {
+    align-items: center;
+}
+
+.ba-tabs-wrapper li a > span > span {
+    direction: ltr;
+    word-break: break-word;
+}
+
+.ba-item-tabs .ba-tabs-wrapper .tab-content {
+    box-sizing: border-box;
+}
+
+/* Tabs Left Position */
+.ba-tabs-wrapper.tabs-left,
+.ba-tabs-wrapper.tabs-right {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.ba-tabs-wrapper.tabs-right > .nav-tabs,
+.ba-tabs-wrapper.tabs-left > .nav-tabs {
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+}
+
+.nav-tabs:before,
+.nav-tabs:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.ba-tabs-wrapper.tabs-right > .nav-tabs:before ,
+.ba-tabs-wrapper.tabs-left > .nav-tabs:before {
+    border-left: 1px solid;
+    border-color: inherit;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+
+.ba-tabs-wrapper.tabs-right .nav-tabs:before {
+    left: 0;
+    right: auto;
+}
+
+.ba-tabs-wrapper.tabs-right > .nav-tabs li,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li {
+    flex-direction: column;
+}
+
+.ba-tabs-wrapper.tabs-right > .nav-tabs li a,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li a {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.ba-tabs-wrapper .tab-pane .ba-row-wrapper {
+    width: 100%;
+}
+
+.ba-tabs-wrapper.tabs-left > .nav-tabs li:last-child.active a,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li:last-child.active a:hover,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li:last-child.active a:focus,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li:last-child.active a,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li:last-child.active a:hover,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li:last-child.active a:focus,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li a,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li a:hover,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li a:focus,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li a:hover,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li a:focus,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li a {
+    border-width: 0;
+    border-right-width: 1px;
+}
+
+.ba-tabs-wrapper.tabs-right > .nav-tabs li a:before,
+.ba-tabs-wrapper.tabs-left > .nav-tabs li a:before {
+    bottom: 0;
+    right: -1px;
+    top: 0;
+    transition: width .3s;
+    width: 0;
+}
+
+.ba-tabs-wrapper.tabs-left > .nav-tabs li.active a:before,
+.ba-tabs-wrapper.tabs-right > .nav-tabs li.active a:before {
+    width: 4px;
+}
+
+.ba-tabs-wrapper.tabs-right.icon-position-left > .nav-tabs li a > span,
+.ba-tabs-wrapper.tabs-left.icon-position-left > .nav-tabs li a > span {
+    display: inline-block;
+    direction: rtl;
+}
+
+/* Tabs Right Position */
+.ba-tabs-wrapper.tabs-right {
+    flex-direction: row-reverse;
+}
+
+.ba-tabs-wrapper.tabs-right li a:focus,
+.ba-tabs-wrapper.tabs-right li a:hover,
+.ba-tabs-wrapper.tabs-right li a {
+    border-left-width: 1px;
+    border-right-width: 0px !important;
+}
+
+.ba-tabs-wrapper.tabs-right li a:before {
+    right: auto;
+    left: -1px;
+}
+
+/*
+/* Tabs Icon Position
+*/
+
+/* Tabs Icon Top Position */
+.icon-position-top .nav-tabs i {
+    display: block;
+    order: 1;
+    margin: 10px 0;
+}
+
+/* Tabs Icon left Position */
+.ba-tabs-wrapper.icon-position-left > .nav-tabs li a span.tabs-title {
+    display: inline-block;
+    direction: ltr;
+}
+
+/* Tabs Fade Animation */
+.ba-item-tabs .tab-content .tab-pane.active {
+     animation: tabs-fade .7s ease-in-out;
+}
+
+@keyframes tabs-fade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* Tab Animation */
+
+.active.left,
+.active.right,
+.out-left,
+.out-right {
+    display: inline-block !important;
+    box-sizing: border-box;
+    overflow: auto;
+    position: absolute;
+    width: 480px;
+}
+
+@keyframes active-tab-left {
+    from { transform: translateX(-100%);}
+}
+
+.active.left {
+    animation: active-tab-left .5s cubic-bezier(.55,.085,.68,.53);
+}
+
+@keyframes active-tab-right {
+    from { transform: translateX(100%);}
+}
+
+.active.right {
+    animation: active-tab-right .5s cubic-bezier(.55,.085,.68,.53);
+}
+
+@keyframes out-right {
+    to { transform: translateX(100%);}
+}
+
+.out-right {
+    animation: out-right .5s cubic-bezier(.55,.085,.68,.53);
+}
+
+@keyframes out-left {
+    to { transform: translateX(-100%);}
+}
+
+.out-left {
+    animation: out-left .5s cubic-bezier(.55,.085,.68,.53) both;
+}

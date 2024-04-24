@@ -1,0 +1,215 @@
+/* Default Layout */
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-list img {
+    margin: 10px;
+}
+
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active .ba-language-switcher-item,
+.ba-item-language-switcher .ba-language-switcher-list .ba-language-switcher-item {
+    position: relative;    
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-active .ba-language-switcher-item,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active .ba-language-switcher-item {
+    align-items: center;
+    display: inline-flex;
+}
+
+.ba-item-language-switcher  .ba-language-switcher-item,
+.ba-item-language-switcher  .ba-language-switcher-item * {
+    cursor: pointer !important;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list .ba-language-switcher-item,
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-active .ba-language-switcher-item,
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-list .ba-language-switcher-item img,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list .ba-language-switcher-item,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active .ba-language-switcher-item {
+    transition: .3s;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list .ba-language-switcher-item:hover,
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-active .ba-language-switcher-item:hover,
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-list .ba-language-switcher-item:hover img,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list .ba-language-switcher-item:hover,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active .ba-language-switcher-item:hover {
+    opacity: .75 !important;
+}
+
+.ba-item-language-switcher .ba-language-switcher-list a {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list:before {
+    border: 5px solid transparent;
+    border-bottom: 5px solid var(--background-color);
+    content: "";
+    height: 0;
+    left: 50% !important;
+    margin-left: -5px;
+    position: absolute;
+    top: -9px;
+}
+
+/* Dropdown Layout */
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-active .ba-language-switcher-item > i,
+.ba-item-language-switcher .ba-lightbox-layout:not(.visible-language-switcher-list) .ba-language-switcher-backdrop,
+.ba-item-language-switcher .ba-lightbox-layout:not(.visible-language-switcher-list) .ba-language-switcher-list,
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-active,
+.ba-item-language-switcher .ba-default-layout .ba-language-switcher-list .ba-language-switcher-item > span,
+.ba-item-language-switcher .ba-language-switcher-wrapper:not(.ba-lightbox-layout) .ba-language-switcher-list > i,
+.ba-item-language-switcher .ba-language-switcher-wrapper:not(.ba-lightbox-layout) .ba-language-switcher-wrapper .ba-language-switcher-backdrop,
+.ba-item-language-switcher .ba-dropdown-layout:not(.visible-language-switcher-list) .ba-language-switcher-list {
+    display: none;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list {
+    border-bottom: calc(var(--border-width) * var(--border-bottom)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-width) * var(--border-left)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right: calc(var(--border-width) * var(--border-right)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-width) * var(--border-top)) var(--border-style) var(--border-color);
+    box-shadow: var(--shadow-horizontal) var(--shadow-vertical) var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+}
+
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list {
+    box-sizing: border-box;
+    left: var(--switcher-left);
+    margin-left: -138px;
+    margin-top: 10px;
+    position: absolute;
+    width: 275px;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-active img,
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list img,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active img,
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-list img {
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.ba-item-language-switcher .ba-dropdown-layout .ba-language-switcher-active .ba-language-switcher-item > i  {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+@keyframes language-switcher {
+    from {transform: scale(.8); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
+}
+
+.ba-item-language-switcher .ba-dropdown-layout.visible-language-switcher-list .ba-language-switcher-list {
+    animation: language-switcher .3s cubic-bezier(0.4,0,0.2,1) both;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+@keyframes hidden-dropdown-language-switcher {
+    from {transform: scale(1); opacity: 1;}
+    to {transform: scale(.8); opacity: 0;}
+}
+
+.ba-item-language-switcher .ba-dropdown-layout.visible-language-switcher-list.language-switcher-out .ba-language-switcher-list {
+    animation: hidden-dropdown-language-switcher .3s cubic-bezier(0.4,0,0.2,1) both;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+/* Lightbox Layout */
+.ba-lightbox-layout .ba-language-switcher-list {
+    box-sizing: border-box;
+    height: 420px;
+    left: calc(50vw - 200px);
+    overflow: auto;
+    position: fixed;
+    top: calc(50vh - 210px);
+    width: 400px;
+    z-index: 9999;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list .ba-language-switcher-item {
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-list .ba-language-switcher-item span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ba-item-language-switcher .ba-lightbox-layout .ba-language-switcher-backdrop {
+    background: var(--overlay);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 998;
+}
+
+.ba-lightbox-layout .ba-language-switcher-list > i {
+    cursor: pointer !important;
+    font-size: 36px;
+    line-height: 21px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transition: opacity .3s;
+}
+
+.ba-lightbox-layout .ba-language-switcher-list > i:hover {
+    opacity: .5;
+}
+
+.ba-wrapper.language-switcher-visible {
+    z-index: 15;
+}
+
+.ba-wrapper.language-switcher-visible .ba-edit-item {
+    display: none !important;
+}
+
+@keyframes visible-language-switcher {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ba-item-language-switcher .ba-lightbox-layout.visible-language-switcher-list .ba-language-switcher-backdrop,
+.ba-item-language-switcher .ba-lightbox-layout.visible-language-switcher-list .ba-language-switcher-list {
+    animation: visible-language-switcher .3s ease-in-out both;
+    will-change: opacity;
+
+}
+
+@keyframes hidden-language-switcher {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.ba-item-language-switcher .ba-lightbox-layout.visible-language-switcher-list.language-switcher-out .ba-language-switcher-backdrop,
+.ba-item-language-switcher .ba-lightbox-layout.visible-language-switcher-list.language-switcher-out .ba-language-switcher-list {
+    animation: hidden-language-switcher .3s ease-in-out both;
+}
+ 
+.ba-grid-column-wrapper.language-switcher-hovered,
+.ba-row.language-switcher-hovered,
+.visible-language-switcher-lightbox {
+    z-index: 15;
+}
+
+.ba-item-language-switcher {
+    z-index: 10;
+}

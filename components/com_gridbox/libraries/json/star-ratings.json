@@ -1,0 +1,42 @@
+{
+    "desktop" : {
+        "view" : {
+            "rating" : true,
+            "votes" : true
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "info" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 14,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 48,
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "icon" : {
+            "size" : 36,
+            "text-align" : "center",
+            "hover" : "@primary",
+            "color" : "@icon"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "name" : "",
+    "deskription" : "",
+    "image" : "",
+    "type" : "star-ratings",
+    "access" : 1,
+    "suffix" : ""
+}

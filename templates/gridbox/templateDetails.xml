@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension method="upgrade" version="3.1" type="template" client="site">
+    <name>Gridbox</name>
+    <version>2.17.0.2</version>
+    <creationDate>01 May 2017</creationDate>
+    <author>Balbooa</author>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <copyright>© 2019 Balbooa All Rights Reserved.</copyright>
+    <files>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>index.php</filename>
+        <filename>offline.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>manifest.webmanifest</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>library</folder>
+        <folder>js</folder>
+    </files>
+    <positions>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>top-c</position>
+        <position>top-d</position>
+        <position>top-full-width</position>
+        <position>feature-a</position>
+        <position>feature-b</position>
+        <position>feature-c</position>
+        <position>breadcrumbs</position>
+        <position>showcase-a</position>
+        <position>showcase-b</position>
+        <position>banner-a</position>
+        <position>banner-b</position>
+        <position>banner-c</position>
+        <position>debug</position>
+        <position>box-a</position>
+        <position>box-b</position>
+        <position>box-c</position>
+        <position>box-d</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>bottom-full-width</position>
+        <position>footer</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+    </positions>
+</extension>

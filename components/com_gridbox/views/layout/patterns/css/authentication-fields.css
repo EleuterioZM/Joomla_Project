@@ -1,0 +1,121 @@
+.ba-checkout-authentication-wrapper > div,
+.mod-login[id*="login-form-"] .userdata,
+#login-form .userdata {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 50px 0; 
+    width: 350px;
+}
+
+.ba-checkout-authentication-checkbox > .ba-checkbox-wrapper,
+.mod-login[id*="login-form-"] #form-login-remember, 
+#login-form #form-login-remember {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 15px 0 20px;
+    padding: 0;
+}
+
+.ba-checkout-registration-wrapper input,
+.ba-checkout-registration-wrapper *,
+.ba-checkout-guest-wrapper .ba-checkout-authentication-btn-wrapper span,
+.ba-checkout-login-wrapper *,
+.ba-checkout-login-wrapper input[type="text"],
+.ba-checkout-login-wrapper input[type="password"],
+.mod-login[id*="login-form-"] .form-group .input-group .input-group-text,
+.mod-login[id*="login-form-"] .form-group .input-group *,
+.mod-login[id*="login-form-"] .form-group  > *,
+#login-form .control-group .controls *,
+#login-form .control-group .controls {
+    width: 100%;
+}
+
+.ba-checkout-authentication-input input,
+.ba-checkout-registration-wrapper input,
+.ba-checkout-registration-wrapper * {
+    box-sizing: border-box;
+    height: auto;
+}
+
+.ba-checkout-authentication-links a,
+.mod-login[id*="login-form-"] .control-group .control-label,
+.mod-login[id*="login-form-"] .list-unstyled li a, 
+.mod-login[id*="login-form-"] .control-group .controls *,
+#login-form .control-group .control-label,
+#login-form .unstyled li a,
+#login-form .control-group .controls * {
+    font-size: 14px;
+    font-style: normal;
+    color: var(--title);
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 14px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.ba-checkout-authentication-links a:hover,
+.ba-checkout-authentication-links a,
+.mod-login[id*="login-form-"] .list-unstyled li a,
+#login-form .unstyled li a {
+    color: var(--text); 
+    transition: .3s;
+    opacity: 1;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled li a,
+ #login-form .unstyled li a,
+.ba-checkout-authentication-links a {
+    flex-grow: 1;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.ba-checkout-authentication-links a:hover,
+.ba-checkout-authentication-links a:hover,
+.mod-login[id*="login-form-"] .list-unstyled li a:hover,
+#login-form .unstyled li a:hover {
+    opacity: .5;
+}
+
+.mod-login[id*="login-form-"] .list-unstyled li:nth-last-child(3) a:hover, 
+#login-form .unstyled li:nth-last-child(3) a:hover,
+.ba-show-registration-dialog:hover {
+    opacity: .5;
+}
+
+.ba-checkout-authentication-btn-wrapper span,
+#user-registration .btn-primary.validate,
+.mod-login[id*="login-form-"] .logout-button .btn-primary, 
+.mod-login[id*="login-form-"] .controls .btn-primary.login-button,
+#login-form .logout-button .btn-primary,
+#login-form .controls .btn-primary.login-button {
+    color: var(--title-inverse);
+    padding: 15px 0;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: .3s;
+}
+
+#user-registration .btn-primary.validate:hover,
+.mod-login[id*="login-form-"] .logout-button .btn-primary:hover, 
+.mod-login[id*="login-form-"] .btn-primary.login-button:hover, 
+#login-form .logout-button .btn-primary:hover,
+#login-form .btn-primary.login-button:hover {
+    background-color: var(--hover);
+}

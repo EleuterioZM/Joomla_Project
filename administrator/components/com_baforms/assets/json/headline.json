@@ -1,0 +1,23 @@
+{
+    "label": {
+        "typography": {
+            "font-family": "inherit",
+            "font-size": 18,
+            "letter-spacing": 0,
+            "line-height": 36,
+            "color" : "#212121",
+            "font-weight" : "bold",
+            "text-align" : "left",
+            "font-style" : "normal",
+            "text-transform" : "none"
+        },
+        "units": {
+            "font-size": "px",
+            "letter-spacing": "px",
+            "line-height": "px"
+        }
+    },
+    "title": "",
+    "tag": "h1",
+    "suffix": ""
+}

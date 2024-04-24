@@ -1,0 +1,18 @@
+.ba-image-zoom-center.ba-image-wrapper:hover img,
+.ba-image-zoom-center .ba-instagram-image:hover .ba-simple-gallery-image,
+.ba-image-rotate-right.ba-image-wrapper:hover img,
+.ba-image-rotate-right .ba-instagram-image:hover .ba-simple-gallery-image {
+    transition-delay: inherit;
+}
+
+/* Animation Zoom Center Effect */
+.ba-image-zoom-center.ba-image-wrapper:hover img,
+.ba-image-zoom-center .ba-instagram-image:hover .ba-simple-gallery-image {
+    transform: scale(1.25);
+}
+
+/* Animation Rotate Right Effect */
+.ba-image-rotate-right.ba-image-wrapper:hover img,
+.ba-image-rotate-right .ba-instagram-image:hover .ba-simple-gallery-image {
+    transform: scale(1.6) rotate(10deg);
+}

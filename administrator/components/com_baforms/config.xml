@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="general" label="GENERAL">
+        <field
+            name="storage"
+            type="note"
+            label="STORAGE"
+        />
+        <field
+            name="uploads_storage"
+            type="text"
+            label="PATH_TO_UPLOADS_STORAGE"
+            size="50"
+            default="images/baforms/uploads"
+        />
+        <field
+            name="pdf_storage"
+            type="text"
+            label="PATH_TO_PDF_STORAGE"
+            size="50"
+            default="images/baforms/pdf"
+        />
+        <field
+            name="spacer"
+            type="spacer"
+            hr="true"
+        />
+        <field
+            name="allowed_file_types"
+            type="text"
+            label="ALLOWED_FILE_TYPES_MEDIA_MANAGER"
+            default="csv, doc, gif, ico, jpg, jpeg, pdf, png, txt, xls, svg, mp4, webp"
+        />
+        <field
+            name="spacer1"
+            type="spacer"
+            hr="true"
+        />
+        <field
+            name="load_jquery"
+            type="radio"
+            label="LOAD_JQUERY"
+            description="LOAD_JQUERY_TOOLTIP"
+            class="btn-group btn-group-yesno"
+            default="1"
+            >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+    </fieldset>
+    <fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+        <field
+            name="uploaded_path"
+            type="hidden"
+            label="PATH_UPLOADED_FILES_FOLDER"
+            size="50"
+            default="images"
+        />
+        <field
+            name="rules"
+            type="rules"
+            label="JCONFIG_PERMISSIONS_LABEL"
+            validate="rules"
+            filter="rules"
+            component="com_baforms"
+            section="component" />
+    </fieldset>
+</config>

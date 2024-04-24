@@ -1,0 +1,31 @@
+@keyframes spinner8-rotate { 
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.preloader-wrapper.ba-spinner-8 .preloader-point-wrapper {  
+    animation: spinner8-rotate 2.0s infinite linear;
+    position: relative;
+    text-align: center;
+}
+
+@keyframes spinner8-bounce {
+  0%, 100% {transform: scale(0.0);}
+  50% {transform: scale(1.0);}
+}
+
+.preloader-wrapper.ba-spinner-8 .preloader-point-wrapper > div {
+    animation: spinner8-bounce 2.0s infinite ease-in-out;
+    border-radius: 100%;
+    display: inline-block;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    width: 60%;
+}
+
+.preloader-wrapper.ba-spinner-8 .preloader-point-wrapper > .preloader-point-2 {
+    animation-delay: -1.0s;
+    bottom: 0;
+    top: auto;
+}

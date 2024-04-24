@@ -1,0 +1,28 @@
+{
+    "items": {
+        "0": {
+            "title": "Option 1",
+            "price": "",
+            "key": 0,
+            "default": false
+        },
+        "1": {
+            "title": "Option 2",
+            "price": "",
+            "key": 1,
+            "default": false
+        },
+        "2": {
+            "title": "Option 3",
+            "price": "",
+            "key": 2,
+            "default": false
+        }
+    },
+    "type": "",
+    "title": "",
+    "placeholder": "Select",
+    "description": "",
+    "required": false,
+    "suffix": ""
+}

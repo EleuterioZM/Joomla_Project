@@ -1,0 +1,42 @@
+.content-text table {
+    width: 100% !important;
+}
+
+.content-text * {
+    word-break: normal;
+}
+
+.content-text pre {
+    border: 1px solid var(--border);
+    margin: 0;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 50px;
+    text-decoration: none !important;
+    text-transform: none !important;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.content-text pre code {
+    font-family: inherit;
+}
+
+.ba-copy-to-clipboard i,
+.ba-item-text a {
+    transition: .3s
+}
+
+.ba-copy-to-clipboard:hover i {
+    opacity: .5;
+}
+
+span.ba-copy-to-clipboard {
+    bottom: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 0;
+    position: absolute;
+    right: 25px;
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_mails",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_mails.admin-email-template-edit.es5",
+      "type": "script",
+      "uri": "com_mails/admin-email-template-edit-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "a50cea78ce39839d422349a90737b316905bddde"
+    },
+    {
+      "name": "com_mails.admin-email-template-edit",
+      "type": "script",
+      "uri": "com_mails/admin-email-template-edit.min.js",
+      "dependencies": [
+        "com_mails.admin-email-template-edit.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "824fb7d7c2442843631e6e06215df336c779fb1b"
+    }
+  ]
+}

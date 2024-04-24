@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "plg_multifactorauth_totp",
+  "version": "4.0.0",
+  "description": "Time-Based One Time Password",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "plg_multifactorauth_totp.setup",
+      "type": "script",
+      "uri": "plg_multifactorauth_totp/setup.min.js",
+      "dependencies": [
+        "plg_multifactorauth_totp.setup.es5",
+        "qrcode",
+        "core"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "9c5f7b842b3abb4f6a3f93d7cb6f45e17424b26d"
+    },
+    {
+      "name": "plg_multifactorauth_totp.setup.es5",
+      "type": "script",
+      "uri": "plg_multifactorauth_totp/setup-es5.min.js",
+      "dependencies": [
+        "qrcode",
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "0c81f4762e9978989d83be103091b700d27c57cb"
+    }
+  ]
+}

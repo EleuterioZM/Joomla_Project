@@ -1,0 +1,9 @@
+.album-in-lightbox-open .ba-row,
+.album-in-lightbox-open .ba-row:hover {
+    z-index: auto !important;
+}
+
+/* Fix for gallery tooltip */
+body .ba-edit-gallery-btn {
+    overflow: visible;
+}

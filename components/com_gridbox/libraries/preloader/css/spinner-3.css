@@ -1,0 +1,11 @@
+@keyframes spinner3 {
+    0% {transform: perspective(120px) rotateX(0deg) rotateY(0deg);} 
+    50% {transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);} 
+    100% {transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);}
+}
+
+.preloader-wrapper.ba-spinner-3 .preloader-point-wrapper > div {
+    animation: spinner3 1.2s infinite ease-in-out;
+    height: 100%;
+    width: 100%;
+}

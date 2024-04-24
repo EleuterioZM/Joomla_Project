@@ -1,0 +1,19 @@
+{
+    "desktop" : {
+        "margin" : {
+            "top" : "25",
+            "bottom" : "25"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "app_id" : "",
+    "type" : "hypercomments",
+    "access" : 1,
+    "suffix" : ""
+}

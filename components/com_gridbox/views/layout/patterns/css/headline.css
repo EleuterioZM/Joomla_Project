@@ -1,0 +1,8 @@
+/*
+/* Plugin Headline
+*/
+
+.ba-item-headline .headline-wrapper > * > span {
+    display: inline-block;
+    white-space: nowrap;
+}

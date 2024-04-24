@@ -1,0 +1,23 @@
+.preloader-wrapper.ba-spinner-6 .preloader-point-wrapper {
+    position: relative;
+}
+
+@keyframes spinner6 {
+  25% {transform: translateX(225%) rotate(-90deg) scale(0.5)}
+  50% {transform: translateX(225%) translateY(225%) rotate(-180deg)}
+  75% {transform: translateX(0px) translateY(225%) rotate(-270deg) scale(0.5)}
+  100% {transform: rotate(-360deg)}
+}
+
+.preloader-wrapper.ba-spinner-6 .preloader-point-wrapper > div {
+    animation: spinner6 1.8s infinite ease-in-out;
+    height: 30%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30%;
+}
+
+.preloader-wrapper.ba-spinner-6 .preloader-point-wrapper > .preloader-point-2 {
+    animation-delay: -0.9s;
+}

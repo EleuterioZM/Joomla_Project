@@ -1,0 +1,83 @@
+{
+    "desktop" : {
+        "view":{
+            "date":true,
+            "author":true,
+            "category":true,
+            "hits":false
+        },
+        "margin":{
+            "bottom":"0",
+            "top":"0"
+        },
+        "padding":{
+            "bottom":"0",
+            "left":"0",
+            "right":"0",
+            "top":"0"
+        },
+        "image" : {
+            "show":true,
+            "fullscreen" : false,
+            "height" : 400,
+            "attachment" : "scroll",
+            "position" : "center center",
+            "repeat" : "no-repeat",
+            "size" : "cover",
+            "color" : "rgba(0,0,0,0)"
+        },
+        "title" : {
+            "show":true,
+            "margin" : {
+                "bottom" : "25",
+                "top" : "25"
+            },
+            "typography" : {
+                "color" : "@title",
+                "font-family" : "@default",
+                "font-size" : 40,
+                "font-style" : "normal",
+                "font-weight" : "900",
+                "letter-spacing" : 0,
+                "line-height" : 50,
+                "text-decoration" : "none",
+                "text-align" : "center",
+                "text-transform" : "none"
+            }
+        },
+        "info" : {
+            "margin" : {
+                "bottom" : "0",
+                "top" : "0"
+            },
+            "typography" : {
+                "color" : "@subtitle",
+                "font-family" : "@default",
+                "font-size" : 10,
+                "font-style" : "normal",
+                "font-weight" : "500",
+                "letter-spacing" : 2,
+                "line-height" : 18,
+                "text-decoration" : "none",
+                "text-align" : "center",
+                "text-transform" : "uppercase"
+            },
+            "hover" : {
+                "color" : "@primary"
+            }
+        },
+        "disable":"0"
+    },
+    "tablet":{
+        "disable":"0"
+    },
+    "phone":{
+        "disable":"0"
+    },
+    "layout":{
+        "layout" : ""
+    },
+    "type":"post-intro",
+    "access":1,
+    "suffix":""
+}

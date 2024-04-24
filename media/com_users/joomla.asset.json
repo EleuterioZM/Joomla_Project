@@ -1,0 +1,109 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_users",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_users.admin-users-groups.es5",
+      "type": "script",
+      "uri": "com_users/admin-users-groups-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "287760ca3a728763b8fd1990d6674ced7edd4545"
+    },
+    {
+      "name": "com_users.admin-users-groups",
+      "type": "script",
+      "uri": "com_users/admin-users-groups.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "a1b0b5ad6c3242afd6522430786e6b7b15da9564"
+    },
+    {
+      "name": "com_users.admin-users-mail.es5",
+      "type": "script",
+      "uri": "com_users/admin-users-mail-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "fb2a24eb6ab290934c7a21b7ab575b81c2d995f9"
+    },
+    {
+      "name": "com_users.admin-users-mail",
+      "type": "script",
+      "uri": "com_users/admin-users-mail.min.js",
+      "dependencies": [
+        "com_users.admin-users-mail.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "696a34abeb6e32f8b6d5b10ae88b7e4ffa98770b"
+    },
+    {
+      "name": "com_users.two-factor-focus",
+      "type": "script",
+      "uri": "com_users/two-factor-focus.min.js",
+      "dependencies": [
+        "com_users.two-factor-focus.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "9d8022f1bbe62abcb93c97e9aec5d152b36f6afb"
+    },
+    {
+      "name": "com_users.two-factor-focus.es5",
+      "type": "script",
+      "uri": "com_users/two-factor-focus-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "240379b135f21c405c5106f7f36c54751764a040"
+    },
+    {
+      "name": "com_users.two-factor-list.es5",
+      "type": "script",
+      "uri": "com_users/two-factor-list-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "e1a5bc762a86ba16f8070b76dff82c89a7358cd2"
+    },
+    {
+      "name": "com_users.two-factor-list",
+      "type": "script",
+      "uri": "com_users/two-factor-list.min.js",
+      "dependencies": [
+        "com_users.two-factor-list.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "8f87bbc99bc01b9b54fc4c20476041bbc5774fb3"
+    }
+  ]
+}

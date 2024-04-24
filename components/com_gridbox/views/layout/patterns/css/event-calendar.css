@@ -1,0 +1,94 @@
+/*
+/* Plugin Event Calendar
+*/
+
+.ba-event-calendar-row,
+.ba-event-calendar-header {
+    display: flex;
+}
+
+.ba-event-calendar-header {
+    margin: 25px 0;
+}
+
+.ba-event-calendar-row > div,
+.ba-event-calendar-header  > div {
+    cursor: default;
+    flex-grow: 1;
+    min-width: calc((100% / 7) - 14px );
+    text-align: center;
+    width: calc((100% / 7) - 14px );
+}
+
+.ba-event-calendar-header > div,
+.ba-event-calendar-row > div {
+    margin: 1px;
+}
+
+.ba-event-calendar-title-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ba-event-calendar-title-wrapper i {
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0 1em;
+    transition: color .3s linear;
+}
+
+.ba-event-calendar-title-wrapper i:hover {
+    color: var(--primary);
+}
+
+.ba-date-cell.ba-event-date {
+    cursor: pointer;
+    position: relative;
+}
+
+.ba-date-cell.ba-curent-date {
+    position: relative;
+    z-index: 0;
+}
+
+.ba-date-cell.ba-event-date,
+.ba-date-cell.ba-curent-date {
+    font-weight: 700 !important;
+}
+
+.ba-date-cell.ba-event-date:after,
+.ba-date-cell.ba-curent-date:before {
+    background-color: var(--primary);
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    transition: background-color .3s linear;
+}
+
+.ba-date-cell.ba-event-date {
+    color: var(--title-inverse) !important;
+}
+
+.ba-date-cell.ba-curent-date.ba-event-date:before {
+    background-color: var(--title-inverse) !important;
+    z-index: 1;
+    left: 2px;
+    right: 2px;
+    width: auto;
+    bottom: 2px;
+}
+
+.ba-date-cell.ba-event-date:after {
+    height: auto;
+    right: 0;
+    top: 0;
+}
+
+.ba-date-cell.ba-event-date {
+    z-index: 1;
+}

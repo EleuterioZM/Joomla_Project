@@ -1,0 +1,16 @@
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-5%,0,0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.ba-item-content-slider .active .fadeInLeft,
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}

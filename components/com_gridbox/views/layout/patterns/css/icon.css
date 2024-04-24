@@ -1,0 +1,17 @@
+/*
+/* Plugin Icons
+*/
+
+.ba-item-icon a {
+    display: inline-block !important;
+}
+
+.ba-item-icon .ba-icon-wrapper i {
+    cursor: default !important;
+    line-height: 1em;
+    text-align: center;
+}
+
+.ba-item-icon .ba-icon-wrapper a i {
+    cursor: pointer !important;
+}

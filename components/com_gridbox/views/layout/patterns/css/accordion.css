@@ -1,0 +1,84 @@
+
+/*
+/* Plugin Accordion
+*/
+
+.ba-item-accordion .accordion {
+    margin: 0;
+}
+
+.accordion-body .accordion-inner,
+.accordion-body {
+    overflow: hidden;
+    border: none;
+}
+
+.accordion-body.in[style=*"height: auto;"] .accordion-inner,
+.accordion-body.in[style=*"height: auto;"] {
+    overflow: visible;
+}
+
+.accordion-body:not(.in) .accordion-inner > .tabs-content-wrapper,
+.accordion-body:not(.in) .accordion-inner {
+    height: inherit;
+}
+
+.ba-item-accordion .collapse:not(.show),
+.ba-item-accordion .collapse {
+    transition: height .5s ease;
+    display: block !important;
+}
+
+.ba-item-accordion .accordion-group {
+    border-radius: 0;
+    border: 1px solid;
+    border-bottom-width: 0;
+    margin: 0;
+}
+
+.ba-item-accordion .accordion-group:last-child {
+    border-bottom-width: 1px;
+}
+
+.accordion-heading > a.accordion-toggle {
+    display: block;
+    padding: 20px 35px 20px 20px;
+    position: relative;
+}
+
+.accordion-toggle > span {
+    align-items: center;
+    display: inline-flex;
+}
+
+.accordion-heading > a > span + i {
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 9px);
+}
+
+.accordion-heading > a > span + i {
+    font-size: 18px !important;
+    letter-spacing: normal;
+    line-height: 18px !important; 
+}
+
+.accordion-toggle > span + i:before {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.accordion-toggle.active > span + i:before {
+    transform: rotate(90deg);
+}
+
+.accordion-body .accordion-inner .ba-section {
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.accordion-body.in .accordion-inner .ba-section {
+    opacity: 1;
+    transition: .3s .2s ease-in-out;
+}

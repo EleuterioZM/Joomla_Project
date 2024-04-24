@@ -1,0 +1,25 @@
+.ba-item-reading-progress-bar {
+    left: 0;
+    min-height: 0 !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.ba-reading-progress-bar {
+	overflow:hidden;
+}
+
+.ba-item-reading-progress-bar[data-position="top"] {
+    top: 0;   
+}
+
+.ba-item-reading-progress-bar[data-position="bottom"] {
+    bottom: 0;   
+    top: auto !important;
+}
+
+.ba-item-reading-progress-bar .ba-animated-bar {
+    height: 100%;
+}

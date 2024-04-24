@@ -1,0 +1,23 @@
+.preloader-wrapper.ba-spinner-4 .preloader-point-wrapper  {
+    position: relative;
+}
+
+@keyframes spinner4 {
+    0%, 100% {transform: scale(0.0);} 
+    50% {transform: scale(1.0);}
+}
+
+.preloader-wrapper.ba-spinner-4 .preloader-point-wrapper > div {  
+    animation: spinner4 2.0s infinite ease-in-out;
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.preloader-wrapper.ba-spinner-4 .preloader-point-wrapper > .preloader-point-2 {
+    animation-delay: -1.0s;
+}

@@ -1,0 +1,61 @@
+/*
+/* Plugin Video
+*/
+
+.ba-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.ba-video-wrapper video {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.ba-video-wrapper iframe {
+    border-radius: inherit;
+    bottom: -1px;
+    height: calc(100% + 3px);
+    left: -1px;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 3px);
+}
+
+.video-lazy-load-thumbnail {
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.video-lazy-load-thumbnail i {
+    background: #fff;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.23);
+    border-radius: 100%;
+    color: var(--primary);
+    font-size: 82px;
+    line-height: 68px;
+    opacity: 1;
+    transition: opacity .3s;
+    width: 68px;
+}
+
+.video-lazy-load-thumbnail:hover i {
+    opacity: .8;
+}

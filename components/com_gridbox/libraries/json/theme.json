@@ -1,0 +1,138 @@
+{
+    "desktop" : {
+        "body" : {
+            "color" : "@text",
+            "font-family" : "Roboto",
+            "font-size" : 21,
+            "font-style" : "normal",
+            "font-weight" : "300",
+            "letter-spacing" : 0,
+            "line-height" : 36,
+            "text-align" : "left",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "p" : {
+            "color" : "@text",
+            "font-family" : "@default",
+            "font-size" : 21,
+            "font-style" : "normal",
+            "font-weight" : "300",
+            "letter-spacing" : 0,
+            "line-height" : 36,
+            "text-align" : "left",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h1" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 56,
+            "font-style" : "normal",
+            "font-weight" : "700",
+            "letter-spacing" : 0,
+            "line-height" : 65,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h2" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 40,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 50,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h3" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 32,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 42,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h4" : {
+            "color" : "@text",
+            "font-family" : "@default",
+            "font-size" : 24,
+            "font-style" : "normal",
+            "font-weight" : "300",
+            "letter-spacing" : 0,
+            "line-height" : 42,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h5" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 20,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "line-height" : 30,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "h6" : {
+            "color" : "@subtitle",
+            "font-family" : "@default",
+            "font-size" : 14,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 18,
+            "text-align" : "center",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "links" : {
+            "color" : "@secondary",
+            "hover-color" : "@hover"
+        },
+        "padding" : {
+            "bottom" : 0,
+            "left" : 0,
+            "right" : 0,
+            "top" : 0
+        },
+        "background" : {
+            "type" : "color",
+            "color" : "@bg-primary",
+            "image" : {
+                "image" : "",
+                "attachment" : "scroll",
+                "position" : "center center",
+                "size" : "cover",
+                "repeat" : "no-repeat"
+            },
+            "video" : {
+                "type" : "youtube",
+                "id" : "",
+                "mute" : 1,
+                "start" : 0,
+                "quality" : "hd720",
+                "image" : ""
+            }
+        },
+        "overlay" : {
+            "color" : "rgba(0, 0, 0, 0)"
+        }
+    },
+    "tablet" : {},
+    "phone" : {},
+    "presets":{},
+    "defaultPresets":{},
+    "access" : 1,
+    "suffix" : ""
+}

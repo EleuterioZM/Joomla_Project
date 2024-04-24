@@ -1,0 +1,94 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "disable" : "0",
+        "style": {
+            "width" : "",
+            "align" : "center"
+        },
+        "animation":{
+            "effect": "ba-fade",
+            "duration": 0.3
+        },
+        "overlay": {
+            "type": "none",
+            "color": "@overlay",
+            "gradient": {
+                "effect": "linear",
+                "angle": 45,
+                "color1": "@bg-dark",
+                "position1": 25,
+                "color2": "@bg-dark-accent",
+                "position2": 75
+            }
+        },
+        "title" : {
+            "typography" : {
+                "color" : "@title-inverse",
+                "font-family" : "@default",
+                "font-size" : 32,
+                "font-style" : "normal",
+                "font-weight" : "900",
+                "letter-spacing" : 0,
+                "line-height" : 42,
+                "text-decoration" : "none",
+                "text-align" : "center",
+                "text-transform" : "none"
+            },
+            "margin" : {
+                "bottom" : "0",
+                "top" : "0"
+            }
+        },
+        "description" : {
+            "typography" : {
+                "color" : "@title-inverse",
+                "font-family" : "@default",
+                "font-size" : 21,
+                "font-style" : "normal",
+                "font-weight" : "300",
+                "letter-spacing" : 0,
+                "line-height" : 36,
+                "text-decoration" : "none",
+                "text-align" : "center",
+                "text-transform" : "none"
+            },
+            "margin" : {
+                "bottom" : "0",
+                "top" : "0"
+            }
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "link" : {
+        "link" : "",
+        "target" : "_self"
+    },
+    "popup": false,
+    "lightbox" : {
+        "color" : "@overlay"
+    },
+    "image" : "",
+    "alt" : "",
+    "type" : "image",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,9 @@
+.lazy-load-image,
+.lazy-load-image > .parallax-wrapper .parallax,
+.slideshow-content.lazy-load-image .ba-slideshow-img,
+.lazy-load-image .ba-store-app-product .ba-slideshow-img:before,
+.lazy-load-image .ba-store-app-product a:before,
+.lazy-load-image .ba-slideshow-img a, 
+.lazy-load-image .ba-blog-post-image a {
+    background-image: none !important;
+}

@@ -1,0 +1,21 @@
+{
+    "desktop" : {
+        "view":{
+            "bar" : "@primary",
+            "background": "rgba(255, 255, 255, 0)",
+            "height": "6"
+        },
+        "disable" : "0"
+    },
+    "display": "content",
+    "position": "top",
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "reading-progress-bar",
+    "access" : 1,
+    "suffix" : ""
+}

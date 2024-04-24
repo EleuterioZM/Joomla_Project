@@ -1,0 +1,47 @@
+/*
+/* Plugin Simple Gallery
+*/
+
+.instagram-wrapper {
+    display: grid;
+}
+
+.simple-gallery-masonry-layout {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-auto-rows: 0px;
+}
+
+.ba-instagram-image .ba-simple-gallery-image {
+    background: inherit;
+    transition-duration: inherit;
+}
+
+.ba-item-simple-gallery  .ba-instagram-image > * {
+    transition-delay: 0s !important;
+}
+
+.ba-item-field-simple-gallery .ba-instagram-image {
+    transition: opacity 0.3s linear;
+}
+
+.ba-item-field-simple-gallery .ba-instagram-image:hover {
+    opacity: .85;
+}
+
+.ba-instagram-image {
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+
+.ba-instagram-image img {
+    max-height: 100%;
+    opacity: 0;
+}
+
+.simple-gallery-masonry-layout .ba-instagram-image img {
+    max-height: initial;
+}

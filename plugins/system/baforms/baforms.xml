@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>BaForms - System</name>
+    <author>Balbooa</author>
+    <creationDate>06 April 2015</creationDate>
+    <copyright>Balbooa 2016</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <authorUrl>http://balbooa.com</authorUrl>
+    <version>2.2.0.1</version>
+    <description>Plugin allows to Display Forms in the front end</description>
+    <files>
+        <filename plugin="baforms">baforms.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>

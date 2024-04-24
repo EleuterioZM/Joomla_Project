@@ -1,0 +1,78 @@
+{
+    "limitation": {
+        "enable": false,
+        "early": {
+            "value": 2,
+            "format": "m"
+        },
+        "late": {
+            "value": 1,
+            "format": "d"
+        }
+    },
+    "default" : {
+        "monday": {
+            "enable": true,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "tuesday": {
+            "enable": true,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "wednesday": {
+            "enable": true,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "thursday": {
+            "enable": true,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "friday": {
+            "enable": true,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "saturday": {
+            "enable": false,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        },
+        "sunday": {
+            "enable": false,
+            "hours": [
+                {
+                    "start": "10:00",
+                    "end": "18:00"
+                }
+            ]
+        }
+    }
+}

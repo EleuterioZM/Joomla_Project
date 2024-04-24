@@ -1,0 +1,47 @@
+.cke_panel_block .cke_panel_list,
+body .cke_panel_block {
+	background: transparent;
+	font-size: 14px!important;
+}
+
+.cke_panel_block h1,
+.cke_panel_block h2,
+.cke_panel_block h3,
+.cke_panel_block h4,
+.cke_panel_block h5,
+.cke_panel_block h6 {
+    text-align: left !important;
+    letter-spacing: 0 !important;
+    font-weight: bold!important;
+    text-transform: none!important;	
+}
+
+.cke_panel_block h1 {
+    font-size: 1.3em !important;
+    line-height: 1.3em !important;
+}
+
+.cke_panel_block h2 {
+    font-size: 1.2em !important;
+    line-height: 1.2em !important;
+}
+
+.cke_panel_block h3 {
+    font-size: 1em !important;
+    line-height: 1em !important;
+}
+
+.cke_panel_block h4 {
+    font-size: .9em !important;
+    line-height: .9em !important;
+}
+
+.cke_panel_block h5 {
+    font-size: .8em !important;
+    line-height: .8em !important;
+}
+
+.cke_panel_block h6 {
+    font-size: .7em !important;
+    line-height: .7em !important;
+}

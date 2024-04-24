@@ -1,0 +1,57 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "radius" : "50",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "typography" : {
+            "font-family" : "@default",
+            "font-size" : 10,
+            "font-style" : "normal",
+            "font-weight" : "700",
+            "letter-spacing" : 2,
+            "line-height" : 18,
+            "text-align" : "left",
+            "text-decoration" : "none",
+            "text-transform" : "uppercase"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "10",
+            "left" : "20",
+            "right" : "20",
+            "top" : "10"
+        },
+        "disable" : "0",
+        "normal":{
+            "color" : "@title-inverse",
+            "background-color" : "@primary"
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "hover" : {
+        "color" : "@title-inverse",
+        "background-color" : "@hover"
+    },
+    "sorting":"hits",
+    "count" : 10,
+    "app" : "",
+    "categories" : {},
+    "type" : "tags",
+    "access" : 1,
+    "suffix" : ""
+}

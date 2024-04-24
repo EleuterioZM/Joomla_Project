@@ -1,0 +1,15 @@
+/* Circle */
+
+@keyframes pt-circle-out {
+    from {transform: scale(2);}
+    to {transform: scale(0);}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-circle:before {
+    animation: pt-circle-out .5s .3s linear both;
+    border-radius: 100%;
+    height: 100vw;
+    left: 0;
+    top: calc(50vh - 50vw);
+    transform: scale(2);
+}

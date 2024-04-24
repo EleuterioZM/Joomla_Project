@@ -1,0 +1,65 @@
+/*
+/* Plugin Feature Box
+*/
+
+.ba-feature-box-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ba-feature-box-wrapper .ba-feature-box {
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ba-feature-image-wrapper .ba-feature-image {
+    max-width: 100%;
+}
+
+.ba-feature-image-wrapper i {
+    align-items: center;
+    display: inline-flex;
+    height: 1em;
+    justify-content: center;
+    max-width: 100%;
+    width: 1em;
+}
+
+.ba-feature-list-layout .ba-feature-image-wrapper {
+    margin-right: 25px;
+}
+
+.ba-feature-image-wrapper div {
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.ba-feature-box-wrapper.ba-feature-grid-layout .ba-feature-box {
+    flex-direction: column;
+}
+
+.ba-feature-box-wrapper.ba-feature-grid-layout .ba-feature-box:hover {
+    z-index: 1;
+}
+
+
+.ba-feature-box-wrapper.ba-feature-list-layout .ba-feature-box .ba-feature-caption {
+    flex-grow: 1;
+}
+
+.ba-feature-button a {
+    display: inline-block;
+    transition: .3s;
+}
+
+.ba-feature-button.empty-content {
+    display: block !important;
+}

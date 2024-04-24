@@ -1,0 +1,29 @@
+/* Split Vertical */
+
+@keyframes ba-pt-split-vertical {
+    from {top: 50vh;}
+    to {top: 100vh;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-vertical:after{
+    animation: ba-pt-split-vertical .5s .3s linear both;
+}
+
+.preloader-wrapper.ba-pt-split-vertical:after{
+    top: 50vh;
+    height: 50vh;
+}
+
+@keyframes ba-pt-split-vertical-out {
+    from {top: 0;}
+    to {top: -50vh;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-vertical:before {
+    animation: ba-pt-split-vertical-out .5s .3s linear both;
+}
+
+.preloader-wrapper.ba-pt-split-vertical:before {
+    top: 0;
+    height: 50vh;
+}

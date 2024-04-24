@@ -1,0 +1,126 @@
+.ba-item-headline .headline-wrapper > * > span {
+    animation-duration: inherit;
+}
+
+.ba-item-headline .headline-wrapper > * > span span {
+    animation-duration: inherit;
+    animation-fill-mode: both;
+    display: inline-block;
+    opacity: 0;
+}
+
+/* Animation Rotate Letter*/
+.ba-item-headline .headline-wrapper.rotate > * > span span {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+@keyframes rotate-letter {
+    0%{transform:rotateY(180deg); opacity: 0;}
+    100%{transform:rotateY(0deg); opacity: 1;}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.rotate > * > span span,
+.ba-item-headline .headline-wrapper.rotate > * > span span {
+    animation-name: rotate-letter;
+}
+
+/********* Animation Scale Letter ********/
+.ba-item-headline .headline-wrapper.zoom > * > span span,
+.ba-item-headline .headline-wrapper.scale > * > span span{
+    opacity: 0;
+}
+
+@keyframes scale-letter {
+    0%{transform:scale(0); opacity:0}
+    100%{transform:scale(1); opacity:1}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.scale > * > span span,
+.ba-item-headline .headline-wrapper.scale > * > span span {
+    animation-name: scale-letter;
+    transform: scale(0);
+}
+
+/********Animation Zoom Letter*******/
+
+@keyframes zoom-letter {
+    0%{opacity:0; transform:scale(1.5)}
+    100%{opacity:1; transform:scale(1)}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.zoom > * > span span,
+.ba-item-headline .headline-wrapper.zoom > * > span span {
+    animation-name: zoom-letter;
+}
+
+/********Animation Flip Letter*******/
+@keyframes flip-letter {
+    0%{transform:rotateX(0deg); opacity:0}
+    100%{transform:rotateX(720deg); opacity:1}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.flip > * > span span,
+.ba-item-headline .headline-wrapper.flip > * > span span {
+    animation-name: flip-letter;
+    transform-origin: 0% 50%;
+}
+
+.ba-item-headline .headline-wrapper.slide > * > span span,
+.ba-item-headline .headline-wrapper.flip > * > span span  {
+    opacity: 1; 
+}
+
+.ba-item-headline .headline-wrapper.flip > * {
+    perspective: 100vh;
+}
+
+/********Animation Slide Letter*******/  
+@keyframes slide-letter {
+    0%{opacity:0; transform:translateY(-100%)}
+    100%{opacity:1; transform:translateY(0)}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.slide > * > span span,
+.ba-item-headline .headline-wrapper.slide > * > span span {
+    animation-name: slide-letter;
+}
+
+/********Animation Type Letter*******/  
+
+@keyframes type-letter {
+    0%{visibility: hidden; width: 0; opacity: 1;}
+    99%{visibility: hidden; width: 0; opacity: 1;}
+    100%{visibility: visible; width: auto; opacity: 1;}
+}
+
+.ba-item-content-slider .active .ba-item-headline .headline-wrapper.type > * > span span,
+.ba-item-headline .headline-wrapper.type > * > span span {
+    animation-name: type-letter;
+    visibility: hidden;
+}
+
+@keyframes type-pulse {
+    0%{opacity:1;}
+    49%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:0;}
+}
+
+.ba-item-headline .headline-wrapper.type > *:after{
+    animation: type-pulse 1.3s infinite;
+    animation-delay: inherit;
+    content: '\e045';
+    display: inline-flex;
+    font-family: "balbooa-family";
+    font-size: 1.2em;
+    font-weight: 100;
+    overflow: hidden;
+    top: 50%;
+    width: 5px;
+    transform: translateY(.09em);
+}
+
+.ba-item-headline .headline-wrapper.type > * > span span {
+    animation-duration: 0s !important;
+}

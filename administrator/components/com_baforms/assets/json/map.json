@@ -1,0 +1,32 @@
+{
+    "height" : "400",
+    "map" : {
+        "center" : {
+            "lat" : 42.345573,
+            "lng" : -71.098326
+        },
+        "zoom": 14,
+        "mapTypeId" : "roadmap",
+        "scrollwheel": false,
+        "navigationControl": true,
+        "mapTypeControl": true,
+        "scaleControl": true,
+        "draggable": true,
+        "zoomControl": true,
+        "disableDefaultUI": false,
+        "disableDoubleClickZoom": false
+    },
+    "marker" : {
+        "description" : "",
+        "infobox" : false,
+        "icon" : ""
+    },
+    "controls" : true,
+    "place": "",
+    "style" : [],
+    "styleType" : "standart",
+    "units": {
+        "height": "px"
+    },
+    "suffix": ""
+}

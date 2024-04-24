@@ -1,0 +1,66 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "height" : "400",
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        },
+        "view":{
+            "author": false,
+            "button": false,
+            "category": true,
+            "comments": false,
+            "date": true,
+            "image": true,
+            "reviews": false,
+            "title": true
+        },
+        "fields":{},
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "map" : {
+        "center" : {
+            "lat" : 42.345573,
+            "lng" : -71.098326
+        },
+        "zoom": 14,
+        "mapTypeId" : "roadmap",
+        "scrollwheel": false,
+        "navigationControl": true,
+        "mapTypeControl": true,
+        "scaleControl": true,
+        "draggable": true,
+        "zoomControl": true,
+        "disableDefaultUI": false,
+        "disableDoubleClickZoom": false
+    },
+    "fields":[],
+    "info": ["author", "date", "category", "comments"],
+    "style" : [],
+    "styleType" : "standart",
+    "marker" : {
+        "0" : {
+            "description" : "",
+            "infobox" : "0",
+            "icon" : ""
+        }
+    },
+    "layout":"list",
+    "app": 0,
+    "controls" : "1",
+    "scrollwheel" : "0",
+    "draggable" : "1",
+    "type" : "google-maps-places",
+    "access" : 1,
+    "suffix" : ""
+}

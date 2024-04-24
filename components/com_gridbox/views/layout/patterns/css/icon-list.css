@@ -1,0 +1,97 @@
+/*
+/* Plugin Icon-list
+*/
+
+.ba-item-icon-list ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.ba-item-icon-list li {
+    align-items: flex-start;
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+.ba-item-icon-list li a:before,
+.ba-item-icon-list li i:before,
+.ba-item-icon-list li:before,
+.ba-item-icon-list li i {
+    cursor: default !important;
+    display: block;
+    font-style: initial;
+    height: 1em;
+    line-height: 1em;
+    min-width: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    width: 1em;
+}
+
+.ba-item-icon-list li:before,
+.ba-item-icon-list li a:before,
+.ba-item-icon-list li i {
+    margin-top: calc(var(--icon-list-line-height)/2);
+    transform: translateY(-50%);
+}
+
+.ba-item-icon-list li a i:before {
+    cursor: pointer !important;
+}
+
+.ba-item-icon-list li a {
+    align-items: flex-start;
+    display: inherit;
+}
+
+.ba-item-icon-list li a span {
+    align-items: center;
+    display: flex;
+    min-height: 100%;
+}
+
+.ba-item-icon-list li a,
+.ba-item-icon-list li a i {
+    cursor: pointer !important;
+}
+
+.ba-item-icon-list .vertical-layout {
+    flex-direction: column;
+}
+
+.ba-item-icon-list li:last-child,
+.ba-item-icon-list .vertical-layout li {
+    margin-right: 0;
+}
+
+.ba-item-icon-list .vertical-layout li {
+    margin-top: 20px;
+}
+
+.ba-item-icon-list .vertical-layout li:first-child {
+    margin-top: 0;
+}
+
+.ba-item-icon-list ul.bullets-type i,
+.ba-item-icon-list ul.numbers-type i {
+    display: none;
+}
+
+.ba-item-icon-list ul.bullets-type li a:before,
+.ba-item-icon-list ul.bullets-type li.list-item-without-link:before {
+    content: '\f26d';
+    font-family: 'balbooa-family';
+}
+
+.ba-item-icon-list ul.numbers-type {
+    counter-reset: list-numbers;
+}
+.ba-item-icon-list ul.numbers-type li a:before,
+.ba-item-icon-list ul.numbers-type li.list-item-without-link:before {
+    counter-increment: list-numbers;
+    content: counter(list-numbers);
+}

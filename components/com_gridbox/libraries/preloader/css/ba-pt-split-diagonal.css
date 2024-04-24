@@ -1,0 +1,35 @@
+/* Split Diagonal */
+.preloader-wrapper.ba-pt-split-diagonal:after,
+.preloader-wrapper.ba-pt-split-diagonal:before {
+    transform: skewX(45deg);
+    width: 130vw;
+}
+
+@keyframes ba-pt-split-diagonal {
+    from {left: 25%;}
+    to {left: 145%;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diagonal:after{
+    animation: ba-pt-split-diagonal .5s .3s linear both;
+    left: 25%;
+}
+
+@keyframes ba-pt-split-diagonal-out {
+    from {right: 25%;}
+    to {right: 145%;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diagonal:before {
+    animation: ba-pt-split-diagonal-out .5s .3s linear both;
+    right: 25%;
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-frame,
+.preloader-wrapper.ba-pt-circle,
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diamond,
+.preloader-wrapper.ba-pt-split-horizontal,
+.preloader-wrapper.ba-pt-split-vertical,
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diagonal {
+    background: transparent !important;
+}

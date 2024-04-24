@@ -1,0 +1,17 @@
+/*
+/* Plugin Map
+*/
+
+.gm-style-mtc + .gm-style-mtc div, .gm-style-mtc div {
+    left: initial !important;
+    right: initial !important;
+    top: initial !important;
+}
+
+.ba-map-wrapper {
+    min-height: 10px;
+}
+
+.gm-style-cc {
+    display: none;
+}

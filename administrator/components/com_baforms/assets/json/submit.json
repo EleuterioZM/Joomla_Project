@@ -1,0 +1,98 @@
+{
+    "animation": "ba-form-icon-horizontal-slide-in-animation",
+    "background": {
+        "color": "#f5f8f9",
+        "hover": "#212121"
+    },
+    "padding": {
+        "link": false,
+        "top": 20,
+        "right": 60,
+        "bottom": 20,
+        "left": 60
+    },
+    "border": {
+        "top": false,
+        "right": false,
+        "bottom": false,
+        "left": false,
+        "color": "#e3e3e3",
+        "hover": "#e3e3e3",
+        "radius": 0,
+        "width": 1
+    },
+    "typography": {
+        "font-family": "inherit",
+        "font-size": 18,
+        "letter-spacing": 0,
+        "line-height": 18,
+        "color" : "#ffffff",
+        "hover" : "#ffffff",
+        "font-weight" : "bold",
+        "text-align" : "flex-start",
+        "font-style" : "normal",
+        "text-transform" : "none"
+    },
+    "icon":{
+        "size": 24,
+        "color": "#ffffff",
+        "hover": "#ffffff",
+        "text-align": "row"
+    },
+    "shadow": {
+        "value": 0,
+        "color": "rgba(0, 0, 0, 0.5)",
+        "hover": "rgba(0, 0, 0, 0.5)"
+    },
+    "popup-animation": "ba-forms-lightbox-effect-1",
+    "popup": {
+        "width": 600,
+        "radius": 0,
+        "background-color": "rgba(255, 255, 255, 1)",
+        "backdrop-color": "rgba(0, 0, 0, 0.15)",
+        "icon-color": "rgba(0, 0, 0, 1)"
+    },
+    "units": {
+        "padding": "px",
+        "border-radius": "px",
+        "border-width": "px",
+        "font-size": "px",
+        "letter-spacing": "px",
+        "line-height": "px",
+        "size": "px",
+        "popup-width": "px",
+        "popup-radius": "px"
+    },
+    "label": "Submit",
+    "submit-icon": "zmdi zmdi-mail-send",
+    "onclick": "message",
+    "message": "Thank you! Your message has been sent.",
+    "message-type": "",
+    "advanced-message": "<h3 style='text-align: center;'>Thank you!</h3><p>&nbsp;</p><p style='text-align: center;'>Your message has been sent.</p>",
+    "link": "",
+    "payment": "",
+    "php":"",
+    "notifications": {
+        "enable": true,
+        "admin":{},
+        "email": "",
+        "custom-email":"",
+        "subject": "You have a new submission",
+        "body": "[All Fields]",
+        "attach": true,
+        "attach_pdf": false
+    },
+    "reply": {
+        "enable": true,
+        "email": "",
+        "custom-email":"",
+        "subject": "Thank you for your submission!",
+        "body": "<p>Thank you for filling form! Your information has been successfully submitted. We will process its contents and get back to you as soon as possible.</p>",
+        "attach": true,
+        "attach_pdf": false
+    },
+    "database": true,
+    "honeypot": true,
+    "suffix": "",
+    "recaptcha": ""
+}

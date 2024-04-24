@@ -1,0 +1,21 @@
+.ba-circle-bottom-right .ba-caption-overlay,
+.ba-circle-top-left .ba-caption-overlay {
+    border-radius: 50%;
+    bottom: -25% !important;
+    left: -25% !important;
+    position: absolute;
+    right: -25% !important;
+    top: -25% !important;
+}
+
+/* Animation Circle Top Left Effect */
+.ba-circle-top-left.ba-image-wrapper:not(:hover) .ba-image-item-caption,
+.ba-circle-top-left .ba-instagram-image:not(:hover) .ba-simple-gallery-caption {
+    transform: translateX(130%)translateY(130%);
+}
+
+/* Animation Circle Down Right Effect */
+.ba-circle-bottom-right.ba-image-wrapper:not(:hover) .ba-image-item-caption,
+.ba-circle-bottom-right .ba-instagram-image:not(:hover) .ba-simple-gallery-caption {
+    transform: translateX(-130%)translateY(-130%);
+}

@@ -1,0 +1,55 @@
+/*
+/* Blog Plugin Search
+*/
+
+.ba-item-store-search,
+.ba-item-search {
+    --shadow-horizontal: 0;
+    --shadow-vertical: 0;
+    --shadow-blur: 0;
+    --shadow-spread: 0px;
+    --shadow-color: rgba(0, 0, 0, 0);
+}
+
+.ba-item-store-search .ba-search-wrapper,
+.ba-item-search .ba-search-wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: var(--shadow-horizontal) var(--shadow-vertical) var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+    display: inline-flex;
+    width: 100%;
+}
+
+.ba-item-store-search .ba-search-wrapper:not(.after),
+.ba-item-search .ba-search-wrapper:not(.after) {
+    flex-direction: row-reverse;
+}
+
+.ba-item-store-search .ba-search-wrapper input,
+.ba-item-search .ba-search-wrapper input {
+    background: transparent !important;
+    border: none !important;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ba-item-store-search .ba-search-wrapper i,
+.ba-item-search .ba-search-wrapper i {
+    pointer-events: none;
+    margin: 0 10px;
+}
+
+.search-started .ba-item-search-result {
+    opacity: 0;
+}
+
+.ba-search-wrapper input::placeholder {
+    opacity: .5;
+}
+
+.ba-item-store-search-result .ba-blog-posts-wrapper p,
+.ba-item-search-result .ba-blog-posts-wrapper p {
+    margin: 0 10px; 
+}

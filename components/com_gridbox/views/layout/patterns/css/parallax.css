@@ -1,0 +1,33 @@
+/* 
+/* Paralax
+*/
+
+.parallax-wrapper,
+.parallax {
+    background-attachment: scroll;
+    border-radius: inherit;
+    background: inherit;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.parallax {
+    height: 120%;
+    left: -10%;
+    top: -10%;
+    transition: none;
+    width: 120%;
+}
+
+.parallax-wrapper {
+    overflow: hidden;
+}
+
+.parallax-wrapper.scroll .parallax {
+    left: 0;
+    width: 100%;
+}

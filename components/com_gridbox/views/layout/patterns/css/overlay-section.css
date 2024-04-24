@@ -1,0 +1,133 @@
+/*
+/* Plugin Overlay Section
+*/
+
+.ba-item-overlay-section .ba-image-wrapper + .ba-button-wrapper {
+    display: none;
+}
+
+.ba-item-overlay-section .ba-image-wrapper {
+    cursor: pointer;
+}
+
+.ba-overlay-section-backdrop {
+    padding: 0 !important;
+}
+
+.ba-overlay-section .animated {
+    animation-fill-mode: both;
+}
+
+.ba-overlay-section-backdrop.lightbox.visible-section {
+    left: 0;
+}
+
+.ba-overlay-section-backdrop .ba-overlay-section:not(.ba-container) > .ba-section {
+    width: calc(100vw - 17px) !important;
+}
+
+.ba-overlay-section-backdrop .ba-section {
+    flex-direction: column;
+}
+
+/* Overlay Section Button */
+.ba-overlay-section-backdrop.visible-section .ba-overlay-section {
+    transform: none !important;
+}
+
+.ba-overlay-section-backdrop .ba-overlay-section {
+    transition: transform .3s ease-in-out;
+}
+
+/* Overlay Section Lightbox */
+.ba-overlay-section-backdrop.lightbox .ba-overlay-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ba-overlay-section-backdrop:not(.horizontal-bottom):not(.horizontal-top) .ba-section {
+    height: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ba-overlay-section-backdrop.lightbox .ba-section {
+    margin: 50px 0;
+}
+
+/* Overlay Section Vertical Right */
+.ba-overlay-section-backdrop.vertical-left > .ba-overlay-section >.ba-section,
+.ba-overlay-section-backdrop.vertical-right > .ba-overlay-section > .ba-section {
+    min-height: 100vh !important;
+}
+
+.ba-overlay-section-backdrop.vertical-right {
+    justify-content: flex-end;
+}
+
+.ba-overlay-section-backdrop.vertical-right > .ba-overlay-section {
+    transform: translateX(100%);
+
+}
+
+/* Overlay Section Vertical Left */
+.ba-overlay-section-backdrop.vertical-left {
+    justify-content: flex-start;
+}
+
+.ba-overlay-section-backdrop.vertical-left > .ba-overlay-section {
+    transform: translateX(-100%);
+}
+
+/* Overlay Section Horizontal Top */
+.ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section,
+.ba-overlay-section-backdrop.horizontal-top > .ba-overlay-section {
+    margin: 0;
+}
+
+.ba-overlay-section-backdrop.horizontal-top > .ba-overlay-section {
+    transform: translateY(-100%);
+}
+
+.ba-overlay-section-backdrop.horizontal-top {
+    align-items: flex-start;
+}
+
+.ba-overlay-section-backdrop.horizontal-top .ba-container,
+.ba-overlay-section-backdrop.horizontal-bottom .ba-container {
+    max-width: none;
+}
+
+.ba-overlay-section-backdrop.horizontal-top > .ba-overlay-section,
+.ba-overlay-section-backdrop.horizontal-top > .ba-overlay-section > .ba-section,
+.ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section,
+.ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section > .ba-section {
+    width: 100% !important;
+}
+
+/* Overlay Section Horizontal Bottom */
+.ba-overlay-section-backdrop.horizontal-bottom {
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section {
+    transform: translateY(100%);
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section {
+        margin-right: calc(0px - (100vw - 100%));
+        overflow-y: scroll;
+        width: calc(100vw + (100vw - 100%))!important;
+    }
+}
+
+@-moz-document url-prefix() {
+    .ba-overlay-section-backdrop.horizontal-bottom > .ba-overlay-section {
+        margin-right: calc(0px - (100vw - 100%));
+        overflow-y: scroll;
+        width: calc(100vw + (100vw - 100%))!important;
+    }
+}

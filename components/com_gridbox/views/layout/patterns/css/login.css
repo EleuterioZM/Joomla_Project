@@ -1,0 +1,297 @@
+.ba-item-login .ba-login-content-wrapper  {
+    border-bottom: calc(var(--border-bottom)*var(--border-width)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-left)*var(--border-width)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right:  calc(var(--border-right)*var(--border-width)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-top)*var(--border-width)) var(--border-style) var(--border-color);   
+    box-shadow: var(--shadow-horizontal) var(--shadow-vertical) var(--shadow-blur) var(--shadow-spread) var(--shadow-color); 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ba-item-login .ba-login-content-wrapper> div {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: inherit;
+}
+
+
+.ba-item-login .ba-login-forgot-wrapper,
+.ba-item-login .ba-login-or-wrapper ,
+.ba-item-login .ba-login-or-wrapper:before,
+.ba-item-login .ba-login-or-wrapper:after,
+.ba-item-login .ba-login-integrations-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.ba-item-login .ba-login-description,
+.ba-item-login .ba-login-headline,
+.ba-item-login .ba-login-fields-wrapper {
+    width: 100%;
+}
+
+.ba-item-login .ba-login-fields-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ba-item-login .ba-login-fields-wrapper > div input {
+    border-bottom: calc(var(--border-bottom)*var(--border-width)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-left)*var(--border-width)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right:  calc(var(--border-right)*var(--border-width)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-top)*var(--border-width)) var(--border-style) var(--border-color);  
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+.ba-item-login .ba-login-captcha-wrapper {
+    margin: 15px 0 0 ;
+}
+
+.ba-item-login .ba-checkbox-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 15px 0 0;
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox {
+    margin-right: 10px;
+    min-width: 20px;
+    position: relative;
+    width: 20px;
+}
+
+.ba-item-login .ba-login-acceptance-wrapper .ba-checkbox-wrapper .ba-checkbox {
+    margin-top: 10px;
+}
+
+.ba-login-footer-wrapper {
+    margin-top: 20px;
+}
+
+.ba-item-login .ba-login-acceptance-wrapper .ba-checkbox-wrapper {
+    align-items: flex-start;
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox input {
+    display: none;
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox span {
+    border-radius: 3px;
+    border: 2px solid #757575;
+    box-sizing: border-box;
+    display: block;
+    height: 20px;
+    top: -8px;
+    position: absolute;
+    width: 20px;
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox input[type="checkbox"]:not(:checked) + span:after {
+    opacity: 0;
+    transform: scale(.8);
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox input[type="checkbox"]:checked + span:after {
+    color: #fff;
+    content: '\f26b';
+    display: block;
+    font: normal normal normal 16px/16px 'balbooa-family';
+    letter-spacing: 0;
+    text-align: center;
+    transition: .3s;
+    will-change: transform;
+}
+
+@keyframes click-wave {
+    0% { left: -1px; top: -1px;width: 19px; height: 19px; opacity: 0.35;}
+    100% { width: 50px; height: 50px; left: -17px; top: -17px; opacity: 0;}
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox input[type="checkbox"]:checked ~ span:before {
+    animation: click-wave 0.65s;
+    background: var(--primary);
+    border-radius: 50%;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+.ba-item-login .ba-checkbox-wrapper .ba-checkbox input:checked ~ span {
+    border-color: var(--primary);
+    background: var(--primary);
+}
+
+.ba-item-login .ba-login-forgot-wrapper {
+    justify-content: space-between;
+}
+
+.ba-item-login .ba-login-or-wrapper {
+    align-items: center;
+}
+
+div:not(.ba-login-fields-wrapper) .ba-login-field-label {
+    cursor: pointer;
+}
+
+div:not(.ba-login-fields-wrapper) .ba-login-field-label:not([data-step]) {
+    cursor: text;
+}
+
+div:not(.ba-login-fields-wrapper) .ba-login-field-label[data-step] {
+    transition: .3s;
+}
+
+div:not(.ba-login-fields-wrapper) .ba-login-field-label[data-step]:hover {
+    opacity: .75;
+}
+
+.ba-item-login .ba-login-or-wrapper span {
+    margin: 0 10px !important;
+    white-space: nowrap;
+}
+
+.ba-item-login .ba-login-acceptance *,
+.ba-item-login .ba-login-acceptance,
+.ba-item-login .ba-checkbox-wrapper> span,
+.ba-item-login .ba-login-forgot-wrapper > span,
+.ba-item-login .ba-login-or-wrapper span {
+    font-weight: 400 !important;
+}
+
+.ba-item-login .ba-login-or-wrapper:before,
+.ba-item-login .ba-login-or-wrapper:after {
+    background: var(--border);
+    content: "";
+    height: 1px;
+}
+
+.ba-item-login .ba-login-integrations-wrapper {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.ba-item-login .ba-login-integrations-wrapper > div {
+    align-items: center;
+    border-bottom: calc(var(--border-bottom)*var(--border-width)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-left)*var(--border-width)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right: calc(var(--border-right)*var(--border-width)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-top)*var(--border-width)) var(--border-style) var(--border-color);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 400px;
+    width: calc(50% - 5px);
+    height: 40px;
+}
+
+.ba-item-login .ba-login-integrations-wrapper.ba-login-integrations-hidden-element > div {
+    width: 100%;
+}
+
+.ba-item-login .ba-login-integrations-wrapper > div img {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.ba-item-login .ba-login-integrations-wrapper .ba-google-login-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.ba-item-login .ba-login-integrations-wrapper .ba-google-login-button * {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.ba-item-login .ba-login-integrations-wrapper .ba-google-login-button iframe {
+    top: 0 !important;
+    position: absolute !important;
+    left: 0 !important;
+}
+
+.ba-item-login .ba-login-integrations-wrapper.ba-login-integrations-hidden-element {
+    justify-content: center;
+}
+
+.ba-item-login div.ba-login-btn-wrapper {
+    width: 100%;
+}
+
+.ba-item-login div.ba-login-btn-wrapper span {
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: calc(var(--border-bottom)*var(--border-width)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-left)*var(--border-width)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right:  calc(var(--border-right)*var(--border-width)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-top)*var(--border-width)) var(--border-style) var(--border-color);  
+    box-shadow: var(--shadow-horizontal) var(--shadow-vertical) var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.ba-item-login .ba-login-alert input {
+    border-color: #ff671f !important;
+}
+
+.ba-item-login .login-recaptcha {
+    position: relative;
+}
+
+.ba-item-login .ba-login-alert-tooltip {
+    animation: tooltip .3s ease-in-out both!important;
+    background: #ff671f;
+    border-radius: 4px;
+    bottom: auto;
+    pointer-events: none;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 30%);
+    font-size: 14px;
+    line-height: 1em;
+    color: #fff;
+    display: flex!important;
+    left: 0;
+    margin-left: 0;
+    max-width: 200px;
+    opacity: 1;
+    padding: 20px;
+    position: absolute !important;
+    text-align: left;
+    text-transform: initial;
+    top: calc(100% + 5px);
+    transform: translateX(0);
+    transition: opacity .3s;
+    width: auto!important;
+    z-index: 100000;
+}
+
+.ba-item-login .ba-login-alert-tooltip:before {
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ff671f;
+    bottom: auto;
+    box-sizing: content-box;
+    content: "";
+    height: 5px;
+    left: 10px !important;
+    position: absolute;
+    top: -14px;
+}

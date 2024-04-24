@@ -1,0 +1,125 @@
+/*
+/* Notification
+*/
+
+@keyframes notification-in {
+    from {bottom: 0; transform: translateY(100%); opacity: 0;}
+}
+
+#ba-notification.notification-in {
+    animation: notification-in .4s cubic-bezier(.25,.98,.26,.99) both;
+    display: block;
+}
+
+#ba-notification {
+    background: #2c2c2c;
+    border-radius: 6px;
+    border: none;
+    bottom: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    color: #fff;
+    opacity: 1;
+    padding: 25px;
+    position: fixed;
+    right: 50px;
+    text-shadow: none;
+    visibility: visible;
+    z-index: 10000;
+}
+
+.ba-store-cart-opened #ba-notification {
+    right: calc(50px + var(--body-scroll-width));
+}
+
+#ba-notification.ba-product-notice {
+    width: 300px;
+}
+
+#ba-notification.ba-alert {
+    background: #f46336;
+    padding: 40px 25px;
+    width: 250px;
+}
+
+#ba-notification:not(.ba-alert) h4,
+#ba-notification:not(.ba-alert) i {
+    display: none;
+}
+
+#ba-notification i {
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+    padding: 8px;
+    position: absolute;
+    right: 5px;
+    text-shadow: none;
+    top: 0;
+}
+
+#ba-notification p {
+    color: #fff;
+    font: 500 14px/24px 'Roboto';
+    margin: 0;
+}
+
+#ba-notification p img {
+    height: 40px;
+    padding-left: 40px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+#ba-notification .ba-product-notice-message .ba-product-notice-image-wrapper {
+    height: 50px;
+    margin-right: 25px;
+    width: 50px;
+    text-align: center;
+}
+
+#ba-notification .ba-product-notice-message img {
+    border-radius: 3px;
+    height: auto;
+    max-width: 50px;
+    padding-left: 0;
+    width: auto;
+    max-height: 50px;
+}
+
+#ba-notification .ba-product-notice-message {
+    display: flex;
+    align-items: center;
+}
+
+#ba-notification .ba-product-notice-image-wrapper {
+    align-items: center;
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+
+#ba-notification.ba-alert p {
+    opacity: .6;
+}
+
+.ba-alert h4 {
+    color: #fff;
+    display: block;
+    font: bold 14px/16px 'Roboto', sans-serif;
+    letter-spacing: 0;
+    margin: 0 0 15px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@keyframes notification-out {
+    to { bottom: 0; transform: translateY(130%); opacity: 0;}
+}
+
+#ba-notification.animation-out {
+    animation: notification-out .4s cubic-bezier(.25,.98,.26,.99) both;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}

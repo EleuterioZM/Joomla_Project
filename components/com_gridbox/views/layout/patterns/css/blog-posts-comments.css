@@ -1,0 +1,19 @@
+.blog-posts-sorting-wrapper select,
+.ba-comments-total-count-wrapper select {
+    background: transparent!important;
+    border-radius: 0!important;
+    border: none!important;
+    font-weight: bold !important;
+    height: auto;
+    padding: 0;
+    width: auto;
+}
+
+.ba-blog-post-rating-stars,
+.ba-review-stars-wrapper {
+    align-items: center;
+    color: #ddd!important;
+    display: flex;
+    letter-spacing: initial !important;
+    margin-bottom: 1px;
+}

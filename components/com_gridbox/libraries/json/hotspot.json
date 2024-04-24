@@ -1,0 +1,101 @@
+{
+    "desktop": {
+        "popover": {
+            "style": {
+                "width": 300
+            },
+            "background": {
+                "color": "rgba(255, 255, 255, 1)"
+            },
+            "border": {
+                "top": 0,
+                "bottom": 0,
+                "right": 0,
+                "left": 0,
+                "color": "@border",
+                "radius": "6",
+                "style": "solid",
+                "width": "0"
+            },
+            "padding": {
+                "bottom": "25",
+                "left": "25",
+                "right": "25",
+                "top": "25"
+            },
+            "shadow": {
+                "value": "1",
+                "color": "@shadow"
+            }
+        },
+        "positioning": {
+            "x": "",
+            "y": "",
+            "z": 1,
+            "horizontal": "",
+            "vertical": ""
+        },
+        "border": {
+            "top": 0,
+            "bottom": 0,
+            "right": 0,
+            "left": 0,
+            "color": "@border",
+            "radius": "50",
+            "style": "solid",
+            "width": "0"
+        },
+        "style": {
+            "size": 24
+        },
+        "margin": {
+            "bottom": "25",
+            "top": "25"
+        },
+        "padding": {
+            "bottom": "5",
+            "left": "5",
+            "right": "5",
+            "top": "5"
+        },
+        "colors": {
+            "default": {
+                "color": "@title-inverse",
+                "background-color": "@primary"
+            },
+            "hover": {
+                "color": "@title-inverse",
+                "background-color": "@hover"
+            },
+            "state": true,
+            "transition": {
+                "duration": 0.3,
+                "x1": 0.42,
+                "y1": 0,
+                "x2": 0.58,
+                "y2": 1
+            }
+        },
+        "disable": "0",
+        "shadow": {
+            "value": "1",
+            "color": "@shadow"
+        }
+    },
+    "tablet": {
+        "disable": "0"
+    },
+    "phone": {
+        "disable": "0"
+    },
+    "positioning": {
+        "position": "",
+        "parent": ""
+    },
+    "animation": "",
+    "icon": "zmdi zmdi-plus ",
+    "position": "top",
+    "type": "hotspot",
+    "access": 1,
+    "suffix": ""
+}

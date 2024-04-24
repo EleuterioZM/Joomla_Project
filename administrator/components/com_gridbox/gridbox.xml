@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0.0" method="upgrade">
+    <name>GRIDBOX</name>
+    <creationDate>01 May 2017</creationDate>
+    <author>Balbooa</author>
+    <copyright>Balbooa 2019</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <authorUrl>http://balbooa.com</authorUrl>
+    <version>2.17.0.2</version>
+    <description>Gridbox is the easiest way to create a beautiful Joomla page. Creating websites should be easy!</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">installation/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">installation/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update>
+        <schemas>
+            <schemapath type="mysql">installation/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <updateservers>
+        <server type="extension" name="Gridbox">https://www.balbooa.com/updates/gridbox/joomla_gridbox_update.xml</server>
+    </updateservers>
+    <files folder="site">
+        <filename>gridbox.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>libraries</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+    <languages folder="admin/language/site">
+        <language tag="en-GB">en-GB/en-GB.com_gridbox.ini</language>
+    </languages>
+    <administration>
+        <menu>GRIDBOX</menu>
+        <languages folder="admin/language/admin">
+            <language tag="en-GB">en-GB/en-GB.com_gridbox.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_gridbox.sys.ini</language>
+        </languages>
+        <files folder="admin">
+            <filename>access.xml</filename>
+            <filename>gridbox.php</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>installation</folder>
+            <folder>language</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+    </administration>
+    <scriptfile>script.php</scriptfile>
+</extension>

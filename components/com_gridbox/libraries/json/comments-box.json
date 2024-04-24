@@ -1,0 +1,62 @@
+{
+    "desktop" : {
+        "typography" : {
+            "color":"@title",
+            "font-family":"@default",
+            "font-size":"14",
+            "font-style":"normal",
+            "font-weight":"@default",
+            "letter-spacing":0,
+            "line-height":"28",
+            "text-decoration":"none",
+            "text-transform":"none"
+        },
+        "border" : {
+            "bottom" : "1",
+            "color" : "@border",
+            "left" : "1",
+            "right" : "1",
+            "style" : "solid",
+            "radius" : 0,
+            "top" : "1",
+            "width" : "10"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "50",
+            "left" : "50",
+            "right" : "50",
+            "top" : "50"
+        },
+        "disable" : "0",
+        "background": {
+            "color": "rgba(0,0,0,0)"
+        },
+        "shadow" : {
+            "value" : "0",
+            "color" : "@shadow"
+        }
+    },
+    "view":{
+        "user": true,
+        "social": true,
+        "guest": true,
+        "share": true,
+        "rating": true,
+        "images": true,
+        "files": true,
+        "report": true
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "comments-box",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,176 @@
+.ba-store-wishlist-backdrop,
+.ba-store-cart-backdrop,
+.ba-overlay-section-backdrop,
+.ba-lightbox-backdrop.lightbox-center {
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    min-height: 100vh;
+    opacity: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: fixed;
+    padding: 25px;
+    right: 0;
+    top: 0;
+    transition: none;
+    visibility: hidden;
+    z-index: 99999999;
+}
+
+.ba-lightbox-backdrop.lightbox-center {
+    padding: 50px 0;
+    overflow-y: auto; 
+    right: -17px;  
+}
+
+.ba-store-wishlist-backdrop,
+.ba-store-cart-backdrop {
+    padding: 0;
+}
+
+.ba-store-wishlist-backdrop-out,
+.ba-store-cart-backdrop-out,
+.ba-overlay-section-backdrop.overlay-section-backdrop-out,
+.ba-lightbox-backdrop.lightbox-center.overlay-section-backdrop-out {
+    transition: opacity .3s ease-in-out, visibility .1s .3s, left .1s .3s;
+}
+
+.ba-overlay-section-backdrop.lightbox:not(.visible-section).overlay-section-backdrop-out {
+    left: 0!important;
+    right: 0!important;
+    transition: opacity .3s ease-in-out, visibility .1s .3s !important;
+}
+
+.ba-store-wishlist-backdrop,
+.ba-store-cart-backdrop,
+.ba-overlay-section-backdrop {
+     align-items: baseline;
+}
+
+.ba-store-wishlist-opened .ba-store-wishlist-backdrop,
+.ba-store-cart-opened .ba-store-cart-backdrop,
+.lightbox-open .ba-lightbox-backdrop,
+.lightbox-open .ba-overlay-section-backdrop.visible-section {
+    font-size: initial;
+    letter-spacing: initial;
+    line-height: initial;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.ba-not-default-header.ba-store-cart-opened .header,
+.ba-not-default-header.ba-store-wishlist-opened .header,
+.ba-store-wishlist-opened,
+.ba-store-cart-opened {
+    width: calc(100% - var(--body-scroll-width));
+}
+
+.ba-wrapper.ba-lightbox.ba-container.sortabale-parent-node:before {
+    bottom: 0;
+    content: "";
+    cursor: move;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 30;
+}
+
+.ba-store-wishlist-backdrop.ba-visible-store-wishlist,
+.ba-store-cart-backdrop.ba-visible-store-cart,
+.ba-overlay-section-backdrop.visible-section,
+.ba-lightbox-backdrop.visible-lightbox {
+    font-size: initial;
+    letter-spacing: initial;
+    line-height: initial;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    visibility: visible;
+}
+
+.ba-store-wishlist-backdrop.ba-visible-store-wishlist .ba-wishlist-checkout-row[data-exists="0"] {
+    cursor: not-allowed;
+}
+
+.ba-store-wishlist-backdrop.ba-visible-store-wishlist .ba-wishlist-checkout-row[data-exists="0"] .ba-wishlist-add-all-btn {
+    opacity: .25;
+    pointer-events: none;
+}
+
+.ba-overlay-section-backdrop.lightbox:not(.visible-section) {
+    left: 100% !important;
+    pointer-events: none!important;
+    right: auto!important;
+}
+
+.ba-overlay-section-backdrop .ba-overlay-section,
+.ba-lightbox-backdrop .ba-lightbox {
+    margin: auto 0;
+}
+
+.ba-store-wishlist-close-wrapper,
+.ba-store-cart-close-wrapper,
+.close-overlay-section,
+.close-lightbox  {
+    height: 0;
+    left: 15px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 100;
+}
+
+.ba-store-wishlist-close-wrapper i,
+.ba-store-cart-close-wrapper i,
+.close-overlay-section i,
+.close-lightbox i {
+    color: inherit;
+    cursor: pointer;
+    font-size: 36px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.ba-store-wishlist-close-wrapper i,
+.ba-store-cart-close-wrapper i {
+    color: var(--title);
+    transition: .3s;
+}
+
+.close-overlay-section i:hover,
+.close-lightbox i:hover,
+.ba-close-checkout-modal:hover,
+.ba-store-wishlist-close-wrapper i:hover,
+.ba-store-cart-close-wrapper i:hover,
+.ba-cart-product-quantity-cell i:hover {
+    opacity: .5;
+}
+
+.ba-store-wishlist-backdrop > .ba-store-wishlist-close,
+.ba-modal-sm + .modal-backdrop,
+.ba-store-cart-backdrop > .ba-store-cart-close,
+.ba-overlay-section-backdrop > .ba-overlay-section-close,
+.ba-lightbox-backdrop > .ba-lightbox-close {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.ba-modal-sm + .modal-backdrop {
+    background-color: var(--overlay);
+    opacity: .05 !important;
+    z-index: 999999 !important;
+}
+
+.ba-lightbox-backdrop:not(.visible-lightbox) .ba-lightbox,
+.ba-lightbox-backdrop:not(.visible-lightbox) .ba-cookies,
+.ba-overlay-section-backdrop.lightbox {
+    left: 100% ;
+}

@@ -1,0 +1,29 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "view":{
+        "layout" : "",
+        "size" : "ba-social-md",
+        "style" : "ba-social-flat",
+        "counters" : true
+    },
+    "facebook" : true,
+    "twitter" : true,
+    "linkedin" : true,
+    "pinterest" : true,
+    "vk" : true,
+    "type" : "social",
+    "access" : 1,
+    "suffix" : ""
+}

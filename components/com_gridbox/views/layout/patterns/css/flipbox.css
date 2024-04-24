@@ -1,0 +1,48 @@
+/*
+/* Plugin Flipbox
+*/
+
+.ba-item-flipbox > .ba-flipbox-wrapper > .column-wrapper > .ba-grid-column-wrapper {
+    height: 100%
+}
+
+.ba-item-flipbox .ba-flipbox-wrapper {
+    perspective: 1000px;
+    transform: translateZ(0);
+}
+
+.ba-item-flipbox .ba-flipbox-frontside *,
+.ba-item-flipbox .ba-flipbox-backside *{
+    animation-fill-mode: initial !important;
+    backface-visibility: visible !important;
+    -webkit-backface-visibility: visible !important;
+}
+
+.ba-item-flipbox .ba-flipbox-frontside,
+.ba-item-flipbox .ba-flipbox-backside {
+    display: block;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: inherit;
+    transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.ba-item-flipbox .ba-flipbox-backside {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.ba-item-flipbox .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column,
+.ba-item-flipbox .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column {
+    overflow: hidden;
+}
+
+.ba-item-flipbox .ba-item-overlay-section .ba-image-wrapper,
+.ba-item-flipbox .ba-item-image .ba-image-wrapper,
+.ba-item-flipbox .ba-item-simple-gallery .ba-instagram-image {
+    position: relative;
+    transform: none;
+}

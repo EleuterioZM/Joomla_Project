@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension type="package" version="2.5" method="upgrade">
+    <name>BaForms</name>
+    <creationDate>06 April 2015</creationDate>
+    <packagename>BaForms</packagename>
+    <author>Balbooa</author>
+    <copyright>Balbooa 2016</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <authorUrl>http://balbooa.com</authorUrl>
+    <version>2.2.1</version>
+    <packager>Balbooa</packager>
+    <packagerurl>support@balbooa.com</packagerurl>
+    <description>Thank you for installing Balbooa Joomla Forms Builder!</description>
+    <updateservers>
+        <server type="extension" name="BaForms">https://www.balbooa.com/updates/baforms/joomla_forms_update.xml</server>
+    </updateservers>
+    <files folder="packages">
+        <file type="component" id="com_baforms">com_baforms.zip</file>
+        <file type="plugin" id="baforms" group="editors-xtd">plg_content_formshortcode.zip</file>
+        <file type="plugin" id="baforms" group="system">plg_system_forms.zip</file>
+    </files>
+    <scriptfile>script.php</scriptfile>
+</extension>

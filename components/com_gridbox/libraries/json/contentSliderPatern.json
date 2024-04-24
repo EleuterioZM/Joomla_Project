@@ -1,0 +1,41 @@
+{
+	"background" : {
+        "type" : "image",
+        "color" : "@primary",
+        "image" : {
+            "attachment" : "scroll",
+            "image" : "",
+            "position" : "center center",
+            "repeat" : "no-repeat",
+            "size" : "cover"
+        },
+        "gradient": {
+            "effect": "linear",
+            "angle": 45,
+            "color1": "@bg-dark",
+            "position1": 25,
+            "color2": "@bg-dark-accent",
+            "position2": 75
+        },
+        "video" : {
+            "type" : "youtube",
+            "id" : "",
+            "mute" : "1",
+            "start" : "0",
+            "quality" : "hd720",
+            "image" : ""
+        }
+    },
+	"overlay" : {
+        "type": "none",
+        "gradient": {
+            "effect": "linear",
+            "angle": 45,
+            "color1": "@bg-dark",
+            "position1": 25,
+            "color2": "@bg-dark-accent",
+            "position2": 75
+        },
+        "color" : "@overlay"
+    }
+}

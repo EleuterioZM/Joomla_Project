@@ -1,0 +1,33 @@
+/*
+/* Plugin Content Slider
+*/
+
+.ba-item-content-slider > .slideshow-wrapper > .ba-slideshow > .slideshow-content > .item > a,
+.ba-item-content-slider > .slideshow-wrapper > .ba-slideshow > .slideshow-content > .item > .ba-slideshow-img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ba-item-content-slider > .slideshow-wrapper > .ba-slideshow > .slideshow-content > .item > .ba-slideshow-img {
+    overflow: hidden;
+}
+
+.ba-item-content-slider > .slideshow-wrapper > .ba-slideshow > .slideshow-content > .item.active > a {
+    z-index: 5;
+}
+
+.column-wrapper .ba-item-content-slider .ba-slideshow-img + .ba-grid-column {
+    align-content: center;
+    align-items: center;
+}
+
+.column-wrapper .ba-item-content-slider .ba-slideshow-img + .ba-grid-column:not(.column-horizontal-direction) {
+    justify-content: center !important;
+}
+
+.column-wrapper .ba-item-content-slider .ba-slideshow-img + .ba-grid-column > .empty-item {
+    display: none;
+}

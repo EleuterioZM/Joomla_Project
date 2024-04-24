@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extension type="package" version="3.0" method="upgrade"> 
+    <name>Gridbox</name>
+    <creationDate>01 May 2017</creationDate>
+    <packagename>Gridbox</packagename>
+    <author>Balbooa</author>
+    <copyright>Balbooa 2019</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <authorUrl>http://balbooa.com</authorUrl>
+    <version>2.17.0.2</version>
+    <packager>Balbooa</packager>
+    <packagerurl>support@balbooa.com</packagerurl>
+    <description>Gridbox is the easiest way to create a beautiful Joomla page. Creating websites should be easy!</description>
+    <updateservers>
+        <server type="extension" name="Gridbox">https://www.balbooa.com/updates/gridbox/joomla_gridbox_update.xml</server>
+    </updateservers>
+    <files folder="packages">
+        <file type="component" id="com_gridbox">com_gridbox.zip</file>
+        <file type="template" id="gridbox" client="site">gridbox.zip</file>
+        <file type="plugin" id="gridbox" group="search">plg_search_gridbox.zip</file>
+        <file type="plugin" id="gridbox" group="finder">plg_smartsearch_gridbox.zip</file>
+        <file type="plugin" id="gridbox" group="system">plg_system_gridbox.zip</file>
+    </files>
+    <scriptfile>script.php</scriptfile>
+</extension>

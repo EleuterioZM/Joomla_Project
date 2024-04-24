@@ -1,0 +1,13 @@
+/*
+/* Plugin Logo
+*/
+
+.ba-item-logo a {
+    text-align: inherit;
+}
+
+.ba-logo-wrapper,
+.ba-logo-wrapper > a {
+    line-height: 0;
+    display: block;
+}

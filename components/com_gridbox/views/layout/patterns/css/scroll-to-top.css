@@ -1,0 +1,53 @@
+.ba-item.ba-item-scroll-to-top {
+    bottom: 65px;
+    position: fixed;
+    visibility: hidden;
+    z-index: 999999;
+}
+
+.ba-item.ba-item-scroll-to-top.visible-scroll-to-top {
+    visibility: visible;
+}
+
+.ba-scroll-to-top {
+    opacity: 0;
+    margin-bottom: -50px;
+    transition: opacity .3s linear, visibility .3s linear, margin-bottom .3s linear;
+}
+
+.visible-scroll-to-top .ba-scroll-to-top {
+    opacity: 1 !important;
+    margin-bottom: 0;
+}
+
+.ba-item-scroll-to-top .ba-scroll-to-top > i {
+    cursor: pointer;
+    line-height: 1em;
+    text-align: center;
+}
+
+/* Scroll To Top Position Right */
+.scroll-btn-right {
+    right: 25px;
+}
+
+.ba-store-wishlist-opened .scroll-btn-right {
+    right: calc(25px + var(--body-scroll-width));
+}
+
+.lightbox-open .scroll-btn-right {
+    right: 40px;
+}
+
+.scroll-btn-right .ba-edit-item.full-menu {
+    transform: translate(-75%, -50%);
+}
+
+/* Scroll To Top Position Left */
+.scroll-btn-left {
+    left: 25px;
+}
+
+.scroll-btn-left .ba-edit-item.full-menu {
+    transform: translate(-25%, -50%);
+}

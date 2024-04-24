@@ -1,0 +1,22 @@
+{
+    "desktop" : {
+        "margin" : {
+            "top" : "25",
+            "bottom" : "25"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "options": {
+        "limit": 10
+    },
+    "app_id" : "",
+    "type" : "facebook-comments",
+    "access" : 1,
+    "suffix" : ""
+}

@@ -1,0 +1,49 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "20",
+            "top" : "20"
+        },
+        "padding" : {
+            "bottom" : "20",
+            "left" : "20",
+            "right" : "20",
+            "top" : "20"
+        },
+        "typography" : {
+            "color" : "@subtitle",
+            "font-family" : "@default",
+            "font-size" : 12,
+            "font-style" : "normal",
+            "font-weight" : "500",
+            "letter-spacing" : 2,
+            "line-height" : 18,
+            "text-decoration" : "none",
+            "text-align" : "left",
+            "text-transform" : "uppercase"
+        },
+        "header" : {
+            "color" : "@bg-secondary"
+        },
+        "border" : {
+            "color" : "rgba(255,255,255,0)"
+        },
+        "icon": {
+            "size" : 24,
+            "position" : "icon-position-left"
+        },
+        "background":{
+            "color": "rgba(255,255,255,0)"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "accordion",
+    "access" : 1,
+    "suffix" : ""
+}

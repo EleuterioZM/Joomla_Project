@@ -1,0 +1,64 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "body" : {
+            "font-family" : "@default",
+            "font-weight" : "@default",
+            "text-align": "left"
+        },
+        "icons":{
+            "size" : 24,
+            "background": "@bg-secondary",
+            "padding": 10,
+            "radius":50,
+            "color": "@icon"
+        },
+        "padding" : {
+            "bottom": "0",
+            "left": "0",
+            "right": "0",
+            "top": "0"
+        },
+        "background":{
+            "color": "rgba(255, 255, 255, 0)"
+        },
+        "border" : {
+            "color" : "@border",
+            "style" : "solid",
+            "radius" : 0,
+            "width" : "0"
+        },
+        "shadow" : {
+            "value" : 0,
+            "color" : "@shadow"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "tablet-portrait" : {
+        
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "list":{
+        "1":{
+            "title": "Item",
+            "icon": "zmdi zmdi-check",
+            "href": "",
+            "target":"_blank"
+        }
+    },
+    "icon":{
+        "position": ""
+    },
+    "layout": "vertical-layout",
+    "type" : "icon-list",
+    "access" : 1,
+    "suffix" : ""
+}

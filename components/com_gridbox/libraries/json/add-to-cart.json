@@ -1,0 +1,111 @@
+{
+    "desktop":{
+        "view": {
+            "availability":true,
+            "sku": false,
+            "quantity":true,
+            "button": true,
+            "wishlist": true,
+            "file": false
+        },
+        "info":{
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "typography":{
+                "color":"@subtitle",
+                "font-family":"@default",
+                "font-size":"10",
+                "font-style":"normal",
+                "font-weight":"500",
+                "letter-spacing":"2",
+                "line-height":"18",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"uppercase"
+            }
+        },
+        "price":{
+            "margin":{
+                "bottom":"25",
+                "top":"25"
+            },
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"40",
+                "font-style":"normal",
+                "font-weight":"900",
+                "letter-spacing":0,
+                "line-height":"50",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "button":{
+            "typography":{
+                "font-family":"@default",
+                "font-size":10,
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":4,
+                "line-height":26,
+                "text-align":"left",
+                "text-decoration":"none",
+                "text-transform":"uppercase"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"15",
+                "left":"50",
+                "right":"50",
+                "top":"15"
+            },
+            "border":{
+                "color":"@border",
+                "radius":"0",
+                "style":"solid",
+                "width":"0"
+            },
+            "normal":{
+                "color":"@title-inverse",
+                "background":"@primary"
+            },
+            "hover":{
+                "color":"@title-inverse",
+                "background":"@hover"
+            },
+            "shadow":{
+                "value":"0",
+                "color":"@shadow"
+            }
+        },
+        "margin":{
+            "bottom":"25",
+            "top":"25"
+        },
+        "disable":"0"
+    },
+    "files": {
+        "multiple": false,
+        "required": false,
+        "label": "Upload a File",
+        "size": 1024,
+        "types": "csv,doc,gif,ico,jpg,jpeg,pdf,png,txt,xls,svg,mp4,webp"
+    },
+    "tablet":{
+        "disable":"0"
+    },
+    "phone":{
+        "disable":"0"
+    },
+    "button-label": "",
+    "type":"add-to-cart",
+    "access":1,
+    "suffix":""
+}

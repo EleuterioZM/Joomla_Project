@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="search" method="upgrade">
+    <name>Gridbox - Search</name>
+    <author>Balbooa</author>
+    <creationDate>01 May 2017</creationDate>
+    <copyright>Balbooa 2019</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>support@balbooa.com</authorEmail>
+    <authorUrl>http://balbooa.com</authorUrl>
+    <version>2.17.0</version>
+    <description>The plugin extends the default Joomla! search functionality to Gridbox Pages.</description>
+    <files>
+        <filename plugin="gridbox">gridbox.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="search_limit"
+                    type="text"
+                    label="Search Limit"
+                    description="Sets the maximum number of results to return."
+                    default="50"
+                    size="5"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

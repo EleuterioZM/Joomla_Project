@@ -1,0 +1,45 @@
+.ba-account-alert-tooltip,
+
+.ba-checkout-alert-tooltip,
+
+.tooltip,
+
+.popover {
+
+    position: absolute !important;
+
+    z-index: 1060;
+
+}
+
+
+
+.ba-account-alert-tooltip,
+.ba-checkout-alert-tooltip,
+.ba-items-filter-show-button,
+.tooltip,
+.tip-wrap,
+.popover {
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    max-width: 200px;
+    padding: 20px;
+    text-align: left;
+    transition: opacity .3s;
+    width: auto;
+    z-index: 99999999;
+}
+
+.ba-items-filter-show-button,
+
+.tooltip,
+
+.tip-wrap,
+
+.popover {
+
+    opacity: 0;
+
+    background: #2c2c2c;
+
+}

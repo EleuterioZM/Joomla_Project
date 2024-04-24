@@ -1,0 +1,50 @@
+{
+    "desktop" : {
+        "border" : {
+            "color" : "@border",
+            "radius" : "50",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "padding" : {
+            "bottom" : "20",
+            "left" : "20",
+            "right" : "20",
+            "top" : "20"
+        },
+        "disable" : "0",
+        "normal":{
+            "color" : "@title-inverse",
+            "background-color" : "@primary"
+        },
+        "icons":{
+            "size" : "18"
+        },
+        "shadow" : {
+            "value" : "1",
+            "color" : "@shadow"
+        }
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "init" : {
+        "speed" : 500,
+        "offset" : 50,
+        "animation" : "easeInSine"
+    },
+    "hover" : {
+        "color" : "@title-inverse",
+        "background-color" : "@hover"
+    },
+    "text":{
+        "align":"right"
+    },
+    "icon" : "zmdi zmdi-chevron-up",
+    "type" : "scroll-to-top",
+    "access" : 1,
+    "suffix" : ""
+}

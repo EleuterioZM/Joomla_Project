@@ -1,0 +1,15 @@
+/*
+/* Blog Plugin Tags
+*/
+
+.ba-item-tags .ba-button-wrapper a,
+.ba-item-post-tags .ba-button-wrapper a {
+    margin: 0 5px 10px;
+}
+
+.ba-item-tags .ba-button-wrapper,
+.ba-item-post-tags .ba-button-wrapper {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+    width: calc(100% + 10px) !important;
+}

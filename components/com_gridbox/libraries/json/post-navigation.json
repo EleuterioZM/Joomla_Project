@@ -1,0 +1,238 @@
+{
+    "desktop":{
+        "view": {
+            "count":3,
+            "gutter": true,
+            "date":true,
+            "category":false,
+            "image":true,
+            "title":true,
+            "intro":false,
+            "button":false,
+            "hits":false
+        },
+        "store":{
+            "badge": true,
+            "wishlist": true,
+            "price": true,
+            "cart": true
+        },
+        "overlay": {
+            "type": "color",
+            "gradient":{
+                "effect": "linear",
+                "angle": 45,
+                "color1": "@bg-dark",
+                "position1": 25,
+                "color2": "@bg-dark-accent",
+                "position2": 75
+            },
+            "color": "rgba(0, 0, 0, 0.3)"
+        },
+        "overlay-states": {
+            "default":{
+                "color": "rgba(0, 0, 0, 0.3)",
+                "type": "color"
+            },
+            "transition": {
+                "duration": 0.3,
+                "x1": 0.42,
+                "y1": 0,
+                "x2": 0.58,
+                "y2": 1
+            },
+            "state": false
+        },
+        "background" : {
+            "color" : "rgba(255, 255, 255, 0)"
+        },
+        "shadow":{
+            "value":0,
+            "color":"@shadow"
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "image":{
+            "width":"100",
+            "height":"100",
+            "size": "cover",
+            "border":{
+                "color":"@border",
+                "radius":"100",
+                "style":"solid",
+                "width":"0"
+            }
+        },
+        "title":{
+            "margin":{
+                "bottom":"25",
+                "top":"25"
+            },
+            "hover" : {
+                "color" : "@primary"
+            },
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"20",
+                "font-style":"normal",
+                "font-weight":"900",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "info":{
+            "margin":{
+                "bottom":"25",
+                "top":"0"
+            },
+            "hover" : {
+                "color" : "@primary"
+            },
+            "typography":{
+                "color":"@subtitle",
+                "font-family":"@default",
+                "font-size":"10",
+                "font-style":"normal",
+                "font-weight":"500",
+                "letter-spacing":"2",
+                "line-height":"18",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"uppercase"
+            }
+        },
+        "postFields":{
+            "margin":{
+                "bottom":"25",
+                "top":"0"
+            },
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":"16",
+                "font-style":"normal",
+                "font-weight":"400",
+                "letter-spacing":"0",
+                "line-height":"26",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "reviews": {
+            "margin": {
+                "top": 0,
+                "bottom": 25
+            },
+            "hover": {
+                "color" : "@primary"
+            },
+            "typography": {
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"12",
+                "font-style":"normal",
+                "font-weight":"900",
+                "letter-spacing":"0",
+                "line-height":"18",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "intro":{
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":21,
+                "font-style":"normal",
+                "font-weight":"300",
+                "letter-spacing":0,
+                "line-height":36,
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            },
+            "margin":{
+                "bottom":"25",
+                "top":"0"
+            }
+        },
+        "button":{
+            "typography":{
+                "font-family":"@default",
+                "font-size":10,
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":4,
+                "line-height":26,
+                "text-align":"left",
+                "text-decoration":"none",
+                "text-transform":"uppercase"
+            },
+            "margin":{
+                "bottom":"25",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"15",
+                "left":"50",
+                "right":"50",
+                "top":"15"
+            },
+            "border":{
+                "color":"@border",
+                "radius":"50",
+                "style":"solid",
+                "width":"0"
+            },
+            "normal":{
+                "color":"@title-inverse",
+                "background":"@primary"
+            },
+            "hover":{
+                "color":"@title-inverse",
+                "background":"@hover"
+            },
+            "shadow":{
+                "value":"0",
+                "color":"@shadow"
+            }
+        },
+        "margin":{
+            "bottom":"25",
+            "top":"25"
+        },
+        "padding":{
+            "bottom":0,
+            "left": 0,
+            "right": 0,
+            "top":0
+        },
+        "disable":"0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "maximum" : 50,
+    "limit" : 3,
+    "sorting" : "created",
+    "app" : "",
+    "type" : "post-navigation",
+    "layout": {
+        "layout":"ba-classic-layout"
+    },
+    "access" : 1,
+    "suffix" : ""
+}

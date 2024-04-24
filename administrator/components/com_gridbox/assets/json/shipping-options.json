@@ -1,0 +1,20 @@
+{
+    "type": "flat",
+    "time": {
+        "enabled": false,
+        "text": ""
+    },
+    "description": {
+        "enabled": false,
+        "text": ""
+    },
+    "flat":{
+        "price": 0,
+        "enabled": false,
+        "free": ""
+    },
+    "regions": {
+        "available": {},
+        "restricted": {}
+    }
+}

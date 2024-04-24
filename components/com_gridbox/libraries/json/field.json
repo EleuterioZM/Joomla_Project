@@ -1,0 +1,78 @@
+{
+    "desktop" : {
+        "border" : {
+            "bottom" : "1",
+            "color" : "@border",
+            "left" : "0",
+            "right" : "0",
+            "style" : "solid",
+            "radius" : 0,
+            "top" : "0",
+            "width" : "1"
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left" : "0",
+            "right" : "0",
+            "top" : "0"
+        },
+        "icons":{
+            "size" : 24,
+            "color": "@icon"
+        },
+        "title":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"700",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-transform":"none"
+            }
+        },
+        "value":{
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"18",
+                "font-style":"normal",
+                "font-weight":"@default",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-align":"right",
+                "text-transform":"none"
+            }
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "label": "Label",
+    "description": "",
+    "icon": "",
+    "layout": {
+        "position": "ba-label-position-left"
+    },
+    "required": false,
+    "tag": "p",
+    "options":{
+        "label": "",
+        "description": "",
+        "type": "text"
+    },
+    "type" : "field",
+    "access" : 1,
+    "suffix" : ""
+}

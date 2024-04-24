@@ -1,0 +1,624 @@
+/*
+/* Plugin Fields Filter
+*/
+
+.ba-item-fields-filter {
+    box-sizing: border-box;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper .ba-field-filter,
+.ba-item-fields-filter .ba-fields-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter {
+    margin-bottom: 20px;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter-label i {
+    margin-left: 5px;
+    margin-top: .2em;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter {
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    flex-grow: 1;
+    height: 50px;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter:hover {
+    border: 1px solid var(--primary);  
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter-label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    transition: opacity .3s;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-picker"],
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-range-picker"] {
+    border: none;
+    padding: 0;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-picker"] input,
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-range-picker"] input {
+    height: 50px;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-picker"] .ba-field-filter-label,
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-range-picker"] .ba-field-filter-label{
+    display: none;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-picker"] .ba-field-filter-value-wrapper,
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar .ba-field-filter[data-id="date-range-picker"] .ba-field-filter-value-wrapper {
+    display: block;
+}
+
+.ba-item-fields-filter .ba-field-filter-label {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.ba-item-fields-filter .ba-field-filter-label span {
+    width: 100%;
+}
+
+.ba-item-fields-filter .ba-selected-filter-values-wrapper {
+    margin-bottom: 20px;
+}
+
+.ba-item-fields-filter .horizontal-filter-bar .ba-selected-filter-values-wrapper {
+    align-items: baseline;
+    display: flex;
+    width: 100%;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox span,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox span {
+    background-color: var(--variation-color-value);
+    background-image: var(--variation-image-value);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    overflow: hidden;
+    transition: .3s;
+    width: 30px;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox span {
+    background-color: transparent !important;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value {
+    display: inline-block;
+    height: 30px;
+    margin: 0 20px 0 0;
+    position: relative;
+    width: 30px;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox span,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox span {
+    align-items: center;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    overflow: visible;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input:checked ~ span,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox input:checked ~ span {
+    background-color: var(--variation-color-value) ;
+    overflow: visible;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox span:hover {
+    opacity: .75;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter-label {
+    cursor: default;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter-label i {
+    float: right;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter.ba-filter-icon-rotated .ba-field-filter-label i {
+    transform: rotate(45deg);
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter-label i:before {
+    content: '\e04a';
+}
+
+.ba-fields-filter-wrapper.horizontal-filter-bar .ba-checkbox-wrapper:nth-child(10) ~ .ba-checkbox-wrapper {
+    display: flex !important;
+}
+
+.ba-field-filter-value-wrapper:not(.visible-filters-value) .ba-checkbox-wrapper:nth-child(10),
+.ba-field-filter-value-wrapper.visible-filters-value .ba-checkbox-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.ba-fields-filter-wrapper.horizontal-filter-bar .ba-checkbox-wrapper:nth-child(10) {
+    margin-bottom: 10px!important;
+}
+
+.ba-selected-filter-values-remove-all span,
+.ba-hide-filters,
+.ba-show-all-filters {
+    cursor: pointer;
+    font-size: .8em !important;
+    font-weight: bold !important;
+    transition: opacity .3s;
+}
+
+.ba-selected-filter-values-remove-all span {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+
+.ba-selected-filter-values-title {
+    display: block;
+}
+
+.ba-selected-filter-values-body {
+    margin-top: 10px;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-checkbox input ~ span {
+    top: calc(var(--filter-value-line-height)/2 - 10px);
+}
+
+.ba-item-fields-filter .ba-field-filter[data-id="rating"] .ba-checkbox input ~ span {
+    top: 2px;
+}
+
+.ba-item-fields-filter .ba-checkbox-wrapper > span.ba-filter-rating {
+    display: flex;
+}
+
+.ba-item-fields-filter .ba-field-filter-value-wrapper select {
+    color: inherit;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input:checked ~ span {
+    background: var(--variation-image-value);
+    background-position: center;
+    background-size: contain;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input:checked ~ span:after {
+    display: none;
+}
+
+.ba-label-position-left .field-price-currency {
+    margin-right: 5px;
+}
+
+.ba-field-wrapper:not(.ba-label-position-left) .field-price-currency {
+    margin-left: 5px;
+}
+
+.ba-item-fields-filter .ba-checkbox-wrapper i {
+    color: #ddd;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.ba-selected-filter-value i.active:after {
+    color: #fff;
+}
+
+.ba-selected-filter-value i:not(.active) {
+    opacity: .5
+}
+
+.ba-items-filter-show-button {
+    animation: tooltip .3s ease-in-out both!important;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0 0 15px !important;
+    opacity: 1;
+    padding: 15px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.ba-items-filter-show-button.horizontal-filter-tooltip {
+    cursor: default;
+}
+
+.ba-items-filter-show-button:before {
+    border: 5px solid transparent;
+    border-right: 5px solid #2c2c2c;
+    bottom: calc(50% - 4px);
+    content: "";
+    height: 0;
+    left: 0 !important;
+    margin-left: -9px;
+    position: absolute;
+    top: auto;
+}
+
+.ba-items-filter-show-button.filter-top-button:before {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #2c2c2c;
+    bottom: -10px;
+    content: "";
+    left: calc(50% - 4px) !important;
+    margin-left: 0;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input[type="checkbox"] ~ span:before,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox input[type="checkbox"] ~ span:before {
+    content: "";
+    border: 3px solid var(--variation-color-value);
+    border-radius: inherit;
+    bottom: -5px;
+    left: -5px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    transition: transform .3s;
+}
+
+.ba-item-fields-filter .ba-selected-filter-value {
+    margin-left: 5px;
+    pointer-events: none;
+}
+
+.ba-item-fields-filter .ba-selected-filter-value,
+.ba-item-fields-filter .ba-selected-filter-values {
+    font-weight: inherit !important;
+    font-size: inherit !important;   
+}
+
+.ba-item-fields-filter .ba-fields-filter-wrapper.horizontal-filter-bar {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox input[type="checkbox"] ~ span:before {
+    border: none;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input[type="checkbox"] ~ span:before {
+    border: 3px solid var(--primary);
+    opacity: 1;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input[type="checkbox"] ~ span:before,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox input[type="checkbox"] ~ span:before {
+    background: transparent !important;
+    animation: none !important;
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input[type="checkbox"]:not(:checked) ~ span:before,
+.ba-item-fields-filter .ba-field-filter .ba-filter-color-value .ba-checkbox input[type="checkbox"]:not(:checked) ~ span:before  {
+    transform: scale(.8);
+}
+
+.ba-item-fields-filter .ba-field-filter .ba-filter-image-value .ba-checkbox input[type="checkbox"]:not(:checked) ~ span:before {
+    z-index: -1;
+    opacity: 0;
+}
+
+.horizontal-filter-bar .ba-selected-filter-values-wrapper .ba-selected-filter-values-title,
+.ba-fields-filter-wrapper:not(.horizontal-filter-bar ) .ba-items-filter-search-button,
+.horizontal-filter-bar .ba-field-filter-value-wrapper,
+.horizontal-filter-bar .ba-show-all-filters,
+.horizontal-filter-bar .ba-hide-filters {
+    display: none;
+}
+
+.horizontal-filter-bar .ba-selected-values-wrapper {
+    align-items: baseline;
+    display: flex;
+    order: 200;
+    width: 100%;
+}
+
+.horizontal-filter-bar .ba-selected-filter-values-wrapper .ba-selected-filter-values-body {
+    flex-grow: 1;
+}
+
+.horizontal-filter-bar .ba-selected-filter-values-wrapper .ba-selected-filter-values-remove-all {
+    white-space: nowrap;
+}
+
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(5n+5),
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(5n+5) {
+    margin: 0;
+}
+
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(5n+1) .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(5n+2) .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:first-child .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(2) .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(5n+1) .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(5n+2) .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:first-child .ba-tooltip,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(2) .ba-tooltip {
+    left: calc(100% + 5px);
+    margin-left: 0 !important;
+    right: auto;
+}
+
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(5n+1) .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(5n+2) .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:first-child .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-color-value:nth-child(2) .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(5n+1) .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(5n+2) .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:first-child .ba-tooltip:before,
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper > .ba-filter-image-value:nth-child(2) .ba-tooltip:before {
+    border-right: 5px solid #2c2c2c;
+    border-left: 5px solid transparent;
+    right: 100% !important;
+}
+
+.visible-horizontal-filters-value .ba-field-filter-value-wrapper {
+    animation: visible-horizontal-filters .3s both;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    display: block;
+    margin-left: -10px;
+    max-height: 350px;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    visibility: visible;
+    width: 300px;
+    z-index: 25;
+}
+
+.visible-horizontal-filters .visible-horizontal-filters-row {
+    z-index: 10;
+}
+
+.ba-items-filter-search-button {
+    background: var(--primary);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff !important;
+    cursor: pointer;
+    font-weight: bold !important;
+    height: 50px;
+    letter-spacing: 0px !important;
+    line-height: initial !important;
+    order: 100;
+    padding: 15px 40px;
+    transition: all .3s;
+}
+
+.ba-items-filter-search-button:hover {
+    background: #3c3c3c !important;
+}
+
+.ba-item-fields-filter .ba-field-filter-input-wrapper {
+    align-items: center;
+    display: flex;
+    padding-top: 25px;
+}
+
+.ba-item-fields-filter .ba-field-filter-input-wrapper input {
+    border-color: var(--border);
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;
+    min-width: 0;
+    width: auto;
+}
+
+.ba-item-fields-filter .ba-field-filter-price-delimiter {
+    margin: 0 10px
+}
+
+.ba-item-fields-filter .ba-field-filter-price-symbol {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.ba-item-fields-filter .visible-horizontal-filters-value .ba-field-filter-range-wrapper {
+    margin-top: 10px;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-track {
+    background-color: var(--border);
+    cursor: pointer;
+    height: 3px;
+    outline: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-selection {
+    background: var(--primary) !important;
+    position: absolute;
+    height: 3px;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-handle {
+    background-color: var(--primary) !important;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 24px;
+    margin-left: 0;
+    margin-top: -11px;
+    position: absolute;
+    width: 24px;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-handle + .price-range-handle {
+    margin-left: -18px;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-handle:before {
+    background: var(--primary);
+    border-radius: 24px;
+    content: "";
+    cursor: pointer;
+    height: 24px;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    transform: scale(1);
+    transition: transform .2s linear;
+    width: 24px;
+}
+
+.ba-item-fields-filter .ba-field-filter-range-wrapper .price-range-handle:hover:before {
+    transform: scale(2);
+}
+
+.open-responsive-filters {
+    display: none;
+}
+
+.ba-field-filter.ba-filter-collapsed {
+    --filter-value-height: 0;
+}
+
+.ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter[data-id="price"] .ba-field-filter-value-wrapper {
+    padding: 0 10px;
+}
+
+.ba-fields-filter-wrapper.ba-collapsible-filter:not(.horizontal-filter-bar) .ba-field-filter[data-id="price"] .ba-field-filter-value-wrapper .ba-field-filter-value {
+    padding-top: 15px;
+}
+
+.ba-field-filter:not(.horizontal-filter-bar) .ba-field-filter-value-wrapper {
+    transition: .3s;
+}
+
+.ba-field-filter:not(.horizontal-filter-bar) .ba-field-filter-value-wrapper[data-type="color"] {
+    display: flex;
+}
+
+.ba-fields-filter-wrapper:not(.horizontal-filter-bar) .ba-field-filter.ba-filter-collapsed .ba-field-filter-value-wrapper {
+    height: var(--filter-value-height);
+    overflow: hidden;
+}
+
+.ba-selected-filter-value i:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* Filter Date Calendar*/
+.ba-field-filter-value .ba-field-filter-date-calendars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div {
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div + div {
+    margin-left: 5px;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div input {
+    cursor: pointer;
+    color: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0 0 0 2.7em;
+    width: 100%;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div input:focus {
+    border-color: #f3f3f3 !important;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars .ba-field-filter-date-delimiter {
+    margin: 0 10px;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div .icons-cell {
+    font-size: 1.5em;
+    left: 0.5em;
+    line-height: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-0.5em);
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div .icons-cell i {
+    cursor: pointer;
+}
+
+.ba-field-date-tags {
+    margin-top: 5px;
+}
+
+.ba-field-date-tags > span {
+    align-items: center;
+    border: 1px solid #f3f3f3;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 5px 5px 0;
+    padding: 5px 17px;
+}
+
+.ba-field-filter-value .ba-field-filter-date-calendars > div input:hover,
+.ba-field-date-tags > span:hover {
+    border: 1px solid var(--primary);
+}

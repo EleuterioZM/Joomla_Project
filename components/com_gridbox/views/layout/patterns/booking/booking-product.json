@@ -1,0 +1,19 @@
+{
+	"type": "single",
+	"multiple": {
+		"min": 2,
+		"max": 7
+	},
+	"single": {
+		"type": "private",
+		"participants": 7,
+		"time": "yes",
+		"duration": 30,
+		"availability": "default"
+	},
+	"payment": {
+		"type": "complete",
+		"unit": "%",
+		"value": ""
+	}
+}

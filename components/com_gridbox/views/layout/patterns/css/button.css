@@ -1,0 +1,51 @@
+/*
+/* Plugin Button
+*/
+
+.ba-button-wrapper a {
+    text-decoration: none;
+}
+
+.ba-item-categories .ba-blog-post .ba-app-sub-category a,
+.ba-blog-post-add-to-cart,
+.event-calendar-events-list a,
+.ba-post-navigation-info a,
+.intro-post-wrapper .intro-post-info > span a,
+.ba-item-icon-list .ba-icon-list-wrapper ul li a *,
+.ba-post-author-title a,
+.ba-item-one-page-menu a,
+.ba-item-main-menu a,
+.ba-item-main-menu .separator,
+.ba-item-tabs .nav-tabs a,
+.ba-blog-post-info-wrapper > span a,
+.intro-post-wrapper > span a,
+.ba-blog-post-title a,
+.ba-item-overlay-section .ba-button-wrapper .ba-btn-transition,
+.ba-btn-transition {
+    cursor: pointer;
+    transition: color .3s ease-in-out, background .3s ease-in-out;
+}
+
+.ba-item-main-menu .separator {
+    cursor: default;
+}
+
+.ba-button-wrapper a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.ba-item-scroll-to .ba-btn-transition span + i,
+.ba-item-overlay-section .ba-btn-transition span + i,
+.ba-item-button .ba-btn-transition span + i {
+    color: inherit;
+    line-height: 1em;
+    text-align: center;
+    width: 1em;
+}
+
+.empty-textnode + i,
+.ba-item-overlay-section .empty-textnode + i,
+.ba-btn-transition .empty-textnode + i {
+    margin: 0 !important;
+}

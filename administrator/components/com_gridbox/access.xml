@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_gridbox">
+    <section name="component">
+        <action name="core.admin" title="JACTION_ADMIN" description="" />
+        <action name="core.options" title="JACTION_OPTIONS" description="" />
+        <action name="core.manage" title="JACTION_MANAGE" description="" />
+        <action name="core.tools" title="ACCESS_DEVELOPER_TOOLS" description="" />
+        <action name="core.create" title="JACTION_CREATE" description="" />
+        <action name="core.delete" title="JACTION_DELETE" description="" />
+        <action name="core.edit" title="JACTION_EDIT" description="" />
+        <action name="core.edit.own" title="JACTION_EDITOWN" description="" />
+        <action name="core.duplicate" title="JACTION_DUPLICATE" description=""/>
+        <action name="core.edit.state" title="JACTION_EDITSTATE" description="" />
+        <action name="core.csv" title="IMPORT_EXPORT_CSV" description="" />
+    </section>
+</access>

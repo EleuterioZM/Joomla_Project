@@ -1,0 +1,149 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding": {
+            "bottom":0,
+            "left": 0,
+            "right": 0,
+            "top":0
+        },
+        "view":{
+            "image": true,
+            "title": true,
+            "intro": false,
+            "counter": true,
+            "count": 1,
+            "gutter": true,
+            "sub": true
+        },
+        "overlay": {
+            "color": "rgba(0, 0, 0, 0.3)",
+            "type": "color",
+            "gradient": {
+                "effect": "linear",
+                "angle": 45,
+                "color1": "@bg-dark",
+                "position1": 25,
+                "color2": "@bg-dark-accent",
+                "position2": 75
+            }
+        },
+        "overlay-states": {
+            "default":{
+                "color": "rgba(0, 0, 0, 0.3)",
+                "type": "color"
+            },
+            "transition": {
+                "duration": 0.3,
+                "x1": 0.42,
+                "y1": 0,
+                "x2": 0.58,
+                "y2": 1
+            },
+            "state": false
+        },
+        "background" : {
+            "color" : "rgba(255, 255, 255, 0)"
+        },
+        "shadow":{
+            "value":0,
+            "color":"@shadow"
+        },
+        "border" : {
+            "color" : "@border",
+            "radius" : "0",
+            "style" : "solid",
+            "width" : "0"
+        },
+        "image":{
+            "width":"200",
+            "height":"200",
+            "size": "cover",
+            "border":{
+                "color":"@border",
+                "radius":"6",
+                "style":"solid",
+                "width":"0"
+            }
+        },
+        "title":{
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "hover" : {
+                "color" : "@primary"
+            },
+            "typography":{
+                "color":"@title",
+                "font-family":"@default",
+                "font-size":"20",
+                "font-style":"normal",
+                "font-weight":"900",
+                "letter-spacing":0,
+                "line-height":"30",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            }
+        },
+        "info":{
+            "margin":{
+                "bottom":"0",
+                "top":"25"
+            },
+            "hover" : {
+                "color" : "@primary"
+            },
+            "typography":{
+                "color":"@subtitle",
+                "font-family":"@default",
+                "font-size":"10",
+                "font-style":"normal",
+                "font-weight":"500",
+                "letter-spacing":"2",
+                "line-height":"28",
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"uppercase"
+            }
+        },
+        "intro":{
+            "typography":{
+                "color":"@text",
+                "font-family":"@default",
+                "font-size":21,
+                "font-style":"normal",
+                "font-weight":"300",
+                "letter-spacing":0,
+                "line-height":36,
+                "text-decoration":"none",
+                "text-align":"left",
+                "text-transform":"none"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            }
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "app" : "",
+    "maximum":"75",
+    "layout":{
+        "layout":"ba-classic-layout"
+    },
+    "tag": "h3",
+    "type" : "categories",
+    "access" : 1,
+    "suffix" : ""
+}

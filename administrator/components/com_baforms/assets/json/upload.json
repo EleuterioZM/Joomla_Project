@@ -1,0 +1,11 @@
+{
+    "title": "",
+    "description": "",
+    "required": false,
+    "filesize": 10,
+    "multiple": true,
+    "drag": true,
+    "types": "jpg, jpeg, png, pdf, doc",
+    "count": "",
+    "suffix": ""
+}

@@ -1,0 +1,8 @@
+.main-menu > .ba-item {
+    margin: 0 !important;
+    visibility: hidden !important;
+    height: 0;
+    overflow: hidden;
+    min-height: 0;
+    padding: 0;
+}

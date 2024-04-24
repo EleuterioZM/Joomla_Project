@@ -1,0 +1,8 @@
+body:not(.gridbox) .ba-item-preloader{
+    position: fixed;
+    z-index: 99999;
+}
+
+body:not(.gridbox) .ba-item-preloader.preloader-animation-out {
+    pointer-events: none;
+}

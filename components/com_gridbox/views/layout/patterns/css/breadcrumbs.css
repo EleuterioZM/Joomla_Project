@@ -1,0 +1,181 @@
+/*
+/* Plugin Breadcrumbs
+*/
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li {
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.ba-item-breadcrumbs ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+
+.ba-item-breadcrumbs ul li > span,
+.ba-item-breadcrumbs ul li > i,
+.ba-item-breadcrumbs ul li > a {
+    color: inherit;
+    line-height: inherit;
+    display: flex;
+}
+
+.ba-item-breadcrumbs ul li span {
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.ba-item-breadcrumbs ul li > i {
+    pointer-events: none;
+}
+
+.ba-item-breadcrumbs ul li {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    max-width: 100%;
+    position: relative;
+}
+
+.ba-item-breadcrumbs ul li > a span,
+.ba-item-breadcrumbs ul li > a,
+.ba-item-breadcrumbs ul li > span {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li {
+    text-decoration: none !important;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li.ba-icon-home-item:after,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li.ba-icon-home-item:before,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li:not(.ba-icon-home-item) > span:after,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li:not(.ba-icon-home-item) > span:before,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li:not(.ba-icon-home-item) > a:after,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li:not(.ba-icon-home-item) > a:before {
+    background: transparent;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    transition: inherit;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li:hover {
+    z-index: 10;
+}
+
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li.ba-icon-home-item:after,
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li > a:after,
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li > span:after {
+    right: calc(0px - var(--padding-right));
+    width: var(--padding-right);
+    border: var(--padding-right) solid var(--background-color);
+    box-sizing: border-box;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-right-width: 0px;
+    border-bottom-width: calc(var(--padding-bottom)*2 + var(--typography-line-height));
+    border-top-width: 0;
+}
+
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li.ba-icon-home-item:before,
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li > span:before,
+.ba-item-breadcrumbs .ba-skew-breadcrumbs ul li > a:before {
+    left: calc(0px - var(--padding-left));
+    width: var(--padding-left);
+    border: var(--padding-left) solid var(--background-color);
+    box-sizing: border-box;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-left-width: 0px;
+    border-top-width: calc(var(--padding-top)*2 + var(--typography-line-height));
+    border-bottom-width: 0;
+}
+
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li.ba-icon-home-item:after,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li > a:after,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li > span:after {
+    right: calc(0px - var(--padding-right));
+    width: var(--padding-right);
+    background: transparent;
+    border: var(--padding-right) solid var(--background-color);
+    box-sizing: border-box;
+    border-bottom-color: transparent;
+    border-right-width: 0px;
+    border-bottom-width: calc(var(--padding-bottom) + var(--typography-line-height)/2);
+    border-top-color: transparent;
+    border-top-width: calc(var(--padding-top) + var(--typography-line-height)/2);
+}
+
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li.ba-icon-home-item:before,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li > span:before,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li > a:before {
+    left: calc(0px - var(--padding-left));
+    width: var(--padding-left);
+    background: transparent;
+    border: var(--padding-left) solid var(--background-color);
+    box-sizing: border-box;
+    border-left-color: transparent;
+    border-left-width: var(--padding-left);
+    border-top-width: calc(var(--padding-top) + var(--typography-line-height)/2);
+    border-bottom-width: calc(var(--padding-bottom) + var(--typography-line-height)/2);
+    border-right-width: 0;
+}
+
+.com_gridbox:not(.gridbox) .ba-hide-current-breadcrumbs li:last-child i,
+.com_gridbox.gridbox .ba-hide-current-breadcrumbs li:nth-last-child(2) i,
+.com_gridbox.gridbox .ba-hide-current-breadcrumbs li:last-child,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li.ba-icon-home-item:first-child:before,
+.ba-breadcrumbs-wrapper .ba-title-home-item i:not(.ba-breadcrumbs-separator),
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper .ba-none-home-item,
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper .ba-icon-home-item span,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs .ba-none-home-item + li > span:before,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs .ba-none-home-item + li > a:before,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li:first-child > span:before,
+.ba-item-breadcrumbs .ba-triangle-breadcrumbs ul li:first-child > a:before {
+    display: none;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li a {
+    align-items: center;   
+    display: flex;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li i {
+    margin-left: var(--padding-right);
+    line-height: var(--typography-line-height);
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li:not(.ba-icon-home-item) i {
+    padding: 0 !important;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li > a {
+    padding-right: 0;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper:not(.ba-classic-breadcrumbs) ul li {
+    margin-right: var(--padding-right) ;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li a i:not(.ba-breadcrumbs-separator) {
+    margin-right: var(--padding-right);
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li:not(:last-child) > span {
+    padding-right: 0!important;
+}
+
+.ba-item-breadcrumbs .ba-breadcrumbs-wrapper ul li > span + i.ba-breadcrumbs-separator {
+    padding-right: var(--padding-right) !important;
+}

@@ -1,0 +1,493 @@
+
+.ba-checkout-order-form-row.ba-checkout-order-form-pay-leter,
+.ba-checkout-order-form-row.ba-checkout-order-form-paying-now,
+.ba-checkout-order-form-row-title.show-promo-code,
+.ba-login-footer-wrapper,.ba-checkout-acceptance-html,
+.ba-checkout-order-form-tax,
+.ba-account-wrapper > .nav-tabs li > a *:not(i),
+.ba-account-wrapper > .nav-tabs li > a,
+.ba-account-profile-title-wrapper *,
+.ba-checkout-form-title-wrapper *,
+.ba-checkout-order-form-total-wrapper .ba-checkout-order-form-shipping *,
+.ba-checkout-order-form-subtotal *,
+.ba-checkout-order-form-discount *,
+.ba-checkout-order-product-title,
+.ba-show-registration-dialog,
+.ba-checkout-authentication-backdrop .ba-checkout-authentication-label span,
+.ba-item-checkout-form .ba-checkout-form-title-wrapper span {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    text-decoration: var(--title-text-decoration);
+    text-transform: var(--title-text-transform);
+}
+
+#ba-my-account-profile .ba-account-profile-fields input,
+#ba-my-account-profile .image-profile-wrapper input,
+#ba-my-account-profile .ba-account-profile-fields textarea,
+.ba-authorize-field-wrapper input,
+.ba-my-account-profile .ba-account-profile-field-wrapper input,
+.ba-my-account-billing-details .ba-checkout-form-fields select, 
+.ba-my-account-billing-details .ba-checkout-form-fields input, 
+.ba-checkout-authentication-input input,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper textarea,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper .ba-checkbox-wrapper >span,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper select,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper input  {
+    background-color: var(--background-color);
+    border-bottom-width: calc(var(--border-bottom)*var(--border-width));
+    border-color: var(--border-color);
+    border-left-width: calc(var(--border-left)*var(--border-width));
+    border-radius: var(--border-radius);
+    border-right-width: calc(var(--border-right)*var(--border-width));
+    border-style: var(--border-style);
+    border-top-width: calc(var(--border-top)*var(--border-width));
+    padding-bottom: var(--field-padding-bottom);
+    padding-left: var(--field-padding-left);
+    padding-right: var(--field-padding-right);
+    padding-top: var(--field-padding-top);
+}
+
+.ba-checkout-order-product-booking-options *,
+#ba-my-account-profile .ba-account-profile-fields input,
+#ba-my-account-profile .image-profile-wrapper input,
+#ba-my-account-profile .ba-account-profile-fields textarea,
+.ba-checkout-edit-order,
+.ba-authorize-field-wrapper input::placeholder,  
+.ba-authorize-field-wrapper input, 
+.ba-my-account-profile .ba-account-profile-field-wrapper input, 
+.ba-my-account-billing-details .ba-checkout-form-fields select, 
+.ba-my-account-billing-details .ba-checkout-form-fields input,
+.ba-my-account-profile .ba-account-profile-field-wrapper input::placeholder, 
+.ba-my-account-billing-details .ba-checkout-form-fields input::placeholder,
+.ba-checkout-order-form-shipping *,
+.ba-checkout-order-row-title,
+.ba-checkout-order-product-extra-options, 
+.ba-checkout-order-description *:not(a), 
+.ba-cart-checkout-row.ba-cart-checkout-includes-tax .ba-cart-checkout-title > span, 
+.ba-checkout-order-form-section.ba-checkout-order-form-total-wrapper .ba-checkout-order-form-row-title > span, 
+.ba-checkout-order-product-info, 
+.ba-checkout-authentication-input input,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper textarea,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper .ba-checkbox-wrapper >span,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper select,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper input,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper input::placeholder,
+.ba-item-checkout-form .ba-checkout-form-field-wrapper textarea::placeholder {
+    color: var(--field-color);
+    font-family: var(--field-font-family);
+    font-size: var(--field-font-size);
+    font-style: var(--field-font-style);
+    font-weight: var(--field-font-weight);
+    letter-spacing: var(--field-letter-spacing);
+    line-height: var(--field-line-height);
+    text-align: var(--field-text-align);
+    text-decoration: var(--field-text-decoration);
+    text-transform: var(--field-text-transform);
+}
+
+.ba-my-account-profile .ba-account-profile-field-wrapper input::placeholder, 
+.ba-my-account-billing-details .ba-checkout-form-fields input::placeholder {
+    opacity: .5;
+}
+
+.ba-account-title-wrapper,
+.ba-checkout-order-form-section.ba-checkout-order-form-total-wrapper > .ba-checkout-order-form-total,
+.ba-checkout-order-form-title-wrapper,
+.ba-checkout-order-form-total .ba-checkout-order-price-wrapper,
+.ba-checkout-authentication-title,
+.ba-checkout-form-fields[data-type="headline"] .ba-checkout-form-title-wrapper .ba-checkout-form-title {
+    color: var(--headline-color);
+    display: block;
+    font-family: var(--headline-font-family);
+    font-size: var(--headline-font-size);
+    font-style: var(--headline-font-style);
+    font-weight: var(--headline-font-weight);
+    letter-spacing: var(--headline-letter-spacing);
+    line-height: var(--headline-line-height);
+    text-align: var(--headline-text-align);
+    text-decoration: var(--headline-text-decoration);
+    text-transform: var(--headline-text-transform);
+}
+
+.ba-checkout-form-fields[data-type="headline"] .ba-checkout-form-title-wrapper .ba-checkout-form-title {
+    margin-bottom: var(--headline-margin-bottom);
+    margin-top: var(--headline-margin-top);
+}
+
+.ba-checkout-authentication-label,
+.ba-account-profile-title-wrapper, 
+.ba-my-account-billing-details .ba-checkout-form-title-wrapper .ba-checkout-form-title,
+.ba-checkout-form-fields:not([data-type="headline"]) .ba-checkout-form-title-wrapper {
+    margin-bottom: var(--title-margin-bottom);
+    margin-top: var(--title-margin-top);
+}
+
+#ba-my-account-profile .ba-account-profile-fields input,
+#ba-my-account-profile .ba-account-profile-fields textarea,
+.ba-authorize-field-wrapper input, 
+.ba-my-account-profile .ba-account-profile-field-wrapper input, 
+.ba-my-account-billing-details .ba-checkout-form-fields select, 
+.ba-my-account-billing-details .ba-checkout-form-fields input, 
+.ba-checkout-authentication-input input, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper textarea, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper select, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper input, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper textarea, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper input, 
+.ba-item-checkout-form .ba-checkout-form-field-wrapper select{
+    margin-bottom: var(--field-margin-bottom);
+    margin-top: var(--field-margin-top);
+}
+
+#ba-my-account-profile .ba-account-profile-fields input,
+#ba-my-account-profile .ba-account-profile-fields textarea,
+.ba-my-account-profile .ba-account-profile-field-wrapper input, 
+.ba-my-account-billing-details .ba-checkout-form-fields select, 
+.ba-my-account-billing-details .ba-checkout-form-fields input {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+#ba-my-account-profile .ba-account-profile-fields textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+#ba-my-account-profile .ba-author-info .image-profile-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+#ba-my-account-profile .image-profile-wrapper input {
+    background: transparent;
+    border: none !important; 
+    cursor: pointer;
+    padding: 0 !important;
+    padding-left: 90px !important; 
+    height: 75px;
+}
+
+#ba-my-account-profile .ba-author-info .image-profile-wrapper > i {
+    background-color: var(--background-color);   
+}
+
+#ba-my-account-profile .ba-author-info .image-profile-wrapper > i,
+#ba-my-account-profile .ba-author-info .image-profile-wrapper .image-field-tooltip {
+    align-items: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    margin-bottom: var(--field-margin-bottom);
+    margin-top: var(--field-margin-top);
+    position: absolute;
+    width: 75px;
+    pointer-events: none;
+}
+
+#ba-my-account-profile .ba-author-info .image-profile-wrapper .image-field-tooltip:not([style*="background-image"]) + .reset-image-profile  {
+    display: none;
+}
+
+#ba-my-account-profile .image-profile-wrapper .reset-image-profile {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: var(--field-margin-bottom);
+    margin-top: var(--field-margin-top);
+    position: absolute;
+    right: 0;
+    width: 30px;
+}
+
+#ba-my-account-profile .image-profile-wrapper .reset-image-profile:hover {
+    opacity: .5;
+}
+
+.ba-my-account-billing-details .ba-checkout-form-fields select {
+    height: calc(var(--field-line-height) + var(--field-padding-top) + var(--field-padding-bottom) + var(--border-width));
+}
+
+.ba-my-account-billing-details .ba-checkout-form-field-wrapper .ba-checkbox {
+    top: 0;
+}
+
+.ba-account-profile-fields,
+.ba-checkout-form-field-wrapper {
+    position: relative;
+}
+
+.ba-account-alert-tooltip,
+.ba-checkout-alert-tooltip {
+    animation: tooltip .3s ease-in-out both!important;
+    background: #ff671f;
+    bottom: auto;
+    color: #fff;
+    display: flex!important;
+    left: 0;
+    margin-left: 0;
+    opacity: 1;
+    text-transform: initial;
+    top: 100%;
+    transform: translateX(0);
+    transition: .3s;
+    width: auto!important;
+    z-index: 999;
+}
+
+.ba-account-alert-tooltip {
+    font-size: initial;
+    letter-spacing: initial;
+    line-height: initial;
+    margin-top: 10px;
+}
+
+.ba-my-account-profile .ba-account-profile-fields[style="--ba-checkout-field-width:50%;"]:nth-child(even) .ba-account-alert-tooltip {
+    margin-left: 10px;    
+}
+
+.ba-checkout-form-fields[data-type="acceptance"] .ba-checkout-alert-tooltip {
+    top: calc(100% + 10px);
+    left: 5px;
+}
+
+.ba-checkout-form-fields .ba-checkbox-wrapper {
+    position: relative;
+}
+
+.ba-checkout-form-fields .ba-checkbox-wrapper > span {
+    cursor: default;
+}
+
+.ba-account-alert-tooltip:before,
+.ba-checkout-alert-tooltip:before {
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ff671f;
+    bottom: auto;
+    box-sizing: content-box;
+    content: "";
+    height: 5px;
+    left: 10px !important;
+    position: absolute;
+    top: -14px;
+}
+
+.ba-account-alert  input,
+.ba-checkout-alert * {
+    border-color: #ff671f !important;
+}
+
+.ba-authorize-field-wrapper .ba-checkout-alert-tooltip,
+.ba-checkout-authentication-wrapper .ba-checkout-alert-tooltip {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: -4px;
+}
+
+.ba-checkout-alert .ba-checkout-order-form-payment ~.ba-checkout-alert-tooltip ,
+.ba-checkout-alert .ba-checkout-order-form-shipping ~.ba-checkout-alert-tooltip {
+    left: -5px;
+    margin-top: 10px;
+}
+
+.ba-checkout-alert .ba-radio span:before {
+    border: 2px solid #ff671f !important;
+}
+
+.ba-checkout-alert  {
+    position: relative;
+}
+
+.ba-account-order-details-backdrop, 
+.ba-subscription-renewal-backdrop,
+.ba-account-modal-backdrop,
+.ba-checkout-authentication-backdrop {
+    align-items: center;
+    background-color: var(--overlay);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    max-height: 100vh;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: .3s;
+    z-index: 100;
+}
+
+.ba-account-order-details-backdrop {
+    z-index: 1000;
+}
+
+.ba-account-md-modal-wrapper,
+.ba-account-order-details-wrapper,
+.ba-checkout-authentication-wrapper > div {
+    background: var(--bg-primary);
+    border-radius: 6px;
+    box-shadow: 0 30px 60px 0 var(--shadow);
+    font-size: initial;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 10px;
+    padding: 50px;
+    text-align: left;
+    width: 450px;
+}
+
+.ba-password-request-wrapper .ba-login-description,
+.ba-forgot-username-wrapper .ba-login-description,
+.ba-forgot-password-wrapper .ba-login-description {
+    margin-bottom: 20px;
+}
+
+.ba-login-integration-btn img {
+    margin-right: 10px;
+    width: 21px;
+}
+
+.ba-login-or-wrapper .ba-login-field-label,
+.ba-login-integration-btn span {
+    width: auto;
+}
+
+.ba-login-or-wrapper .ba-login-field-label {
+    margin: 0 10px !important;
+    white-space: nowrap;
+}
+
+.ba-login-forgot-wrapper, 
+.ba-login-or-wrapper, 
+.ba-login-or-wrapper:before, 
+.ba-login-or-wrapper:after, 
+.ba-login-integrations-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.ba-login-or-wrapper {
+    align-items: center;
+}
+
+.ba-login-or-wrapper:before, 
+.ba-login-or-wrapper:after {
+    background: var(--border);
+    content: "";
+    height: 1px;
+}
+
+.ba-login-integrations-wrapper {
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.ba-login-integrations-wrapper.ba-login-integrations-hidden-element {
+    justify-content: center;
+}
+
+.ba-login-integrations-wrapper > div {
+    align-items: center;
+    background-color: var(--background-color);
+    border-bottom: calc(var(--border-bottom)*var(--border-width)) var(--border-style) var(--border-color);
+    border-left: calc(var(--border-left)*var(--border-width)) var(--border-style) var(--border-color);
+    border-radius: var(--border-radius);
+    border-right: calc(var(--border-right)*var(--border-width)) var(--border-style) var(--border-color);
+    border-top: calc(var(--border-top)*var(--border-width)) var(--border-style) var(--border-color);
+    box-sizing: border-box;
+    color: var(--field-color);
+    cursor: pointer;
+    display: flex;
+    font-family: var(--field-font-family);
+    font-size: var(--field-font-size);
+    font-style: var(--field-font-style);
+    font-weight: var(--field-font-weight);
+    height: 40px;
+    justify-content: center;
+    letter-spacing: var(--field-letter-spacing);
+    line-height: var(--field-line-height);
+    max-width: 400px;
+    position: relative;
+    text-decoration: var(--field-text-decoration);
+    text-transform: var(--field-text-transform);
+    width: calc(50% - 5px);
+}
+
+.ba-login-integrations-wrapper .ba-google-login-button * {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.ba-login-integrations-wrapper .ba-google-login-button iframe {
+    top: 0 !important;
+    position: absolute !important;
+    left: 0 !important;
+    margin: 0 !important;
+}
+
+.ba-login-integrations-wrapper.ba-login-integrations-hidden-element > div {
+    width: 100%;
+}
+
+.ba-login-integration-btn .ba-google-login-button {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ba-login-footer-wrapper {
+    text-align: center;
+    cursor: pointer;
+}
+
+.ba-my-account-billing-details .ba-checkout-form-fields[data-type="country"] .ba-checkout-form-field-wrapper:not(.visible-region-select) .ba-checkout-country-wrapper + .ba-checkout-country-wrapper{
+    display: none;
+}
+
+.ba-checkout-form-fields[data-type="country"] .ba-checkout-form-field-wrapper.visible-region-select {
+    display: flex;
+}
+
+.ba-checkout-form-fields[data-type="country"] .ba-checkout-form-field-wrapper.visible-region-select .ba-checkout-country-wrapper {
+    width: 50%;
+}
+
+.ba-checkout-form-fields[data-type="country"] .ba-checkout-form-field-wrapper.visible-region-select .ba-checkout-country-wrapper:first-child {
+    margin-right: 10px;
+}
+
+.ba-checkout-form-fields[data-type="country"] .ba-checkout-form-field-wrapper.visible-region-select .ba-checkout-country-wrapper + .ba-checkout-country-wrapper {
+    margin-left: 10px;
+}
+
+.ba-my-account-billing-details .ba-checkout-form-field-wrapper .ba-checkbox-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px !important;
+}
+
+.ba-my-account-billing-details .ba-checkout-form-field-wrapper .ba-checkbox span {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.ba-my-account-billing-details .ba-checkbox-wrapper:not(.acceptance-checkbox-wrapper):first-child {
+    padding-top: var(--field-padding-top);
+}

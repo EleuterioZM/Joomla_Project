@@ -1,0 +1,38 @@
+.preloader-wrapper.ba-spinner-2 .preloader-point-wrapper {
+    position: relative;
+}
+
+.preloader-wrapper.ba-spinner-2 .preloader-point-wrapper  > div {
+    background: transparent !important;
+    height: inherit;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: inherit;
+}
+
+.preloader-wrapper.ba-spinner-2 .preloader-point-wrapper  > div:last-child {
+    transform: rotate(90deg);
+}
+
+@keyframes spinner2 {
+    0% {transform-origin: 50% -50%; transform: rotate(0);}
+    50% {transform-origin: 50% -50%;transform: rotate(360deg);}
+    50.00001% {transform-origin: 50% 150%;transform: rotate(0deg);}
+    100% {transform-origin: 50% 150%;transform: rotate(360deg);}
+}
+
+.preloader-wrapper.ba-spinner-2 .preloader-point-wrapper > div > div {
+    animation: spinner2 3s ease-in-out infinite -1.5s;
+    border-radius: 50%;
+    height: 25%;
+    left: 50%;    
+    margin: -12.5%;
+    position: absolute;
+    top:50%;
+    width: 25%;
+}
+
+.preloader-wrapper.ba-spinner-2 .preloader-point-wrapper  .preloader-point-1 {
+    animation-delay: 0s;
+}

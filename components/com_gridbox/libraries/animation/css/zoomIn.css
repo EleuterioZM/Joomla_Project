@@ -1,0 +1,15 @@
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(.85,.85,.85);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ba-item-content-slider .active .zoomIn,
+.zoomIn {
+    animation-name: zoomIn;
+}

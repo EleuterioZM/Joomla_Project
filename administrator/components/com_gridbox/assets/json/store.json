@@ -1,0 +1,221 @@
+{
+    "notifications": [
+        {
+            "admins":[],
+            "subject":"New Booking On [Store Name]",
+            "body": "",
+            "type": "admin",
+            "title": "New Booking",
+            "status": "new-booking",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"Your Booking for [Product Title] has been Approved",
+            "body": "",
+            "type": "customer",
+            "title": "Booking Confirmation Email",
+            "status": "new-booking",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"[Product Title] Appointment Reminder",
+            "body": "",
+            "type": "customer",
+            "title": "Appointment Reminder",
+            "status": "appointment-reminder",
+            "reminder": {
+                "value": "1",
+                "format": "d"
+            },
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "admins":[],
+            "subject":"New Order On [Store Name]: [Order Number]",
+            "body": "",
+            "type": "admin",
+            "title": "New Order",
+            "status": "new",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "admins":[],
+            "subject":"The [Product Title] is Running Out of Stock at [Store Name]",
+            "body": "",
+            "quantity": 3,
+            "type": "admin",
+            "title": "Out of Stock",
+            "status": "stock",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"Thank You for Your Order at [Store Name]",
+            "body": "",
+            "type": "customer",
+            "title": "Order Confirmation",
+            "status": "new",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"Your Order at [Store Name] Has Been Completed",
+            "body": "",
+            "type": "customer",
+            "title": "Order Completed",
+            "status": "completed",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"Your [Product Title] subscription expired on [Expiration Date]",
+            "body": "",
+            "type": "customer",
+            "title": "Expiration and Renewal Reminder",
+            "status": "reminder",
+            "delay": {
+                "enabled": false,
+                "value": "",
+                "format": "d"
+            }
+        },
+        {
+            "name":"",
+            "email":"",
+            "subject":"Thank you for shopping at [Store Name]",
+            "body": "",
+            "type": "customer",
+            "title": "Customer Review",
+            "status": "completed",
+            "delay": {
+                "enabled": true,
+                "value": "7",
+                "format": "d"
+            }
+        }
+    ],
+    "added": ["customer-review"],
+    "tax": {
+        "mode": "incl",
+        "rates": []
+    },
+    "currency":{
+        "symbol": "€",
+        "code": "EUR",
+        "position": "right-currency-position",
+        "thousand": ",",
+        "separator": ".",
+        "decimals": "2"
+    },
+    "currencies": {
+        "list": [{
+            "symbol": "€",
+            "code": "EUR",
+            "position": "right-currency-position",
+            "thousand": ",",
+            "separator": ".",
+            "decimals": "2",
+            "default": true,
+            "rate": 1,
+            "title": "Currency",
+            "language": "*"
+        }],
+        "auto": false
+    },
+    "general":{
+        "store_name":"",
+        "business_name":"",
+        "phone":"",
+        "email":"",
+        "country":"",
+        "region":"",
+        "street":"",
+        "city":"",
+        "zip_code":""
+    },
+    "invoice":{
+        "logo": "",
+        "from": "[All Fields]",
+        "billed": "[All Fields]",
+        "footer": ""
+    },
+    "checkout": {
+        "minimum": "",
+        "login": true,
+        "guest": true,
+        "registration": true,
+        "facebook": true,
+        "google": true,
+        "password": true,
+        "username": true,
+        "terms": true,
+        "terms_text": "I have read and agree to the <a href=\"#\" target=\"_blank\">Terms and Conditions</a>"
+    },
+    "wishlist": {
+        "login": false
+    },
+    "units": {
+        "weight": "kg"
+    },
+    "statuses": [{
+            "title": "Canceled",
+            "color": "#ff4f49",
+            "key": "1590650260323"
+        },
+        {
+            "title": "Completed",
+            "color": "#34dca2",
+            "key": "completed"
+        },
+        {
+            "title": "New",
+            "color": "#ffc700",
+            "key": "new"
+        },
+        {
+            "title": "Processing",
+            "color": "#0098d8",
+            "key": "1590650260324"
+        },
+        {
+            "title": "Refunded",
+            "color": "#35404a",
+            "key": "refunded"
+        }
+    ]
+}

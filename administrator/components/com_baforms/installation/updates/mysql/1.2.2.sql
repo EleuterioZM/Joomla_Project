@@ -1,0 +1,1 @@
+ALTER TABLE `#__baforms_forms` ADD COLUMN `add_sender_email` varchar(255) NOT NULL DEFAULT 0;

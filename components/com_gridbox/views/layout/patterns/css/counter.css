@@ -1,0 +1,8 @@
+/*
+/* Plugin Counter
+*/
+
+.ba-item-counter .counter-number {
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+{
+    "title": "Accept Terms",
+    "description": "",
+    "suffix": "",
+    "required":true,
+    "html": "<p>I have read and agree to the <a href=\"#\" target=\"_blank\">Terms and Conditions</a></p>"
+}

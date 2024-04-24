@@ -1,0 +1,41 @@
+/*
+/* Plugin Weather
+*/
+
+.ba-weather .weather-info,
+.ba-weather .weather {
+    margin-bottom: 1em;
+}
+
+.ba-weather .weather .city,
+.ba-weather .weather .date,
+.ba-weather .weather .condition {
+    display: block;
+}
+
+.ba-weather span.date {
+    margin-bottom: 20px;
+}
+
+.ba-weather .weather-info .humidity,
+.ba-weather .weather-info .pressure,
+.ba-weather .weather-info .sunrise-wrapper > span {
+    display: inline-block ;
+    margin-right: 10px;
+}
+
+.ba-weather div.forecast span.night-temp,
+.ba-weather div.forecast span.day-temp {
+    display: inline-block !important;
+}
+
+.ba-weather div.forecast span.night-temp,
+.ba-weather div.forecast span.day-temp {
+    box-sizing: border-box;
+    text-align: right !important;
+}
+
+.ba-weather div.forecast span.night-temp {
+    text-align: left !important;
+    opacity: .5;
+}

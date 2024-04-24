@@ -1,0 +1,46 @@
+{
+    "desktop" : {
+        "view":{
+            "bar" : "@primary",
+            "background": "@bg-secondary",
+            "width": "300",
+            "line": 10
+        },
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "padding" : {
+            "bottom" : "0",
+            "left": "0",
+            "right": "0",
+            "top" : "0"
+        },
+        "display": {
+            "target": true
+        },
+        "typography" : {
+            "color" : "@title",
+            "font-family" : "@default",
+            "font-size" : 65,
+            "font-style" : "normal",
+            "font-weight" : "900",
+            "letter-spacing" : 0,
+            "text-decoration" : "none",
+            "text-transform" : "none"
+        },
+        "disable" : "0"
+    },
+    "target" : "75",
+    "duration" : "2000",
+    "easing": "easeOutQuad",
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "progress-pie",
+    "access" : 1,
+    "suffix" : ""
+}

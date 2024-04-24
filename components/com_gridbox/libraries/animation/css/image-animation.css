@@ -1,0 +1,78 @@
+.ba-image-item-caption,
+.ba-simple-gallery-caption {
+    opacity: 0;
+}
+
+.ba-item-image .ba-image-wrapper.visible-image-caption .ba-image-item-caption,
+.ba-item-overlay-section .ba-image-wrapper:hover .ba-image-item-caption,
+.ba-item-image .ba-image-wrapper:hover .ba-image-item-caption,
+.ba-instagram-image:hover .ba-simple-gallery-caption {
+    opacity: 1;
+}
+
+.ba-item-image .ba-image-wrapper.visible-image-caption .ba-image-item-caption,
+.ba-item-image .ba-image-wrapper.visible-image-caption:hover img {
+   transform: none !important;
+}
+
+.ba-circle-bottom-right .ba-caption-overlay,
+.ba-circle-top-left .ba-caption-overlay {
+    border-radius: 50%;
+    bottom: -25% !important;
+    left: -25% !important;
+    position: absolute;
+    right: -25% !important;
+    top: -25% !important;
+}
+
+.ba-item-overlay-section img,
+.ba-image-item-caption,
+.ba-item-image .ba-image-wrapper img,
+.ba-image-item-caption .ba-caption-overlay,
+.ba-instagram-image .ba-caption-overlay,
+.ba-simple-gallery-caption {
+    transition-duration: var(--transition-duration);
+    transition-property: all;
+}
+
+/* Animation Circle Top Left Effect */
+.ba-circle-top-left.ba-image-wrapper:not(:hover) .ba-image-item-caption,
+.ba-circle-top-left .ba-instagram-image:not(:hover) .ba-simple-gallery-caption {
+    transform: translateX(130%)translateY(130%);
+}
+
+/* Animation Circle Down Right Effect */
+.ba-circle-bottom-right.ba-image-wrapper:not(:hover) .ba-image-item-caption,
+.ba-circle-bottom-right .ba-instagram-image:not(:hover) .ba-simple-gallery-caption {
+    transform: translateX(-130%)translateY(-130%);
+}
+
+/* Animation Zoom Center Effect */
+.ba-image-zoom-center.ba-image-wrapper:hover img,
+.ba-image-zoom-center .ba-instagram-image:hover .ba-simple-gallery-image {
+    transform: scale(1.25);
+}
+
+.ba-image-zoom-center.ba-image-wrapper:hover img,
+.ba-image-zoom-center .ba-instagram-image:hover .ba-simple-gallery-image,
+.ba-image-rotate-right.ba-image-wrapper:hover img,
+.ba-image-rotate-right .ba-instagram-image:hover .ba-simple-gallery-image {
+    transition-delay: inherit;
+}
+
+/* Animation Rotate Right Effect */
+.ba-image-rotate-right.ba-image-wrapper:hover img,
+.ba-image-rotate-right .ba-instagram-image:hover .ba-simple-gallery-image {
+    transform: scale(1.6) rotate(10deg);
+}
+
+/* Animation Shutter Out Diagonal Effect */
+.ba-shutter-out-diagonal.ba-image-wrapper:hover .ba-caption-overlay,
+.ba-shutter-out-diagonal .ba-instagram-image:hover .ba-caption-overlay {
+    transform: skewX(45deg) scaleX(2);
+}
+
+.ba-shutter-out-diagonal.ba-image-wrapper .ba-caption-overlay,
+.ba-shutter-out-diagonal .ba-instagram-image .ba-caption-overlay {
+    transform: skewX(45deg) scaleX(.0001);
+}

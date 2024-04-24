@@ -1,0 +1,20 @@
+{
+    "desktop" : {
+        "margin" : {
+            "bottom" : "25",
+            "top" : "25"
+        },
+        "disable" : "0"
+    },
+    "tablet" : {
+        "disable" : "0"
+    },
+    "phone" : {
+        "disable" : "0"
+    },
+    "type" : "custom-html",
+    "access" : 1,
+    "css" : "",
+    "html" : "<p>Add custom HTML to a Page</p>",
+    "suffix" : ""
+}

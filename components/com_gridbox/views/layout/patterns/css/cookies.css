@@ -1,0 +1,22 @@
+/*
+/* Plugin Cookies
+*/
+
+.ba-cookies.notification-bar-top,
+.ba-cookies.notification-bar-bottom {
+    position: fixed;
+    width: 100%!important;
+}
+
+.ba-cookies.notification-bar-top {
+    top: 0;
+}
+
+.ba-cookies.notification-bar-bottom {
+    bottom: 0;
+}
+
+.ba-cookies.notification-bar-top .ba-section,
+.ba-cookies.notification-bar-bottom .ba-section {
+    width: 100% !important;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="SUBMISSION_FORM">
+        <message>SUBMISSION_FORM</message>
+    </layout>
+    <fields name="request" addfieldpath="/administrator/components/com_gridbox/models/fields">
+        <fieldset name="request">
+            <field
+                name="id"
+                type="system"
+                label="PAGE"
+            />
+        </fieldset>
+    </fields>
+</metadata> 

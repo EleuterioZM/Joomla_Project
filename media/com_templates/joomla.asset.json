@@ -1,0 +1,118 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "com_templates",
+  "version": "4.0.0",
+  "description": "Joomla CMS",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "com_templates.admin-template-compare.es5",
+      "type": "script",
+      "uri": "com_templates/admin-template-compare-es5.min.js",
+      "dependencies": [
+        "core",
+        "diff"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "750e3a6c773237fc2fdcd0148518557e4d5ef275"
+    },
+    {
+      "name": "com_templates.admin-template-toggle-assignment.es5",
+      "type": "script",
+      "uri": "com_templates/admin-template-toggle-assignment-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "44310d67bfa3d34e9c78bea16805aa9227fc0204"
+    },
+    {
+      "name": "com_templates.admin-template-compare",
+      "type": "script",
+      "uri": "com_templates/admin-template-compare.min.js",
+      "dependencies": [
+        "com_templates.admin-template-compare.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "deprecated": true,
+      "deprecatedMsg": "To be removed in Joomla 5.0",
+      "version": "05984e11d3325af2457e08637a7e1e2a4139ee12"
+    },
+    {
+      "name": "com_templates.admin-template-toggle-assignment",
+      "type": "script",
+      "uri": "com_templates/admin-template-toggle-assignment.min.js",
+      "dependencies": [
+        "com_templates.admin-template-toggle-assignment.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "9947fec02f44c16b389ec98a072908c31bdd5ae6"
+    },
+    {
+      "name": "com_templates.admin-template-toggle-switch.es5",
+      "type": "script",
+      "uri": "com_templates/admin-template-toggle-switch-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "776b97ac0b55a7d3361cb9aad43db901218ad459"
+    },
+    {
+      "name": "com_templates.admin-template-toggle-switch",
+      "type": "script",
+      "uri": "com_templates/admin-template-toggle-switch.min.js",
+      "dependencies": [
+        "com_templates.admin-template-toggle-switch.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "b57d9aa8af7184e679e3d563453ad5727a3360ab"
+    },
+    {
+      "name": "com_templates.admin-templates.es5",
+      "type": "script",
+      "uri": "com_templates/admin-templates-default-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "535b78e7a466f38e60e2e42d3f76bf71873f57e3"
+    },
+    {
+      "name": "com_templates.admin-templates",
+      "type": "script",
+      "uri": "com_templates/admin-templates-default.min.js",
+      "dependencies": [
+        "com_templates.admin-templates.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "754b148b6b0ee2c5611032791e1ec42de2552d95"
+    },
+    {
+      "name": "com_templates.admin-templates",
+      "type": "style",
+      "uri": "com_templates/admin-templates-default.min.css",
+      "version": "11e7a1b6c0e30e2270ab163033252f899764c738"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+    "item-14975226220":{
+        "desktop":{
+            "animation":{
+                "duration":"0.9",
+                "delay":"0",
+                "effect":""
+            },
+            "border":{
+                "bottom":"0",
+                "color":"@border",
+                "left":"0",
+                "right":"0",
+                "style":"solid",
+                "radius":0,
+                "top":"0",
+                "width":"1"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"100",
+                "left":"0",
+                "right":"0",
+                "top":"100"
+            },
+            "shape": {
+                "top" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                },
+                "bottom" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                }
+            },
+            "background":{
+                "type":"none",
+                "color":"@bg-primary",
+                "image":{
+                    "attachment":"scroll",
+                    "image":"",
+                    "position":"center center",
+                    "repeat":"no-repeat",
+                    "size":"cover"
+                },
+                "video":{
+                    "type":"youtube",
+                    "id":"",
+                    "mute":"1",
+                    "start":"0",
+                    "quality":"hd720",
+                    "image":""
+                }
+            },
+            "overlay":{
+                "color":"rgba(0, 0, 0, 0)"
+            },
+            "fullscreen":"0",
+            "disable":"0",
+            "shadow":{
+                "value":0,
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "parallax":{
+            "enable":false,
+            "invert":false,
+            "offset":0.5
+        },
+        "type":"section",
+        "max-width":"100%",
+        "access":1,
+        "suffix":""
+    },
+    "item-14975226221":{
+        "desktop":{
+            "animation":{
+                "duration":"0.9",
+                "delay":"0",
+                "effect":""
+            },
+            "border":{
+                "bottom":"0",
+                "color":"@border",
+                "left":"0",
+                "right":"0",
+                "style":"solid",
+                "radius":0,
+                "top":"0",
+                "width":"1"
+            },
+            "margin":{
+                "bottom":"25",
+                "top":"25"
+            },
+            "padding":{
+                "bottom":"0",
+                "left":"0",
+                "right":"0",
+                "top":"0"
+            },
+            "shape": {
+                "top" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                },
+                "bottom" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                }
+            },
+            "background":{
+                "type" : "none",
+                "color" : "@bg-primary",
+                "image":{
+                    "attachment":"scroll",
+                    "image":"",
+                    "position":"center center",
+                    "repeat":"no-repeat",
+                    "size":"cover"
+                },
+                "video":{
+                    "type":"youtube",
+                    "id":"",
+                    "mute":"1",
+                    "start":"0",
+                    "quality":"hd720",
+                    "image":""
+                }
+            },
+            "overlay":{
+                "color":"rgba(0, 0, 0, 0)"
+            },
+            "gutter":"1",
+            "fullscreen":"0",
+            "disable":"0",
+            "shadow":{
+                "value":0,
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "parallax":{
+            "enable":false,
+            "invert":true,
+            "offset":0.3
+        },
+        "type":"row",
+        "max-width":"1170px",
+        "access":1,
+        "suffix":""
+    },
+    "item-14975226225":{
+        "desktop":{
+            "animation":{
+                "duration":"0.9",
+                "delay":"0",
+                "effect":""
+            },
+            "border":{
+                "bottom":"0",
+                "color":"@border",
+                "left":"0",
+                "right":"0",
+                "style":"solid",
+                "radius":0,
+                "top":"0",
+                "width":"1"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"0",
+                "left":"0",
+                "right":"0",
+                "top":"0"
+            },
+            "shape": {
+                "top" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                },
+                "bottom" : {
+                    "effect" : "",
+                    "color" : "@primary",
+                    "value" : 50
+                }
+            },
+            "background":{
+                "type" : "none",
+                "color" : "@bg-primary",
+                "image":{
+                    "attachment":"scroll",
+                    "image":"",
+                    "position":"center center",
+                    "repeat":"no-repeat",
+                    "size":"cover"
+                },
+                "video":{
+                    "type":"youtube",
+                    "id":"",
+                    "mute":"1",
+                    "start":"0",
+                    "quality":"hd720",
+                    "image":""
+                }
+            },
+            "overlay":{
+                "color":"rgba(0, 0, 0, 0)"
+            },
+            "fullscreen":"0",
+            "disable":"0",
+            "shadow":{
+                "value":0,
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "parallax":{
+            "enable":false,
+            "offset":0.1
+        },
+        "content_align":"",
+        "type":"column",
+        "access":1,
+        "suffix":""
+    },
+    "item-14975226226":{
+        "desktop":{
+            "animation":{
+                "duration":"0.9",
+                "effect":""
+            },
+            "border":{
+                "bottom":"0",
+                "color":"@border",
+                "left":"0",
+                "right":"0",
+                "style":"solid",
+                "radius":0,
+                "top":"0",
+                "width":"1"
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"0",
+                "left":"0",
+                "right":"0",
+                "top":"0"
+            },
+            "background":{
+                "type":"none",
+                "color":"@bg-primary",
+                "image":{
+                    "attachment":"scroll",
+                    "image":"",
+                    "position":"center center",
+                    "repeat":"no-repeat",
+                    "size":"cover"
+                },
+                "video":{
+                    "type":"youtube",
+                    "id":"",
+                    "mute":"1",
+                    "start":"0",
+                    "quality":"hd720",
+                    "image":""
+                }
+            },
+            "overlay":{
+                "color":"rgba(0, 0, 0, 0)"
+            },
+            "fullscreen":"0",
+            "disable":"0",
+            "shadow":{
+                "value":0,
+                "color":"@shadow"
+            }
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "parallax":{
+            "enable":false,
+            "offset":0.1
+        },
+        "content_align":"",
+        "type":"column",
+        "access":1,
+        "suffix":""
+    },
+    "item-14975226224":{
+        "desktop" : {
+            "view":{
+                "date":false,
+                "author":false,
+                "category":false,
+                "hits":false
+            },
+            "margin":{
+                "bottom":"0",
+                "top":"0"
+            },
+            "padding":{
+                "bottom":"0",
+                "left":"0",
+                "right":"0",
+                "top":"0"
+            },
+            "image" : {
+                "show":true,
+                "fullscreen" : false,
+                "height" : 400,
+                "attachment" : "scroll",
+                "position" : "center center",
+                "repeat" : "no-repeat",
+                "size" : "cover",
+                "color" : "rgba(0,0,0,0)"
+            },
+            "title" : {
+                "show":true,
+                "margin" : {
+                    "bottom" : "25",
+                    "top" : "25"
+                },
+                "typography" : {
+                    "color" : "@title",
+                    "font-family" : "@default",
+                    "font-size" : 40,
+                    "font-style" : "normal",
+                    "font-weight" : "900",
+                    "letter-spacing" : 0,
+                    "line-height" : 50,
+                    "text-decoration" : "none",
+                    "text-align" : "center",
+                    "text-transform" : "none"
+                }
+            },
+            "info" : {
+                "margin" : {
+                    "bottom" : "0",
+                    "top" : "0"
+                },
+                "typography" : {
+                    "color" : "@subtitle",
+                    "font-family" : "@default",
+                    "font-size" : 10,
+                    "font-style" : "normal",
+                    "font-weight" : "500",
+                    "letter-spacing" : 2,
+                    "line-height" : 18,
+                    "text-decoration" : "none",
+                    "text-align" : "center",
+                    "text-transform" : "uppercase"
+                },
+                "hover" : {
+                    "color" : "@primary"
+                }
+            },
+            "disable":"0"
+        },
+        "tablet":{
+            "disable":"0"
+        },
+        "phone":{
+            "disable":"0"
+        },
+        "layout":{
+            "layout" : ""
+        },
+        "type":"post-intro",
+        "access":1,
+        "suffix":""
+    }
+}

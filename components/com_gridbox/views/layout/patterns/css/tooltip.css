@@ -1,0 +1,86 @@
+/* Tooltip */
+.tooltip.top,
+.popover.top {
+    margin-top: -10px;
+}
+
+.tooltip.right,
+.popover.right {
+    margin-left: 10px;
+}
+
+.tooltip.bottom,
+.popover.bottom {
+    margin-top: 10px;
+}
+
+.tooltip.left,
+.popover.left {
+    margin-left: -10px;
+}
+
+.tooltip-arrow,
+.popover .arrow {
+    border: 5px solid transparent;
+    border-right: 5px solid #2c2c2c;
+    bottom: calc(50% - 5px);
+    left: -15px;
+    position: absolute;
+    width: 5px;
+}
+
+.popover.top .arrow,
+.tooltip-arrow {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #2c2c2c;
+    bottom: -15px;
+    height: 5px;
+    left: calc(50% - 5px);
+    width: 0px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom: 5px solid #2c2c2c;
+    border-top: 0;
+    bottom: auto;
+    top: -10px;
+}
+
+.tooltip.in,
+.tip-wrap,
+.popover.in {
+    opacity: 1;
+}
+
+.tip-wrap .tip,
+.tooltip .tooltip-inner,
+.popover .popover-content {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    opacity: .56;
+}
+
+.popover .popover-title {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 0 0 15px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tooltip .tooltip-inner {
+    margin: 0!important;
+}
+
+.tooltip {
+    margin: 0 auto;
+    margin-top: -5px;
+}

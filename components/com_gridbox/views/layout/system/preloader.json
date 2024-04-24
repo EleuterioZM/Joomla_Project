@@ -1,0 +1,28 @@
+{
+    "item-15289771381":{
+        "desktop" : {
+            "width": "",
+            "size": 80,
+            "color": "@primary",
+            "background": "@bg-dark",
+            "disable" : "0"
+        },
+        "tablet" : {
+            "disable" : "0"
+        },
+        "phone" : {
+            "disable" : "0"
+        },
+        "session":{
+            "enable": false
+        },
+        "image":"components/com_gridbox/assets/images/reload.svg",
+        "layout": "spinner",
+        "spinner": "ba-spinner-1",
+        "delay": 1,
+        "animation": "ba-pt-fade",
+        "type" : "preloader",
+        "access" : 1,
+        "suffix" : ""
+    }
+}

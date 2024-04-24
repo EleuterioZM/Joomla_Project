@@ -1,0 +1,1 @@
+ALTER TABLE `#__gridbox_website` ADD `canonical_slash` tinyint(1) NOT NULL DEFAULT 0;

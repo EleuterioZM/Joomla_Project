@@ -1,0 +1,9 @@
+/* Fade-Out */ 
+@keyframes pt-fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-fade {
+    animation: pt-fade-out .5s .3s linear both;
+}

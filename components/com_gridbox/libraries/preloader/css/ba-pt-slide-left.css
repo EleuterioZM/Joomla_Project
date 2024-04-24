@@ -1,0 +1,9 @@
+/* Slide Left Out*/
+@keyframes pt-slide-left-out {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100vw);}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-slide-left {
+    animation: pt-slide-left-out .5s .3s linear both;
+}

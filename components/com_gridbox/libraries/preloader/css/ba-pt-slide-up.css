@@ -1,0 +1,9 @@
+/* Slide Up Out*/
+@keyframes pt-slide-up-out {
+    from {transform: translateY(0);}
+    to {transform: translateY(-100vh);}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-slide-up {
+    animation: pt-slide-up-out .5s .3s linear both;
+}

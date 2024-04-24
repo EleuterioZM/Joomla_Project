@@ -1,0 +1,126 @@
+/*
+/* Plugin Flipbox Front
+*/
+
+/* Up to Bottom */
+.ba-item-flipbox .vertical-flip-top:hover .ba-flipbox-backside,
+.ba-item-flipbox .vertical-flip-top .ba-flipbox-frontside,
+.ba-item-flipbox .vertical-flip-bottom:hover .ba-flipbox-backside,
+.ba-item-flipbox .vertical-flip-bottom .ba-flipbox-frontside {
+    transform: rotateX(0deg);
+}
+
+.ba-item-flipbox .vertical-flip-bottom .ba-flipbox-backside {
+    transform: rotateX(180deg);
+}
+
+.ba-item-flipbox .vertical-flip-bottom:hover .ba-flipbox-frontside {
+    transform: rotateX(-180deg);
+}
+
+/* Bottom to Up */
+.ba-item-flipbox .vertical-flip-top .ba-flipbox-backside {
+    transform: rotateX(-180deg);
+}
+
+.ba-item-flipbox .vertical-flip-top:hover .ba-flipbox-frontside {
+    transform: rotateX(180deg);
+}
+
+/* Left to Right */
+.ba-item-flipbox .horizontal-flip-right .ba-flipbox-frontside,
+.ba-item-flipbox .horizontal-flip-right:hover .ba-flipbox-backside,
+.ba-item-flipbox .horizontal-flip-left .ba-flipbox-frontside,
+.ba-item-flipbox .horizontal-flip-left:hover .ba-flipbox-backside {
+    transform: rotateY(0deg);
+}
+
+.ba-item-flipbox .horizontal-flip-right .ba-flipbox-backside {
+    transform: rotateY(-180deg);
+}
+
+.ba-item-flipbox .horizontal-flip-right:hover .ba-flipbox-frontside {
+    transform: rotateY(180deg);
+}
+
+/* Right to Left */
+.ba-item-flipbox .horizontal-flip-left .ba-flipbox-backside {
+    transform: rotateY(180deg);
+}
+
+.ba-item-flipbox .horizontal-flip-left:hover .ba-flipbox-frontside {
+    transform: rotateY(-180deg);
+}
+
+/* 3D Flip*/
+.ba-flipbox-wrapper.flipbox-3d-effect > .column-wrapper > .ba-grid-column-wrapper,
+.ba-flipbox-wrapper.flipbox-3d-effect > .column-wrapper > .ba-grid-column-wrapper .ba-grid-column,
+.ba-item-flipbox .flipbox-3d-effect .ba-grid-column-wrapper .ba-grid-column  > div:not(.ba-overlay):not(.ba-video-background) {
+    transition-duration: inherit !important;
+    transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.ba-item-flipbox .ba-grid-column-wrapper .ba-grid-column > div:not(.ba-overlay) {
+    transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86);
+} 
+
+.ba-item-flipbox .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(0px)  scale(1);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox:hover .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(-250%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.ba-item-flipbox:hover .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(250%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.ba-item-flipbox .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(250%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox .flipbox-3d-effect.flipbox-3d-effect.horizontal-flip-right .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0%) translateX(-250%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox:hover .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(100vh) translateX(0%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.ba-item-flipbox:hover .flipbox-3d-effect.vertical-flip-top .ba-flipbox-frontside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(-100vh) translateX(0%)  scale(.5);
+    transform-style: preserve-3d;
+}
+
+.ba-item-flipbox .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(-100vh) translateX(0%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox .flipbox-3d-effect.vertical-flip-top .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(100vh) translateX(0%) translateZ(60px) scale(.5);
+    transform-style: preserve-3d;
+    z-index:2;
+}
+
+.ba-item-flipbox:hover .flipbox-3d-effect.horizontal-flip-right .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox:hover .flipbox-3d-effect.horizontal-flip-left .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox:hover .flipbox-3d-effect.vertical-flip-bottom .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background),
+.ba-item-flipbox:hover .flipbox-3d-effect.vertical-flip-top .ba-flipbox-backside > .ba-grid-column-wrapper > .ba-grid-column > div:not(.ba-overlay):not(.ba-video-background) {
+    transform: translateY(0px) translateX(0%) translateZ(0px) scale(1);
+    transform-style: preserve-3d;
+}

@@ -1,0 +1,30 @@
+/* Split Diamond */
+
+.preloader-wrapper.ba-pt-split-diamond:after,
+.preloader-wrapper.ba-pt-split-diamond:before {
+    border: 50vh solid;
+    box-sizing: border-box;
+    background: transparent !important;
+}
+
+@keyframes ba-pt-split-diamond-out {
+    from {left: calc(50vw - 50vh);}
+    to {left: 100vw;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diamond:after {
+    animation: ba-pt-split-diamond-out .5s .3s linear both;
+    border-left-color: transparent !important;
+    left: calc(50vw - 50vh);
+}
+
+@keyframes ba-pt-split-diamond {
+    from {left: calc(50vh - 50vw);}
+    to {left: -100vw;}
+}
+
+.preloader-animation-out .preloader-wrapper.ba-pt-split-diamond:before {
+    animation: ba-pt-split-diamond .5s .3s linear both;
+    border-right-color: transparent !important;
+    left: calc(50vh - 50vw);
+}
